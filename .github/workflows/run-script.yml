@@ -21,9 +21,6 @@ jobs:
         with:
           node-version: '20'
 
-      # Step 3: Install dependencies if any (optional)
-      - name: Install dependencies
-        run: npm install
 
       # Step 4: Run the runtime script
       - name: Run Torn Armory Runtime
