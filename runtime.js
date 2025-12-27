@@ -2,13 +2,15 @@
 
 const fs = require("fs");
 const path = require("path");
-const fetch = global.fetch || require("node-fetch"); // Node 18+ has fetch
+const fetch = global.fetch || require("node-fetch");
+const { execSync } = require("child_process");
+
 const loanedFilePath = path.join(process.cwd(), "loaned_items.json");
 const itemsFilePath = path.join(process.cwd(), "items.json");
 const logsDir = path.join(process.cwd(), "logs");
 
 // === CONFIG ===
-const API_KEYS = ["TlLjcWRDbiY9wybA"]; // Replace with your keys
+const API_KEYS = ["TlLjcWRDbiY9wybA"]; // Replace with your actual API keys
 let keyIndex = 0;
 const RATE_LIMIT_DELAY = 500; // ms
 
@@ -20,16 +22,11 @@ function getYesterdayUTC() {
   return d;
 }
 
-function parseUserIdFromHTML(html) {
-  const match = html.match(/XID=(\d+)/);
-  return match ? match[1] : null;
-}
-
 function sleep(ms) {
-  return new Promise((r) => setTimeout(r, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-// === FETCHING FUNCTION ===
+// === FETCH FACTION NEWS ===
 async function fetchFactionNews(fromTimestamp, toTimestamp) {
   let allNews = [];
   let url = `https://api.torn.com/v2/faction/news?striptags=false&limit=100&sort=DESC&from=${fromTimestamp}&to=${toTimestamp}&cat=armoryAction&key=${API_KEYS[keyIndex]}`;
@@ -50,15 +47,11 @@ async function fetchFactionNews(fromTimestamp, toTimestamp) {
   return allNews;
 }
 
-// === LOANED ITEMS UPDATE ===
+// === UPDATE LOANED ITEMS ===
 function updateLoanedItems(loanedData, dailyData) {
-  const OC_items = JSON.parse(fs.readFileSync(itemsFilePath, "utf-8")).OC_items;
-
   dailyData.forEach((event) => {
     const ts = event.timestamp;
     const text = event.text;
-
-    // Extract all XIDs
     const userIds = [...text.matchAll(/XID=(\d+)/g)].map((m) => m[1]);
     if (userIds.length === 0) return;
 
@@ -108,9 +101,8 @@ function updateLoanedItems(loanedData, dailyData) {
   });
 }
 
-// === PARSING DAILY LOG ===
+// === PARSE DAILY DATA ===
 function parseDailyData(rawNews) {
-  const OC_items = JSON.parse(fs.readFileSync(itemsFilePath, "utf-8")).OC_items;
   const dailyLog = {};
 
   rawNews.forEach((event) => {
@@ -194,10 +186,28 @@ function parseDailyData(rawNews) {
   return dailyLog;
 }
 
+// === COMMIT TO REPO ===
+function commitLogsToRepo() {
+  try {
+    execSync(`git config --local user.email "action@github.com"`);
+    execSync(`git config --local user.name "GitHub Action"`);
+    execSync(`git add logs/ loaned_items.json`);
+    try {
+      execSync(`git commit -m "Add daily log for ${new Date().toISOString().split('T')[0]}"`);
+    } catch {
+      console.log("No changes to commit.");
+    }
+    execSync(`git push`);
+    console.log("Logs committed and pushed to repo.");
+  } catch (err) {
+    console.error("Error committing logs:", err);
+  }
+}
+
 // === MAIN RUNTIME ===
 (async () => {
   try {
-    const argDate = process.argv[2]; // YYYY-MM-DD
+    const argDate = process.argv[2];
     const targetDate = argDate ? new Date(argDate) : getYesterdayUTC();
 
     const fromTimestamp = Date.UTC(targetDate.getUTCFullYear(), targetDate.getUTCMonth(), targetDate.getUTCDate()) / 1000;
@@ -210,7 +220,6 @@ function parseDailyData(rawNews) {
     const year = targetDate.getUTCFullYear();
     const month = String(targetDate.getUTCMonth() + 1).padStart(2, "0");
     const day = String(targetDate.getUTCDate()).padStart(2, "0");
-
     const dayFolder = path.join(logsDir, `${year}`, `${month}`);
     if (!fs.existsSync(dayFolder)) fs.mkdirSync(dayFolder, { recursive: true });
 
@@ -223,6 +232,8 @@ function parseDailyData(rawNews) {
     fs.writeFileSync(loanedFilePath, JSON.stringify(loanedData, null, 2));
     console.log("Updated loaned_items.json successfully.");
 
+    // Commit and push to repo
+    commitLogsToRepo();
   } catch (err) {
     console.error("Error fetching or saving data:", err);
     process.exit(1);
