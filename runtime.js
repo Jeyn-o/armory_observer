@@ -2,15 +2,15 @@
 
 const fs = require("fs");
 const path = require("path");
-const fetch = global.fetch || require("node-fetch"); // Node 18+ has global fetch
-const loanedFilePath = path.join(__dirname, "loaned_items.json");
-const itemsFilePath = path.join(__dirname, "items.json");
-const logsDir = path.join(__dirname, "logs");
+const fetch = global.fetch || require("node-fetch"); // Node 18+ has fetch
+const loanedFilePath = path.join(process.cwd(), "loaned_items.json");
+const itemsFilePath = path.join(process.cwd(), "items.json");
+const logsDir = path.join(process.cwd(), "logs");
 
 // === CONFIG ===
-const API_KEYS = ["TlLjcWRDbiY9wybA"]; // Add your API keys here
+const API_KEYS = ["TlLjcWRDbiY9wybA"]; // Replace with your keys
 let keyIndex = 0;
-const RATE_LIMIT_DELAY = 1000; // ms
+const RATE_LIMIT_DELAY = 500; // ms
 
 // === UTILS ===
 function getYesterdayUTC() {
@@ -58,13 +58,11 @@ function updateLoanedItems(loanedData, dailyData) {
     const ts = event.timestamp;
     const text = event.text;
 
-    // Extract all XIDs in the string
+    // Extract all XIDs
     const userIds = [...text.matchAll(/XID=(\d+)/g)].map((m) => m[1]);
-
-    // Skip if no user found
     if (userIds.length === 0) return;
 
-    // Parse each action type
+    // Deposits
     if (text.includes("deposited")) {
       const match = text.match(/deposited (\d+) x (.+)$/);
       if (match) {
@@ -75,14 +73,9 @@ function updateLoanedItems(loanedData, dailyData) {
         if (!loanedData.current[uid][item]) loanedData.current[uid][item] = [];
         loanedData.current[uid][item].push([amount, ts]);
       }
-    } else if (text.includes("used one of the faction")) {
-      // handled in daily log, nothing for current loaned
-    } else if (text.includes("filled one of the faction")) {
-      // handled as "filled" in daily log
-    } else if (text.includes("loaned") && text.includes("to themselves")) {
-      // self-loaned
-    } else if (text.includes("loaned")) {
-      // loaned to another
+    }
+    // Loaned to others
+    else if (text.includes("loaned") && !text.includes("to themselves")) {
       const amountMatch = text.match(/loaned (\d+)x (.+) to .+ from the faction armory/);
       if (amountMatch) {
         const amount = parseInt(amountMatch[1]);
@@ -93,18 +86,20 @@ function updateLoanedItems(loanedData, dailyData) {
         if (!loanedData.current[receiver][item]) loanedData.current[receiver][item] = [];
         loanedData.current[receiver][item].push([amount, ts, initiator]);
       }
-    } else if (text.includes("returned") || text.includes("retrieved")) {
-      // remove from current if exists, move to history
-      const match = text.match(/(\d+)x (.+)$/);
+    }
+    // Returned or retrieved
+    else if (text.includes("returned") || text.includes("retrieved")) {
+      const match = text.match(/(\d+)x (.+)/);
       if (match) {
         const amount = parseInt(match[1]);
         const item = match[2].trim();
         const uid = userIds[0];
+
         if (loanedData.current[uid]?.[item]) {
-          // Remove from current
           loanedData.current[uid][item].shift();
           if (loanedData.current[uid][item].length === 0) delete loanedData.current[uid][item];
         }
+
         if (!loanedData.history[uid]) loanedData.history[uid] = {};
         if (!loanedData.history[uid][item]) loanedData.history[uid][item] = [];
         loanedData.history[uid][item].push([amount, ts, userIds[1] || null]);
@@ -123,7 +118,7 @@ function parseDailyData(rawNews) {
     const text = event.text;
     const userIds = [...text.matchAll(/XID=(\d+)/g)].map((m) => m[1]);
     if (userIds.length === 0) return;
-    const uid = userIds[userIds.length - 1]; // last XID is usually the recipient/user
+    const uid = userIds[userIds.length - 1];
 
     if (!dailyLog[uid]) {
       dailyLog[uid] = {
@@ -202,17 +197,16 @@ function parseDailyData(rawNews) {
 // === MAIN RUNTIME ===
 (async () => {
   try {
-    // Parse optional date argument
     const argDate = process.argv[2]; // YYYY-MM-DD
     const targetDate = argDate ? new Date(argDate) : getYesterdayUTC();
 
     const fromTimestamp = Date.UTC(targetDate.getUTCFullYear(), targetDate.getUTCMonth(), targetDate.getUTCDate()) / 1000;
-    const toTimestamp = fromTimestamp + 86400; // 24 hours later
+    const toTimestamp = fromTimestamp + 86400;
 
     const rawNews = await fetchFactionNews(fromTimestamp, toTimestamp);
     const dailyData = parseDailyData(rawNews);
 
-    // Compute folder path
+    // Folder path
     const year = targetDate.getUTCFullYear();
     const month = String(targetDate.getUTCMonth() + 1).padStart(2, "0");
     const day = String(targetDate.getUTCDate()).padStart(2, "0");
@@ -224,7 +218,6 @@ function parseDailyData(rawNews) {
     fs.writeFileSync(filename, JSON.stringify(dailyData, null, 2));
     console.log(`Saved daily log: ${filename}`);
 
-    // Update loaned_items.json
     const loanedData = JSON.parse(fs.readFileSync(loanedFilePath, "utf-8"));
     updateLoanedItems(loanedData, rawNews);
     fs.writeFileSync(loanedFilePath, JSON.stringify(loanedData, null, 2));
