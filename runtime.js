@@ -2,23 +2,215 @@
 
 const fs = require("fs");
 const path = require("path");
-const { fetchFactionNews } = require("./main"); // Your main script
+const fetch = global.fetch || require("node-fetch"); // Node 18+ has global fetch
 const loanedFilePath = path.join(__dirname, "loaned_items.json");
+const itemsFilePath = path.join(__dirname, "items.json");
 const logsDir = path.join(__dirname, "logs");
 
-// Ensure logs directory exists
-if (!fs.existsSync(logsDir)) fs.mkdirSync(logsDir);
+// === CONFIG ===
+const API_KEYS = ["key1", "key2"]; // Add your API keys here
+let keyIndex = 0;
+const RATE_LIMIT_DELAY = 500; // ms
 
-// Parse optional date argument
-const argDate = process.argv[2]; // YYYY-MM-DD
-const targetDate = argDate ? new Date(argDate) : getYesterdayUTC();
+// === UTILS ===
+function getYesterdayUTC() {
+  const d = new Date();
+  d.setUTCDate(d.getUTCDate() - 1);
+  d.setUTCHours(0, 0, 0, 0);
+  return d;
+}
 
-const fromTimestamp = Date.UTC(targetDate.getUTCFullYear(), targetDate.getUTCMonth(), targetDate.getUTCDate()) / 1000;
-const toTimestamp = fromTimestamp + 86400; // 24 hours later
+function parseUserIdFromHTML(html) {
+  const match = html.match(/XID=(\d+)/);
+  return match ? match[1] : null;
+}
 
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+// === FETCHING FUNCTION ===
+async function fetchFactionNews(fromTimestamp, toTimestamp) {
+  let allNews = [];
+  let url = `https://api.torn.com/v2/faction/news?striptags=false&limit=100&sort=DESC&from=${fromTimestamp}&to=${toTimestamp}&cat=armoryAction&key=${API_KEYS[keyIndex]}`;
+
+  while (url) {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`API request failed: ${res.status}`);
+    const data = await res.json();
+    allNews = allNews.concat(data.news);
+
+    url = data._metadata?.links?.prev
+      ? `${data._metadata.links.prev}&key=${API_KEYS[keyIndex]}`
+      : null;
+
+    await sleep(RATE_LIMIT_DELAY);
+  }
+
+  return allNews;
+}
+
+// === LOANED ITEMS UPDATE ===
+function updateLoanedItems(loanedData, dailyData) {
+  const OC_items = JSON.parse(fs.readFileSync(itemsFilePath, "utf-8")).OC_items;
+
+  dailyData.forEach((event) => {
+    const ts = event.timestamp;
+    const text = event.text;
+
+    // Extract all XIDs in the string
+    const userIds = [...text.matchAll(/XID=(\d+)/g)].map((m) => m[1]);
+
+    // Skip if no user found
+    if (userIds.length === 0) return;
+
+    // Parse each action type
+    if (text.includes("deposited")) {
+      const match = text.match(/deposited (\d+) x (.+)$/);
+      if (match) {
+        const amount = parseInt(match[1]);
+        const item = match[2].trim();
+        const uid = userIds[0];
+        if (!loanedData.current[uid]) loanedData.current[uid] = {};
+        if (!loanedData.current[uid][item]) loanedData.current[uid][item] = [];
+        loanedData.current[uid][item].push([amount, ts]);
+      }
+    } else if (text.includes("used one of the faction")) {
+      // handled in daily log, nothing for current loaned
+    } else if (text.includes("filled one of the faction")) {
+      // handled as "filled" in daily log
+    } else if (text.includes("loaned") && text.includes("to themselves")) {
+      // self-loaned
+    } else if (text.includes("loaned")) {
+      // loaned to another
+      const amountMatch = text.match(/loaned (\d+)x (.+) to .+ from the faction armory/);
+      if (amountMatch) {
+        const amount = parseInt(amountMatch[1]);
+        const item = amountMatch[2].trim();
+        const initiator = userIds[0];
+        const receiver = userIds[1];
+        if (!loanedData.current[receiver]) loanedData.current[receiver] = {};
+        if (!loanedData.current[receiver][item]) loanedData.current[receiver][item] = [];
+        loanedData.current[receiver][item].push([amount, ts, initiator]);
+      }
+    } else if (text.includes("returned") || text.includes("retrieved")) {
+      // remove from current if exists, move to history
+      const match = text.match(/(\d+)x (.+)$/);
+      if (match) {
+        const amount = parseInt(match[1]);
+        const item = match[2].trim();
+        const uid = userIds[0];
+        if (loanedData.current[uid]?.[item]) {
+          // Remove from current
+          loanedData.current[uid][item].shift();
+          if (loanedData.current[uid][item].length === 0) delete loanedData.current[uid][item];
+        }
+        if (!loanedData.history[uid]) loanedData.history[uid] = {};
+        if (!loanedData.history[uid][item]) loanedData.history[uid][item] = [];
+        loanedData.history[uid][item].push([amount, ts, userIds[1] || null]);
+      }
+    }
+  });
+}
+
+// === PARSING DAILY LOG ===
+function parseDailyData(rawNews) {
+  const OC_items = JSON.parse(fs.readFileSync(itemsFilePath, "utf-8")).OC_items;
+  const dailyLog = {};
+
+  rawNews.forEach((event) => {
+    const ts = event.timestamp;
+    const text = event.text;
+    const userIds = [...text.matchAll(/XID=(\d+)/g)].map((m) => m[1]);
+    if (userIds.length === 0) return;
+    const uid = userIds[userIds.length - 1]; // last XID is usually the recipient/user
+
+    if (!dailyLog[uid]) {
+      dailyLog[uid] = {
+        donated: {},
+        used: {},
+        filled: {},
+        loaned: {},
+        loaned_receive: {},
+        returned: {},
+        retrieved: {},
+      };
+    }
+
+    const log = dailyLog[uid];
+
+    if (text.includes("deposited")) {
+      const match = text.match(/deposited (\d+) x (.+)$/);
+      if (match) {
+        const amount = parseInt(match[1]);
+        const item = match[2].trim();
+        if (!log.donated[item]) log.donated[item] = [];
+        log.donated[item].push([amount, ts]);
+      }
+    } else if (text.includes("used one of the faction")) {
+      const match = text.match(/used one of the faction's (.+) items/);
+      if (match) {
+        const item = match[1].trim();
+        if (!log.used[item]) log.used[item] = [];
+        log.used[item].push([1, ts]);
+      }
+    } else if (text.includes("filled one of the faction")) {
+      const match = text.match(/filled one of the faction's (.+) items/);
+      if (match) {
+        const item = match[1].trim();
+        if (!log.filled[item]) log.filled[item] = [];
+        log.filled[item].push([1, ts]);
+      }
+    } else if (text.includes("loaned")) {
+      const amountMatch = text.match(/loaned (\d+)x (.+) to .+ from the faction armory/);
+      if (amountMatch) {
+        const amount = parseInt(amountMatch[1]);
+        const item = amountMatch[2].trim();
+        const initiator = userIds[0];
+        const receiver = userIds[1];
+        if (receiver === initiator) {
+          if (!log.loaned[item]) log.loaned[item] = [];
+          log.loaned[item].push([amount, ts]);
+        } else {
+          if (!log.loaned_receive[item]) log.loaned_receive[item] = [];
+          log.loaned_receive[item].push([amount, ts, initiator]);
+        }
+      }
+    } else if (text.includes("returned")) {
+      const match = text.match(/returned (\d+)x (.+)/);
+      if (match) {
+        const amount = parseInt(match[1]);
+        const item = match[2].trim();
+        if (!log.returned[item]) log.returned[item] = [];
+        log.returned[item].push([amount, ts]);
+      }
+    } else if (text.includes("retrieved")) {
+      const match = text.match(/retrieved (\d+)x (.+) from .+/);
+      if (match) {
+        const amount = parseInt(match[1]);
+        const item = match[2].trim();
+        const initiator = userIds[0];
+        if (!log.retrieved[item]) log.retrieved[item] = [];
+        log.retrieved[item].push([amount, ts, initiator]);
+      }
+    }
+  });
+
+  return dailyLog;
+}
+
+// === MAIN RUNTIME ===
 (async () => {
   try {
-    const dailyData = await fetchFactionNews(fromTimestamp, toTimestamp);
+    // Parse optional date argument
+    const argDate = process.argv[2]; // YYYY-MM-DD
+    const targetDate = argDate ? new Date(argDate) : getYesterdayUTC();
+
+    const fromTimestamp = Date.UTC(targetDate.getUTCFullYear(), targetDate.getUTCMonth(), targetDate.getUTCDate()) / 1000;
+    const toTimestamp = fromTimestamp + 86400; // 24 hours later
+
+    const rawNews = await fetchFactionNews(fromTimestamp, toTimestamp);
+    const dailyData = parseDailyData(rawNews);
 
     // Compute folder path
     const year = targetDate.getUTCFullYear();
@@ -34,120 +226,12 @@ const toTimestamp = fromTimestamp + 86400; // 24 hours later
 
     // Update loaned_items.json
     const loanedData = JSON.parse(fs.readFileSync(loanedFilePath, "utf-8"));
-    updateLoanedItems(loanedData, dailyData);
+    updateLoanedItems(loanedData, rawNews);
     fs.writeFileSync(loanedFilePath, JSON.stringify(loanedData, null, 2));
     console.log("Updated loaned_items.json successfully.");
+
   } catch (err) {
     console.error("Error fetching or saving data:", err);
     process.exit(1);
   }
 })();
-
-// Helper to get yesterday in UTC
-function getYesterdayUTC() {
-  const now = new Date();
-  return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() - 1));
-}
-
-// Helper to format YYYY-MM-DD
-function formatDate(date) {
-  return date.toISOString().split("T")[0];
-}
-
-/**
- * Updates loaned_items.json based on dailyData
- * - loaned_receive: add items to the receiver
- * - loaned: self-loans, track under their own log if needed
- * - returned: remove from current, push to history
- * - retrieved: forceful return, move to history
- */
-function updateLoanedItems(loanedData, dailyData) {
-  // Ensure the root structure exists
-  if (!loanedData.current) loanedData.current = {};
-  if (!loanedData.history) loanedData.history = {};
-
-  for (const userId in dailyData) {
-    const userEvents = dailyData[userId];
-
-    // ---- Handle loaned_receive ----
-    if (userEvents.loaned_receive) {
-      for (const item in userEvents.loaned_receive) {
-        if (!loanedData.current[userId]) loanedData.current[userId] = {};
-        if (!loanedData.current[userId][item]) loanedData.current[userId][item] = [];
-
-        for (const [amount, timestamp, initiator] of userEvents.loaned_receive[item]) {
-          loanedData.current[userId][item].push([amount, timestamp, initiator]);
-        }
-      }
-    }
-
-    // ---- Handle returned ----
-    if (userEvents.returned) {
-      for (const item in userEvents.returned) {
-        const returns = userEvents.returned[item];
-        if (!loanedData.current[userId]) continue; // nothing to return
-
-        if (!loanedData.current[userId][item]) continue; // edge case: returning unknown item
-
-        for (const [amount, timestamp] of returns) {
-          // Remove returned items from current, FIFO
-          let remaining = amount;
-          while (remaining > 0 && loanedData.current[userId][item].length > 0) {
-            const entry = loanedData.current[userId][item][0];
-            if (entry[0] > remaining) {
-              entry[0] -= remaining;
-              remaining = 0;
-            } else {
-              remaining -= entry[0];
-              loanedData.current[userId][item].shift();
-            }
-
-            // Push to history
-            if (!loanedData.history[userId]) loanedData.history[userId] = {};
-            if (!loanedData.history[userId][item]) loanedData.history[userId][item] = [];
-            loanedData.history[userId][item].push([...entry, timestamp]);
-          }
-        }
-
-        // Cleanup empty arrays
-        if (loanedData.current[userId][item].length === 0) {
-          delete loanedData.current[userId][item];
-        }
-      }
-    }
-
-    // ---- Handle retrieved ----
-    if (userEvents.retrieved) {
-      for (const item in userEvents.retrieved) {
-        if (!loanedData.current[userId]) continue;
-        if (!loanedData.current[userId][item]) continue;
-
-        for (const [amount, timestamp, initiator] of userEvents.retrieved[item]) {
-          // Remove from current (like returned)
-          let remaining = amount;
-          while (remaining > 0 && loanedData.current[userId][item].length > 0) {
-            const entry = loanedData.current[userId][item][0];
-            if (entry[0] > remaining) {
-              entry[0] -= remaining;
-              remaining = 0;
-            } else {
-              remaining -= entry[0];
-              loanedData.current[userId][item].shift();
-            }
-
-            // Push to history
-            if (!loanedData.history[userId]) loanedData.history[userId] = {};
-            if (!loanedData.history[userId][item]) loanedData.history[userId][item] = [];
-            loanedData.history[userId][item].push([...entry, timestamp, initiator]);
-          }
-        }
-
-        // Cleanup empty arrays
-        if (loanedData.current[userId][item].length === 0) {
-          delete loanedData.current[userId][item];
-        }
-      }
-    }
-  }
-}
-
