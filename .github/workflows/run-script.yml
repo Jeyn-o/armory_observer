@@ -1,5 +1,9 @@
 name: Torn Armory Daily Fetch
 
+permissions:
+  contents: write
+
+
 # Trigger daily at 01:00 UTC, also allow manual triggering
 on:
   schedule:
