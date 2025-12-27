@@ -8,9 +8,9 @@ const itemsFilePath = path.join(__dirname, "items.json");
 const logsDir = path.join(__dirname, "logs");
 
 // === CONFIG ===
-const API_KEYS = ["key1", "key2"]; // Add your API keys here
+const API_KEYS = ["TlLjcWRDbiY9wybA"]; // Add your API keys here
 let keyIndex = 0;
-const RATE_LIMIT_DELAY = 500; // ms
+const RATE_LIMIT_DELAY = 1000; // ms
 
 // === UTILS ===
 function getYesterdayUTC() {
