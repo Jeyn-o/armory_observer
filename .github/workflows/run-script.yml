@@ -1,0 +1,30 @@
+name: Torn Armory Daily Fetch
+
+# Trigger daily at 01:00 UTC, also allow manual triggering
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-armory:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout your repository
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      # Step 2: Setup Node.js environment
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      # Step 3: Install dependencies if any (optional)
+      - name: Install dependencies
+        run: npm install
+
+      # Step 4: Run the runtime script
+      - name: Run Torn Armory Runtime
+        run: node runtime.js
