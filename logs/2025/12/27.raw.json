@@ -1,0 +1,2609 @@
+{
+  "from": 1766793600,
+  "to": 1766880000,
+  "fetched_at": "2025-12-28T17:22:59.594Z",
+  "pages": [
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?striptags=false&limit=100&sort=DESC&from=1766793600&to=1766880000&cat=armoryAction&key=TlLjcWRDbiY9wybA",
+      "has_html": true,
+      "news": [
+        {
+          "id": "JOsY3WsxVC5RCbbiUR83",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3116621\">BBCliff</a> used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766878994
+        },
+        {
+          "id": "03Ed5YfcEUjBM1p9HssP",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1766878983
+        },
+        {
+          "id": "tEaaJf9ulyu08wsSLOKR",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1766878982
+        },
+        {
+          "id": "gE8GS01fb9eVl8PoYVaG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1766878981
+        },
+        {
+          "id": "W3AbVmaPv4AwfiyPSQMg",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1766878980
+        },
+        {
+          "id": "NWlKyRvIN8jzsKHbyywz",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766878655
+        },
+        {
+          "id": "WmMkSMtPyk55aWkRW3IF",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766878654
+        },
+        {
+          "id": "WIElh2yXq2bXBGw0oG0U",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766878653
+        },
+        {
+          "id": "1uu3OdHA56V4R8XO4nJZ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766878648
+        },
+        {
+          "id": "eHYfDFx49UD6qkuQeUTx",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766878648
+        },
+        {
+          "id": "yFUa2qNVNmgvJV4cifcc",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766878648
+        },
+        {
+          "id": "IEnoxSr9O9sOhmrKB0uN",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766878295
+        },
+        {
+          "id": "VGU2Sj7FEwuEF4wiY1Iy",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1766878295
+        },
+        {
+          "id": "2xXdr73DyIjrkiWYAjle",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766878293
+        },
+        {
+          "id": "BIEC1lPXEWkn6MNHb9HM",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1766878293
+        },
+        {
+          "id": "lz5i3cLGGGHWjhUFr8oc",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766878291
+        },
+        {
+          "id": "GncEKHMn2iMcBS6MA3QS",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766878291
+        },
+        {
+          "id": "TlFaFwve1u2YxKPzCHEp",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766878291
+        },
+        {
+          "id": "iFLg4pCMpxbcA7YqUdH7",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766878290
+        },
+        {
+          "id": "fl74wwEv56K8D1SKcWgK",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766878290
+        },
+        {
+          "id": "PDrPjvzvrwym6O7CYaqp",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766878289
+        },
+        {
+          "id": "m0EaVZyRo2vJB27VHfeb",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766878289
+        },
+        {
+          "id": "dISpIDcut9sMdNinOS6U",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3116621\">BBCliff</a> used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766877376
+        },
+        {
+          "id": "DGkoU0Grch6AIfXAq7Qh",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877365
+        },
+        {
+          "id": "S99pcNFYshptimUWCTQn",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877364
+        },
+        {
+          "id": "nxHcb2hKMxy5rFYlOxlQ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877363
+        },
+        {
+          "id": "Y8mRBZjUp1lEas2zsOp0",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877363
+        },
+        {
+          "id": "HFIdHG5fGFcguqvQiWuE",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877362
+        },
+        {
+          "id": "1zuKPRtwIO1wty8WCTxg",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877362
+        },
+        {
+          "id": "Bk1z4ENGSwNnGCCILoiB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877361
+        },
+        {
+          "id": "JisWd2Cys9DZEdOsdlp5",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877361
+        },
+        {
+          "id": "ManOxcA7fPD6oCN5TEKb",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877360
+        },
+        {
+          "id": "20VTnSHLcY3FcJ894iKx",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877360
+        },
+        {
+          "id": "9EOlUaDYK5VIl2KQ55PF",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877359
+        },
+        {
+          "id": "RnFCU6LaB9mnobrWmqZs",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877359
+        },
+        {
+          "id": "3zyv1efgRbeD2ZfpK3Ke",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877358
+        },
+        {
+          "id": "DAVF6wydMWmELE4XoYbB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877357
+        },
+        {
+          "id": "dSpwjKunKUbsbRNAit8d",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877357
+        },
+        {
+          "id": "GdtovquaaayxhEcyqGwY",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877357
+        },
+        {
+          "id": "ym8yXPlVF5czNZX379Ak",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877356
+        },
+        {
+          "id": "AxG8lxYUOixLXRqhqzhc",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877356
+        },
+        {
+          "id": "iKmwqZMuVvrHSmmKdWfc",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877355
+        },
+        {
+          "id": "PkjaCSYD5ouaYcgyHR1N",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877355
+        },
+        {
+          "id": "hKpLakbZBVjA1uyOc4Wl",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877354
+        },
+        {
+          "id": "dfjZQucqqhEEDH7d3Xhz",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877354
+        },
+        {
+          "id": "KQM0nym7vrRCuHNNnnHW",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877353
+        },
+        {
+          "id": "Mic9YVKnlvrfrkAnR5SL",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877353
+        },
+        {
+          "id": "ZelN5lCOOQV3K43X9DzA",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877353
+        },
+        {
+          "id": "qFMGVJyMPDDBcT4gMgwr",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766877352
+        },
+        {
+          "id": "v24xGZ6Q1RSxGIA7FISs",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766876894
+        },
+        {
+          "id": "qzDdRjPW8tEeAq8iUYsG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766876894
+        },
+        {
+          "id": "vYGgpHUVY4uY1OWxxcwK",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766876893
+        },
+        {
+          "id": "IsHYBs8GvSHsNWqDFok2",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3937363\">jGafito</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766876336
+        },
+        {
+          "id": "Y898487kHljxFCQGBwoE",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3937363\">jGafito</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766876335
+        },
+        {
+          "id": "oPgTOb2kHRJX90Uc87c4",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3116621\">BBCliff</a> used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766875844
+        },
+        {
+          "id": "AivuHqjwKkwZPE3S94UC",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766875251
+        },
+        {
+          "id": "DbXKL0TPvnIGRn3Rwh0p",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766875250
+        },
+        {
+          "id": "qZhyXeoTkybSsaLd0s1N",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766875250
+        },
+        {
+          "id": "PzgZzGyi0umAc2FftYah",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3116621\">BBCliff</a> used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766873615
+        },
+        {
+          "id": "Je2e91f1hX19SjIaBzIc",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=446596\">Bucki</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766873577
+        },
+        {
+          "id": "hFrSgL1UNFcRZn4RHci9",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=446596\">Bucki</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766873576
+        },
+        {
+          "id": "ot30zntUerGa8cYpCeCj",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1766873351
+        },
+        {
+          "id": "GdegDXL57q3WTJUdFeyo",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1766873350
+        },
+        {
+          "id": "hOyQIp1oCUjo82GNkHwp",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3116621\">BBCliff</a> used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766872176
+        },
+        {
+          "id": "t3F7DYbshrFA8h2QHlmc",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3116621\">BBCliff</a> used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766871916
+        },
+        {
+          "id": "W9ExyTElio8ARzZ1tQg5",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3116621\">BBCliff</a> used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766871909
+        },
+        {
+          "id": "1YDFz4BFiRrN48ALw2cT",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3977638\">Vasavi_shakti</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766871633
+        },
+        {
+          "id": "KpetRsHkzALvHHGgpSuE",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3977638\">Vasavi_shakti</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766871633
+        },
+        {
+          "id": "ZaNMWKVvc1J66CvpSvgW",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3977638\">Vasavi_shakti</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766871632
+        },
+        {
+          "id": "VZsuiETCT6PpSqTRutef",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> gave <a href = \"http://www.torn.com/profiles.php?XID=3851236\">Psyden</a> 3x Xanax as their 13.33% cut for their role as Sniper in the faction's Stage Fright scenario [<a href = \"http://www.torn.com/factions.php?step=your#/tab=crimes&crimeId=1137456\">view</a>]",
+          "timestamp": 1766871209
+        },
+        {
+          "id": "EiJa8al7roUzSbhttwf2",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> gave <a href = \"http://www.torn.com/profiles.php?XID=3838831\">Lev_Bron</a> 2x Xanax as their 13.33% cut for their role as Enforcer in the faction's Stage Fright scenario [<a href = \"http://www.torn.com/factions.php?step=your#/tab=crimes&crimeId=1137456\">view</a>]",
+          "timestamp": 1766871209
+        },
+        {
+          "id": "LxbI2M2wb0bZmb7BDIsl",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> gave <a href = \"http://www.torn.com/profiles.php?XID=3619214\">GoldenVirginia</a> 2x Xanax as their 13.33% cut for their role as Muscle in the faction's Stage Fright scenario [<a href = \"http://www.torn.com/factions.php?step=your#/tab=crimes&crimeId=1137456\">view</a>]",
+          "timestamp": 1766871209
+        },
+        {
+          "id": "hcHhmuEUMBYTBQWpACHh",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> gave <a href = \"http://www.torn.com/profiles.php?XID=2920790\">Shimmer12</a> 2x Xanax as their 13.33% cut for their role as Lookout in the faction's Stage Fright scenario [<a href = \"http://www.torn.com/factions.php?step=your#/tab=crimes&crimeId=1137456\">view</a>]",
+          "timestamp": 1766871209
+        },
+        {
+          "id": "je5wc7nbL6MDEIR4l2ij",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> gave <a href = \"http://www.torn.com/profiles.php?XID=2932114\">Nitrx</a> 3x Xanax as their 13.33% cut for their role as Muscle in the faction's Stage Fright scenario [<a href = \"http://www.torn.com/factions.php?step=your#/tab=crimes&crimeId=1137456\">view</a>]",
+          "timestamp": 1766871209
+        },
+        {
+          "id": "XfXgFkzz14q61khYYCxN",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> gave <a href = \"http://www.torn.com/profiles.php?XID=3703949\">Downtowndave20</a> 3x Xanax as their 13.33% cut for their role as Muscle in the faction's Stage Fright scenario [<a href = \"http://www.torn.com/factions.php?step=your#/tab=crimes&crimeId=1137456\">view</a>]",
+          "timestamp": 1766871209
+        },
+        {
+          "id": "TT3mZyAEUbUMjgapbjes",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766870620
+        },
+        {
+          "id": "AzxWxS7K0X40NalyCMuA",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766870619
+        },
+        {
+          "id": "HgxuleOl99KC9M1aQjlC",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766870480
+        },
+        {
+          "id": "or3bXm63vSHhX3hO2RLR",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766870480
+        },
+        {
+          "id": "nZasvwu1wVd3eC8H1Td5",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766870479
+        },
+        {
+          "id": "x7aXSdsPGs1HDhO6Cbff",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870432
+        },
+        {
+          "id": "aH0xYcfosrh8gDScoCa0",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870432
+        },
+        {
+          "id": "Re8hNcMDZhd3zjDHTPNI",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870432
+        },
+        {
+          "id": "HQSrV9386Qk6zAHRtbVh",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870432
+        },
+        {
+          "id": "jHhDECg4tl1lLBqOg1Ze",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870431
+        },
+        {
+          "id": "ziLAR3mmLahr19xkaWJf",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870431
+        },
+        {
+          "id": "yrcZbAMqLKwglKfQG1EE",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870431
+        },
+        {
+          "id": "tizz1aPeSz8myef1oYBg",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870431
+        },
+        {
+          "id": "xBQBPNS8ifGoTgaYhVlv",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870431
+        },
+        {
+          "id": "88OH1CRH2A1VsbsMsjpW",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870431
+        },
+        {
+          "id": "FaFs5Qr23e3MfsZgQkg0",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870430
+        },
+        {
+          "id": "pSLTysDWWAz5eMoTqTZd",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870430
+        },
+        {
+          "id": "1D4xibQrlzXUk59YSd14",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870430
+        },
+        {
+          "id": "3AijEhhokpfEv4dbMW2G",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870430
+        },
+        {
+          "id": "t1vrNtEIiRSdytcTcrFd",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870430
+        },
+        {
+          "id": "4hOl3JAbDQgDAAMToAJP",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870429
+        },
+        {
+          "id": "eCe3ElCxJpIMCJUw6ZUL",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870429
+        },
+        {
+          "id": "c9UqwiSzZY4CYa1zVctB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870429
+        },
+        {
+          "id": "GBhiWzNM91LHBgWZUN2l",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870429
+        },
+        {
+          "id": "x4dH9Lx2SRJ1erjdHAow",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870429
+        }
+      ],
+      "_metadata": {
+        "links": {
+          "prev": "https://api.torn.com/v2/faction/news?&limit=100&cat=armoryAction&stripTags=true&sort=desc&from=1766793600&to=1766870429",
+          "next": null
+        }
+      }
+    },
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?&limit=100&cat=armoryAction&stripTags=true&sort=desc&from=1766793600&to=1766870429&key=TlLjcWRDbiY9wybA&striptags=false",
+      "has_html": false,
+      "news": [
+        {
+          "id": "Y25xuoklnQPSh5gL0EDD",
+          "text": "Retr0Rat used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870428
+        },
+        {
+          "id": "xt9cOLuHDWuW2Z0n1lJs",
+          "text": "Retr0Rat used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870428
+        },
+        {
+          "id": "WQoKHJcJivq9jo8r3SQ2",
+          "text": "Retr0Rat used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870428
+        },
+        {
+          "id": "2cjzT394gyrq9K3rt4Yc",
+          "text": "Retr0Rat used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870428
+        },
+        {
+          "id": "5d9wGm8C0GzvoAYu11SF",
+          "text": "Retr0Rat used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870428
+        },
+        {
+          "id": "loAJgMrSqCskwNqVq9kH",
+          "text": "Retr0Rat used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870427
+        },
+        {
+          "id": "YF7entP0ROSIwTwcA1SD",
+          "text": "Retr0Rat used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870427
+        },
+        {
+          "id": "IA5WRjPlHMSu01jJOX2k",
+          "text": "Retr0Rat used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870427
+        },
+        {
+          "id": "sMB1tY8H0u62iCnAZdRf",
+          "text": "Retr0Rat used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870427
+        },
+        {
+          "id": "IO7DsLV9KMWmBYaEKi0d",
+          "text": "Retr0Rat used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870427
+        },
+        {
+          "id": "7Qz7SupSolzaLEIkNYWB",
+          "text": "Retr0Rat used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870427
+        },
+        {
+          "id": "N3K4C1snUgnqz8B9VASH",
+          "text": "Retr0Rat used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870426
+        },
+        {
+          "id": "owYQliBbXWpq7lDxBp8G",
+          "text": "Retr0Rat used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870426
+        },
+        {
+          "id": "pwsEmBIEy6DBbV7hvkSK",
+          "text": "Retr0Rat used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870426
+        },
+        {
+          "id": "3JxhpILWdi26eSK5xpmI",
+          "text": "Retr0Rat used one of the faction's Bottle of Beer items",
+          "timestamp": 1766870426
+        },
+        {
+          "id": "JQBBEicx0RG3JAgQgkxL",
+          "text": "jGafito filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766870105
+        },
+        {
+          "id": "9VBLuMxaXw1g1VMtlXKW",
+          "text": "jGafito filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766870103
+        },
+        {
+          "id": "xhXRD4XnwyjKLQ9lf1C2",
+          "text": "Jeyno retrieved 3x Brick from Meeip",
+          "timestamp": 1766869930
+        },
+        {
+          "id": "J791r912qd9A4kRL86ql",
+          "text": "Jeyno loaned 1x Brick to Meeip from the faction armory",
+          "timestamp": 1766869922
+        },
+        {
+          "id": "RfgBtPiySjB2VtBkc99R",
+          "text": "Jeyno loaned 2x Brick to Meeip from the faction armory",
+          "timestamp": 1766869913
+        },
+        {
+          "id": "5xJHPF6wecb9iphfa9q0",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766868053
+        },
+        {
+          "id": "w6ckrx9Op0GkSqTqC5W8",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766868053
+        },
+        {
+          "id": "HFxkVxLBipDBY90GmvoC",
+          "text": "jonasgrind used one of the faction's First Aid Kit items",
+          "timestamp": 1766867817
+        },
+        {
+          "id": "J4318ILdsCCA6Z58jfDh",
+          "text": "xyicah filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766866629
+        },
+        {
+          "id": "cTs2Wyp9vTlvnMtVVNaq",
+          "text": "xyicah filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766866628
+        },
+        {
+          "id": "CLLI6MPpcPPevDSaY0Ai",
+          "text": "xyicah filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766866627
+        },
+        {
+          "id": "9GJuloI5Ck8qBCZz1JMC",
+          "text": "Lev_Bron filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766866404
+        },
+        {
+          "id": "RCXOSxOQpyeB8IQhGIv9",
+          "text": "Lev_Bron filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766866403
+        },
+        {
+          "id": "D4h9MRcIMXrb5n0iv3mV",
+          "text": "Lev_Bron filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766866401
+        },
+        {
+          "id": "8M3L6f1zx71G8AvL6vBx",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766866396
+        },
+        {
+          "id": "FwMKvNtHeBuuK3oEUDB6",
+          "text": "jonasgrind used one of the faction's First Aid Kit items",
+          "timestamp": 1766865469
+        },
+        {
+          "id": "ZGo11agL6kq5UV56qNNy",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766865107
+        },
+        {
+          "id": "Km6NytkaDQ8GoJ2TcPAX",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766865107
+        },
+        {
+          "id": "weUB9hLcLwepP1yEkOBL",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766865107
+        },
+        {
+          "id": "2b43TjpDqU6Gy6ybfziY",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766865107
+        },
+        {
+          "id": "IsIFxSLTBGX69AWlxp1w",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766865104
+        },
+        {
+          "id": "ARsd1AKt7OnBSg22kY0Q",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766865103
+        },
+        {
+          "id": "AJW00EwKJNJwNBUuTsmT",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766865103
+        },
+        {
+          "id": "j1C6MhP9pwVOuasLdF7v",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766865102
+        },
+        {
+          "id": "gEJgH7SjOpyRiIrK8FDU",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766865042
+        },
+        {
+          "id": "oITAI5s2XhlojFTtwyTD",
+          "text": "Lucifixion filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766864955
+        },
+        {
+          "id": "LSwwySm7LF29JVhcF23q",
+          "text": "Lucifixion filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766864931
+        },
+        {
+          "id": "GmnEAvM6UIFiVZeqFCnE",
+          "text": "Lucifixion filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766864930
+        },
+        {
+          "id": "PxwYwcge0RpYB9m57cBZ",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766863866
+        },
+        {
+          "id": "f44wdMb2OWj5MDHTYgJm",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766863865
+        },
+        {
+          "id": "vl5DbFGhVSIx3UnSuYC7",
+          "text": "shrigma filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766863864
+        },
+        {
+          "id": "Kt9vLMTDyZxLgYmbqOqy",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766863789
+        },
+        {
+          "id": "hRGVwEUWxUS3gxS2qf2q",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766863119
+        },
+        {
+          "id": "d155L5yQJox1o6BFp8JA",
+          "text": "jonasgrind used one of the faction's Blood Bag : B- items",
+          "timestamp": 1766862379
+        },
+        {
+          "id": "VlebCdRRBrJlkybjaoO4",
+          "text": "jonasgrind used one of the faction's First Aid Kit items",
+          "timestamp": 1766862308
+        },
+        {
+          "id": "P0LonAGHnKmAYVGXpQVm",
+          "text": "Neodork filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766862051
+        },
+        {
+          "id": "uw1heaGqCZtRxnVBLfWF",
+          "text": "Neodork filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766862051
+        },
+        {
+          "id": "Jz9j7VQdxSAhMLD2Cbdb",
+          "text": "Neodork filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766862050
+        },
+        {
+          "id": "Rfsjs6MRLzk7bCbQTcgL",
+          "text": "AIshen used one of the faction's Blood Bag : O- items",
+          "timestamp": 1766860291
+        },
+        {
+          "id": "eED7AeNSyoNV2Z3KFQ52",
+          "text": "AIshen used one of the faction's Blood Bag : AB- items",
+          "timestamp": 1766860268
+        },
+        {
+          "id": "naCJHNuHgDs2QjZ91IOM",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766859627
+        },
+        {
+          "id": "txZWuGTB6gmg1fRrHYVA",
+          "text": "jonasgrind used one of the faction's Ipecac Syrup items",
+          "timestamp": 1766859331
+        },
+        {
+          "id": "0aLAcRGD2U3mh6B7DG79",
+          "text": "jonasgrind used one of the faction's Ipecac Syrup items",
+          "timestamp": 1766859328
+        },
+        {
+          "id": "7PHFKXt6UPjjYpVR95g4",
+          "text": "jonasgrind used one of the faction's Ipecac Syrup items",
+          "timestamp": 1766859326
+        },
+        {
+          "id": "nQIxWspOdcoIdvPael2D",
+          "text": "jonasgrind used one of the faction's Ipecac Syrup items",
+          "timestamp": 1766859322
+        },
+        {
+          "id": "HsA3IIif7rsUd4ZMPKgM",
+          "text": "jonasgrind used one of the faction's Ipecac Syrup items",
+          "timestamp": 1766859302
+        },
+        {
+          "id": "ugRfNFbEVk2qnztzBYUE",
+          "text": "jonasgrind used one of the faction's Ipecac Syrup items",
+          "timestamp": 1766859297
+        },
+        {
+          "id": "wwM3pQ6pRxPxYH3QKhJP",
+          "text": "jonasgrind used one of the faction's Ipecac Syrup items",
+          "timestamp": 1766859295
+        },
+        {
+          "id": "Qc5Io3nHw9uHL7My2DfJ",
+          "text": "jonasgrind used one of the faction's Ipecac Syrup items",
+          "timestamp": 1766859291
+        },
+        {
+          "id": "r1awcjFv0SpDIHqgGVmK",
+          "text": "jonasgrind used one of the faction's Ipecac Syrup items",
+          "timestamp": 1766859286
+        },
+        {
+          "id": "qofXHg1je20Wif8bML7a",
+          "text": "jonasgrind used one of the faction's Ipecac Syrup items",
+          "timestamp": 1766859282
+        },
+        {
+          "id": "ujgLDY2CqjDqUepg9BIJ",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766859000
+        },
+        {
+          "id": "RKqhYKRZy52CMX5oRQCL",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858999
+        },
+        {
+          "id": "yc8BojfIQMjubC7vzGpe",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858998
+        },
+        {
+          "id": "wAJIa4LrUIprCAOYGQbg",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858998
+        },
+        {
+          "id": "dFoa7Xc2un1e7JNY0G3e",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858997
+        },
+        {
+          "id": "NCS7Vk4IWx4EG3AvAhHA",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858997
+        },
+        {
+          "id": "3vqp8AEK0sT6FSVTJZhK",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858996
+        },
+        {
+          "id": "Ml0vguJbDfkDoBGuZwvW",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858995
+        },
+        {
+          "id": "52TUwtCRwckDWVBKYXNc",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858995
+        },
+        {
+          "id": "SvMjvmsTHgxMYsTzq9Eq",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858994
+        },
+        {
+          "id": "PfNeWpzk3r2IyyP96zec",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858993
+        },
+        {
+          "id": "eZrslBJLinsJrKMZlgJg",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858993
+        },
+        {
+          "id": "Ab5h2a07nCDZasLRXyWr",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858992
+        },
+        {
+          "id": "fQLE4QHoJmlNPIzBJ5Vt",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858992
+        },
+        {
+          "id": "45IWBFu6BYrwYIivngfP",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858991
+        },
+        {
+          "id": "3MwRX6AhFq6HeZ1CAMKS",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858991
+        },
+        {
+          "id": "LDUmoLjrTA9uPTxx9MX0",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858990
+        },
+        {
+          "id": "RUn6aFZ97Aj09GXrlsub",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858990
+        },
+        {
+          "id": "j7eiHYW2opMinP2Gfj7M",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858989
+        },
+        {
+          "id": "vFPStj5MRI5BIv8voAUd",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858988
+        },
+        {
+          "id": "7xg384jGhcTUoqWs4rF6",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858988
+        },
+        {
+          "id": "SI9e326YqSlguOHOLdEa",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858987
+        },
+        {
+          "id": "Mp4XFMaHRzFTRr8YlQJ0",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858986
+        },
+        {
+          "id": "dSV5O5dFfOGFTXfawnlb",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858986
+        },
+        {
+          "id": "p29ThCOf8zWlZGnm1tNG",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858985
+        },
+        {
+          "id": "n1NLd5O9kA8sZqY12rmH",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858984
+        },
+        {
+          "id": "j4tc44Gp5HzJW2Xh4XNp",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858984
+        },
+        {
+          "id": "tJN2QIhZzIK86ScZ427v",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858983
+        },
+        {
+          "id": "iYuoWOyF3Hkdul4aUtyB",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858983
+        },
+        {
+          "id": "c6SbC6vIa3stOcZAKbz1",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858982
+        },
+        {
+          "id": "G7llPKmAWv1S218R3NyH",
+          "text": "jonasgrind used one of the faction's Bottle of Beer items",
+          "timestamp": 1766858981
+        },
+        {
+          "id": "SPmSiWPqpYUnTJmvXU91",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766858696
+        },
+        {
+          "id": "Cg06lCTmI839QjfyMNbx",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857888
+        },
+        {
+          "id": "DmwAIR5ghFq3ii9VwLTB",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857887
+        }
+      ],
+      "_metadata": {
+        "links": {
+          "prev": "https://api.torn.com/v2/faction/news?&limit=100&cat=armoryAction&stripTags=true&sort=desc&from=1766793600&to=1766857887",
+          "next": null
+        }
+      }
+    },
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?&limit=100&cat=armoryAction&stripTags=true&sort=desc&from=1766793600&to=1766857887&key=TlLjcWRDbiY9wybA&striptags=false",
+      "has_html": false,
+      "news": [
+        {
+          "id": "dPpE1pX37p2SCisDVogk",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857886
+        },
+        {
+          "id": "4FArKBfex3rmKiAOaY5K",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857886
+        },
+        {
+          "id": "je7w7f293hCgpKHbAuGI",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857886
+        },
+        {
+          "id": "Zw1BsmBiLF1ZgFtGYeHM",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857885
+        },
+        {
+          "id": "lw0IihBYPXskGY4Bi7Ps",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857885
+        },
+        {
+          "id": "9MNju1VRmPTCJKZOTE6G",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857885
+        },
+        {
+          "id": "DVYiCdE8RwayDNweKPW3",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857884
+        },
+        {
+          "id": "26l5XsAHc08REYUFGA9V",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857884
+        },
+        {
+          "id": "tDcBb5KK5d0lJrWoUNSl",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857884
+        },
+        {
+          "id": "q6wIdbZjZUChq7mcbzTD",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857883
+        },
+        {
+          "id": "OqDekZ1lpohLLj5aY9U2",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857883
+        },
+        {
+          "id": "bBDnq6YnvRk2HBUcKEeY",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857882
+        },
+        {
+          "id": "tIVtPrFkeF6AlwI462Sb",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857882
+        },
+        {
+          "id": "e4Valp5zmScflzzX6DLr",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857882
+        },
+        {
+          "id": "JUFXHXzM5TOcYpsAIxha",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857881
+        },
+        {
+          "id": "pONGhRUbQYt3UGoux83O",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857881
+        },
+        {
+          "id": "VHX1Mqyxr5afzvEF5mpP",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857880
+        },
+        {
+          "id": "YMC7i6m6pfGvUaE2kCSF",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857880
+        },
+        {
+          "id": "K7grMjEl8rsj0bu75gen",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857880
+        },
+        {
+          "id": "AocQniDXOOPfxNQ5bXzC",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857879
+        },
+        {
+          "id": "4LtCs8GQNh5RnuXHkRgg",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857879
+        },
+        {
+          "id": "CINQGTUdgiUob9H69wGD",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857879
+        },
+        {
+          "id": "mvpQKcqGD4EkGzToBUlS",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857878
+        },
+        {
+          "id": "3Cq5LGVilssdXdYNJo82",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857878
+        },
+        {
+          "id": "ipU54tDPywF4GQ9zjB9I",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857878
+        },
+        {
+          "id": "6SeRQVLmvrIWnBVEoRzn",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857877
+        },
+        {
+          "id": "vtkWGRBOCMhNIJWpphYI",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857877
+        },
+        {
+          "id": "R6zzSaw3ClZotjdovMal",
+          "text": "Meeip used one of the faction's Bottle of Beer items",
+          "timestamp": 1766857876
+        },
+        {
+          "id": "EFDDw5okoPpPN55nf2cw",
+          "text": "Friendly_Derek loaned 1x Minigun to themselves from the faction armory",
+          "timestamp": 1766857266
+        },
+        {
+          "id": "cCq8cI2juFu4msKYJPaD",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856382
+        },
+        {
+          "id": "EQNziDLEqM2GXwmHMepN",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856381
+        },
+        {
+          "id": "ixRmYFMUeoUtY520QpRH",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856381
+        },
+        {
+          "id": "OFNEyE9Im4noDu4dguna",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856380
+        },
+        {
+          "id": "RrvCC9Cab8JtNCN7Ckr9",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856380
+        },
+        {
+          "id": "MKIWADEscvxxXwalZmQp",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856380
+        },
+        {
+          "id": "LUAN6z1L87jpbEIow5jJ",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856379
+        },
+        {
+          "id": "wLfwyOyGQrgzsgU0EPoA",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856379
+        },
+        {
+          "id": "ESokakA7fCJmYnwNNX47",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856378
+        },
+        {
+          "id": "nWGcKCyNZ4oVK41imVV9",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856378
+        },
+        {
+          "id": "XZF5GLhTIT9FXPdqcYxx",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856378
+        },
+        {
+          "id": "2yT3NE8RpfgFG2PnjK4i",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856377
+        },
+        {
+          "id": "MCLsK9SdKqIKIGP7Bfku",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856377
+        },
+        {
+          "id": "dUmoN9ZvcDXQu1ABwAmB",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856377
+        },
+        {
+          "id": "WF40bXFJhI0YB9863QG5",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856376
+        },
+        {
+          "id": "lw1M3l1FlwMoloaTMdgT",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856376
+        },
+        {
+          "id": "PolRfyuPHu8WvQt8DdRA",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856375
+        },
+        {
+          "id": "rKYrPJvF4Rvq2ol8jnGa",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856375
+        },
+        {
+          "id": "Yx8Jv8PkoU6av5GAwc05",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856374
+        },
+        {
+          "id": "7Fzx0MUZ3mJ6UIfUpWVL",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856374
+        },
+        {
+          "id": "nS9V3Z3YwI2xNjqZjTzD",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856373
+        },
+        {
+          "id": "nGPuUFT8f6cZDA8OexTD",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856373
+        },
+        {
+          "id": "t5Y0yLuSNwGwuZQMQ9hg",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856373
+        },
+        {
+          "id": "2UU8yj46OXip8CvxqPq3",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856372
+        },
+        {
+          "id": "rjnWaq83rda4JKyD5bve",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856372
+        },
+        {
+          "id": "MLLsZBfsChaEEMjQCzTY",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856371
+        },
+        {
+          "id": "DjtpGz2KvTtCZ3d9VBGK",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856370
+        },
+        {
+          "id": "N4QngUr8ajCOUDP5HoCA",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856368
+        },
+        {
+          "id": "a3HHbbGlBEQjHQ111g8N",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856368
+        },
+        {
+          "id": "kShqqxuEnA4oIVch2Sk4",
+          "text": "Littlegman212 used one of the faction's Bag of Chocolate Kisses items",
+          "timestamp": 1766856366
+        },
+        {
+          "id": "i8QZVESw4539aSJRHOTH",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766855763
+        },
+        {
+          "id": "brFzRAc6SLKH3Hwd3CnH",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766855755
+        },
+        {
+          "id": "AjJOzW2tyEXRfjO40ZJY",
+          "text": "shrigma used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1766854325
+        },
+        {
+          "id": "lUMsGrYkSdikME2LNtqj",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766854322
+        },
+        {
+          "id": "C3YyeLOMA7AO9KXrW6vh",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766854322
+        },
+        {
+          "id": "AzBM0aQpHKUpUWYrKu95",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766854321
+        },
+        {
+          "id": "lMB60Ktk1FooJyE9kAaa",
+          "text": "shrigma filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766854320
+        },
+        {
+          "id": "ZhVRO5mvmcJl9OfYd0U9",
+          "text": "shrigma filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766854320
+        },
+        {
+          "id": "C8kfMIc4OYOjWblyg96j",
+          "text": "shrigma filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766854320
+        },
+        {
+          "id": "iE36E7iTYlqXnhtZ6Sjn",
+          "text": "xyicah filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766853665
+        },
+        {
+          "id": "DdfPRO3KOXEgiiEOtTkx",
+          "text": "xyicah filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766853664
+        },
+        {
+          "id": "bfC2u4Fp4zqKlLl1K1JC",
+          "text": "xyicah filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766853663
+        },
+        {
+          "id": "dflHTCIOgq45ALZO9As2",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766852727
+        },
+        {
+          "id": "i0UccFp8IpjgKKgZgjrm",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766852721
+        },
+        {
+          "id": "BwA0OapVQHcjoCzOieZy",
+          "text": "Lev_Bron filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766850834
+        },
+        {
+          "id": "JvOS0XIsXfvLHJHIFS5u",
+          "text": "Lev_Bron filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766850834
+        },
+        {
+          "id": "515sVIH0k61ZOrEL2G7x",
+          "text": "Lev_Bron filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766850833
+        },
+        {
+          "id": "F9rZMkgViMfSoxPbCFqn",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766849042
+        },
+        {
+          "id": "zity5vvklCOtHFQkz7Jc",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766849041
+        },
+        {
+          "id": "omA1kxVou1AJiWjZLz1t",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766849040
+        },
+        {
+          "id": "cCCBn5sme7M25881szg4",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766849040
+        },
+        {
+          "id": "jgEUBtGk8F9lXHnHPDWe",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766849039
+        },
+        {
+          "id": "TiuA93SFzX7jJdTZI8uo",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766849039
+        },
+        {
+          "id": "V3WClfQYJ6vN51ojURP1",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766849038
+        },
+        {
+          "id": "Ds9kkluzFlnYM0B1DgqG",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766849037
+        },
+        {
+          "id": "EZb2z7Oo9sn5Gw0e1iSX",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766849037
+        },
+        {
+          "id": "SYx4kBI0Wu9Aq9HC5Bth",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766849037
+        },
+        {
+          "id": "iPE0wJecab8CMsrIYqqU",
+          "text": "Neodork filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766848725
+        },
+        {
+          "id": "5XB7OmC1aKPN4uIiOICn",
+          "text": "Neodork filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766848725
+        },
+        {
+          "id": "dwG5cvVCZ7yNLDdaWANn",
+          "text": "Neodork filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766848723
+        },
+        {
+          "id": "ZUCvAa6HYZcGQENposiu",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766848396
+        },
+        {
+          "id": "U8Bv2Ar8BHJ1MjAq9ffR",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766847226
+        },
+        {
+          "id": "RD22qJDp0emSr8vW86N8",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766847222
+        },
+        {
+          "id": "zLDEgJU8kU2v3F6hzvOM",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766847011
+        },
+        {
+          "id": "jV7DjZukg0frRto8ieWP",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766847009
+        },
+        {
+          "id": "XFdiaooI4jDNHZDtPPis",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766846744
+        },
+        {
+          "id": "uVoVHF8YIUQnEQD8R9xq",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766846738
+        },
+        {
+          "id": "qDgqjGgdAqzh8syd2tcn",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766846736
+        },
+        {
+          "id": "vyyWypwV5Uo6SjHWY0Gz",
+          "text": "BBCliff used one of the faction's Small First Aid Kit items",
+          "timestamp": 1766846599
+        },
+        {
+          "id": "l8vR1dBB6FttGRZpzstr",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766846583
+        },
+        {
+          "id": "IutcGotDhwpHNk1yF3C8",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766846580
+        }
+      ],
+      "_metadata": {
+        "links": {
+          "prev": "https://api.torn.com/v2/faction/news?&limit=100&cat=armoryAction&stripTags=true&sort=desc&from=1766793600&to=1766846580",
+          "next": null
+        }
+      }
+    },
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?&limit=100&cat=armoryAction&stripTags=true&sort=desc&from=1766793600&to=1766846580&key=TlLjcWRDbiY9wybA&striptags=false",
+      "has_html": false,
+      "news": [
+        {
+          "id": "Yj3gtFco55mG9KsumVns",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766846344
+        },
+        {
+          "id": "6Cb5dF0UvFjl1cVgEnxt",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766846340
+        },
+        {
+          "id": "TUMnRW0XVy4ZHss1uqGZ",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766845995
+        },
+        {
+          "id": "0l47zxzg3VSSAYbubLXO",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766845989
+        },
+        {
+          "id": "xpwCk94zqTC94nqFsDFB",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766845747
+        },
+        {
+          "id": "96pFLYr0bw9RhUbNis6X",
+          "text": "RouRonin returned 1x Minigun",
+          "timestamp": 1766843430
+        },
+        {
+          "id": "hfuj2DuuYVsczFwTZOAx",
+          "text": "xyicah filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766843046
+        },
+        {
+          "id": "Jj4CT6zUGLs1IYOvxGFG",
+          "text": "xyicah filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766843041
+        },
+        {
+          "id": "ogMh7OZL7i45g63bH9r2",
+          "text": "shrigma filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766842289
+        },
+        {
+          "id": "1TsnUkeTctjn79v40NkP",
+          "text": "shrigma used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1766842289
+        },
+        {
+          "id": "WpqANrU1ZWx4JfoG8EJx",
+          "text": "shrigma filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766842288
+        },
+        {
+          "id": "TdWvwdq9jE5KnbXu1N4Q",
+          "text": "shrigma used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1766842288
+        },
+        {
+          "id": "pJ8uot7QXecwhE5JKWFE",
+          "text": "shrigma filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766842286
+        },
+        {
+          "id": "Ff3YRsQ9dnhOWGUdF2hT",
+          "text": "shrigma filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766842286
+        },
+        {
+          "id": "um8zetT9hgOtQotJvdI4",
+          "text": "shrigma filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766842286
+        },
+        {
+          "id": "DkNHef05vseALJSUUSvY",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766842285
+        },
+        {
+          "id": "Cp6MMTxpqStjNwtQki9Z",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766842284
+        },
+        {
+          "id": "iYcI1NsQTKWm0ScZeQKm",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766842284
+        },
+        {
+          "id": "xEqNMsOULbe82UkH26OL",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766842284
+        },
+        {
+          "id": "wcI7Pc2GFQIWsRc0nWaS",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766842284
+        },
+        {
+          "id": "X1iaMSoXHYqQOKcKWeUQ",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766842284
+        },
+        {
+          "id": "FNa0UdA6vDEy2EJmjzMU",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766842284
+        },
+        {
+          "id": "lr9bRjZ1xRn6VSJEz6qM",
+          "text": "jGafito filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766841862
+        },
+        {
+          "id": "P0rwOQdO26i7DLJfORk5",
+          "text": "jGafito filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766841861
+        },
+        {
+          "id": "hpEyR6Iqpi2AErcciwEX",
+          "text": "xyicah filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766839804
+        },
+        {
+          "id": "8sG9kH3RKgaDAlzRuB3Z",
+          "text": "xyicah filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766839803
+        },
+        {
+          "id": "z6GgHthB3TqiOWRDKufg",
+          "text": "xyicah filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766839802
+        },
+        {
+          "id": "WD5FEenzwQExZTqWpX6z",
+          "text": "Retr0Rat filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766838835
+        },
+        {
+          "id": "oUhYFDunuhITDC4pm8lu",
+          "text": "Retr0Rat filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766838834
+        },
+        {
+          "id": "5Sc4FksOdFzMvsHWDIH2",
+          "text": "Retr0Rat filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766838833
+        },
+        {
+          "id": "AoFy3NhD1mbGdHiT84Ot",
+          "text": "AIshen used one of the faction's Blood Bag : O- items",
+          "timestamp": 1766837711
+        },
+        {
+          "id": "j63T9sZ0LZS160Wdkb11",
+          "text": "AIshen used one of the faction's Blood Bag : AB- items",
+          "timestamp": 1766837672
+        },
+        {
+          "id": "T9h20D3nF94CxeAZ2xJp",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766835296
+        },
+        {
+          "id": "weLLw1SnWFTC0cA23cP9",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766835296
+        },
+        {
+          "id": "Bp9KO2dcEY9ndXmKM2IE",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766835295
+        },
+        {
+          "id": "3EVMkGgSaVYJN61QQngf",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766834766
+        },
+        {
+          "id": "tToC3GWtBem8IGlyhrQV",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766834663
+        },
+        {
+          "id": "76lNXDFh8URBN2xapkBN",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766833781
+        },
+        {
+          "id": "tBrZTUFmHmoYBeurhaj6",
+          "text": "DMG- used one of the faction's Bottle of Beer items",
+          "timestamp": 1766830623
+        },
+        {
+          "id": "g8qiYpx50xuEg436u3KV",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827436
+        },
+        {
+          "id": "RqH2RDbw5YZ4S1bMpJny",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827436
+        },
+        {
+          "id": "cXMwKFNYrXtYJfYdVDru",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827435
+        },
+        {
+          "id": "PcjQ732shC2qCYADBZ7f",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827434
+        },
+        {
+          "id": "3IRN1vpZ6TN2089SwaDd",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827433
+        },
+        {
+          "id": "LaqGuFjQmzRvNuxcM4lh",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827433
+        },
+        {
+          "id": "GAzqsQYQN9fnicUuMVuc",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827432
+        },
+        {
+          "id": "m5aqdALCmADLsBieQbuZ",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827432
+        },
+        {
+          "id": "N1NVsuHcyMEjbrb0OMoD",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827431
+        },
+        {
+          "id": "f8Vl6wqtku0mtLv7OvAE",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827430
+        },
+        {
+          "id": "Ijk7KUqsZ6LtNyuNexuA",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827430
+        },
+        {
+          "id": "tGBW61ELgbDXASy1RboG",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827429
+        },
+        {
+          "id": "rnBCksEp72Hz6pIKt2sH",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827429
+        },
+        {
+          "id": "nQkJsWzaokPF6CYXA91T",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827428
+        },
+        {
+          "id": "7ZkP6M33TDCD5TJDA9me",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827428
+        },
+        {
+          "id": "gTS4caxRCo7sB7l7mOim",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827427
+        },
+        {
+          "id": "X0Qoqkg51Kp4MsnPG8Rs",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827427
+        },
+        {
+          "id": "StgvotOXKpJv0rMmkMyn",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827426
+        },
+        {
+          "id": "iT9phcu1jKRyqKxzaFPI",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827426
+        },
+        {
+          "id": "q734QC4zXrhIQsnP6jaw",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827425
+        },
+        {
+          "id": "HtU4CuZXgUobXskP0bDq",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827424
+        },
+        {
+          "id": "oDT3cTOSpwp7RK7jHHyR",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827424
+        },
+        {
+          "id": "IbWTbcaRev01uTxANANu",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827423
+        },
+        {
+          "id": "UQWBJanaLwNyCkasLG9C",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827423
+        },
+        {
+          "id": "PYsuRsogzG0uY2MUsdot",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827422
+        },
+        {
+          "id": "idds6ay2qrWClphnWB27",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827422
+        },
+        {
+          "id": "Ii2ooOHS7IgoZ6dGtUEf",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827421
+        },
+        {
+          "id": "LOrqSaFnb4ox6ABOLjv5",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827421
+        },
+        {
+          "id": "GSXnRKBfmoLTGjhaKpNa",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827420
+        },
+        {
+          "id": "GcHwtjbvyV11pTJ3ewpo",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827419
+        },
+        {
+          "id": "MuJ1Kamh7g7LfyV3WBrK",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827419
+        },
+        {
+          "id": "gUR6MtU7kefofMgN7h9w",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827418
+        },
+        {
+          "id": "hSDCJHphYJnnKdL9CrWu",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827418
+        },
+        {
+          "id": "QwRYMZTlthB1JJLvCaSG",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827417
+        },
+        {
+          "id": "EuYO5B6KaFMz6ieZToJj",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827417
+        },
+        {
+          "id": "a4DSKbcHQ5fSEoIesaGR",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827416
+        },
+        {
+          "id": "o6QPrPAdFwQBNlYF5G3D",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827415
+        },
+        {
+          "id": "sWbUJR4EQfOjxYyYQhZ9",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827415
+        },
+        {
+          "id": "FnQvq2EhQxquERKvAdU9",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827414
+        },
+        {
+          "id": "moftXVxIOU4VXaUwxvTW",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827414
+        },
+        {
+          "id": "OCcET8MeCHQAinGqvmsZ",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827413
+        },
+        {
+          "id": "xXylYj821ktAgduAE79z",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827413
+        },
+        {
+          "id": "OVOLHXIhFoAqZxg1DnTi",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827412
+        },
+        {
+          "id": "pxYprxaD03ygzE2NcEdL",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827412
+        },
+        {
+          "id": "vIK6N79PxuSvQbmySC9Q",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827411
+        },
+        {
+          "id": "ZEGCJ2PaHMSjpXqKW6vv",
+          "text": "Vasavi_shakti used one of the faction's Bottle of Beer items",
+          "timestamp": 1766827410
+        },
+        {
+          "id": "bbuBvricWjCbaWFroPsK",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766826221
+        },
+        {
+          "id": "QXoNNtcgfFlRfwqrjl1i",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766826221
+        },
+        {
+          "id": "CKatTSqv2bvYoFqZzDU7",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766826220
+        },
+        {
+          "id": "qjPurlMtRJzpKitrw5kM",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766826219
+        },
+        {
+          "id": "il4xk9Xe98fRFDW7cAdv",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766826218
+        },
+        {
+          "id": "hborBYCjWXDdnLcljmFU",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766825177
+        },
+        {
+          "id": "RQPttjaNJ8UxsfEf6p9r",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766825174
+        },
+        {
+          "id": "92nyx6kLRxJEHMwboz0H",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766825174
+        },
+        {
+          "id": "OzVZAlFMxZtwCWwhKzCG",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766825174
+        },
+        {
+          "id": "fuFeqHHW9QqkpefmAXTb",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766825173
+        },
+        {
+          "id": "CcbpgoWgqbZi6WWuQGqP",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766825172
+        },
+        {
+          "id": "plkINGnmxVkrE49Et1v6",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766825172
+        },
+        {
+          "id": "3xUiunE8OLoKfZRPQGhe",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766825172
+        },
+        {
+          "id": "KCZrhZzZqJEzwV6PtJkW",
+          "text": "Hstains used one of the faction's Bottle of Beer items",
+          "timestamp": 1766823745
+        },
+        {
+          "id": "4pCtX1wD63Z4h0uNzkMV",
+          "text": "Hstains used one of the faction's Bottle of Beer items",
+          "timestamp": 1766823744
+        }
+      ],
+      "_metadata": {
+        "links": {
+          "prev": "https://api.torn.com/v2/faction/news?&limit=100&cat=armoryAction&stripTags=true&sort=desc&from=1766793600&to=1766823744",
+          "next": null
+        }
+      }
+    },
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?&limit=100&cat=armoryAction&stripTags=true&sort=desc&from=1766793600&to=1766823744&key=TlLjcWRDbiY9wybA&striptags=false",
+      "has_html": false,
+      "news": [
+        {
+          "id": "jMqLmjN5thVFa4QYXWo4",
+          "text": "Hstains used one of the faction's Blood Bag : O+ items",
+          "timestamp": 1766823403
+        },
+        {
+          "id": "sTW8BTpSwjbMU0dEGxyD",
+          "text": "Hstains used one of the faction's Blood Bag : O+ items",
+          "timestamp": 1766823402
+        },
+        {
+          "id": "UTsmKhgtk3uA7d9pk8se",
+          "text": "Hstains used one of the faction's Blood Bag : O+ items",
+          "timestamp": 1766823401
+        },
+        {
+          "id": "yKGezkifYzmc6YbtOvRO",
+          "text": "AIshen used one of the faction's Blood Bag : O- items",
+          "timestamp": 1766820969
+        },
+        {
+          "id": "w641ny4pqrVLPchwisAl",
+          "text": "ExiledAstronaut loaned 1x Flash Grenade to xyicah from the faction armory",
+          "timestamp": 1766820589
+        },
+        {
+          "id": "e0guyQ4RXdrqHON3CWpW",
+          "text": "ExiledAstronaut loaned 1x C4 Explosive to BeardedBenny from the faction armory",
+          "timestamp": 1766820573
+        },
+        {
+          "id": "3EnKkbyjX0wnSRuFRnQ0",
+          "text": "Rey2Fly used one of the faction's Bottle of Tequila items",
+          "timestamp": 1766820479
+        },
+        {
+          "id": "A9sMqijfGBB4tWqNR0FW",
+          "text": "Neodork filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766820475
+        },
+        {
+          "id": "qfFxfcixOPBnstl0qn4D",
+          "text": "Neodork filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766820475
+        },
+        {
+          "id": "fDv0k2MVYk4ESLqHDLaS",
+          "text": "Neodork filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766820473
+        },
+        {
+          "id": "nxxF1zbfVMB5jsmHxvMe",
+          "text": "Bucki filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766820194
+        },
+        {
+          "id": "cUB8JvyRYeoTHYmhUWZU",
+          "text": "Bucki filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766820193
+        },
+        {
+          "id": "w89E0bvhi3fQtQDgOWAR",
+          "text": "Bucki filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766820192
+        },
+        {
+          "id": "4c1w65EpiA9eoTlYqbpw",
+          "text": "McJoey filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766820144
+        },
+        {
+          "id": "65X9TzT1jWoonrILoi0H",
+          "text": "McJoey filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766820143
+        },
+        {
+          "id": "1JPedAyZQVuqRkU23h8k",
+          "text": "McJoey filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766820142
+        },
+        {
+          "id": "BHE5dfv4OEGFkgrdkCGP",
+          "text": "shrigma used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1766817456
+        },
+        {
+          "id": "l1IwdxTXDP2MZm06sUim",
+          "text": "shrigma used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1766817455
+        },
+        {
+          "id": "qaTBvIXNZEsxgJd1ak1l",
+          "text": "shrigma filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766816170
+        },
+        {
+          "id": "4nW0Kmk7OsBDPKM6uyiY",
+          "text": "shrigma used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1766816170
+        },
+        {
+          "id": "tNFWATEyA6vPt5VfE95P",
+          "text": "shrigma filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766816169
+        },
+        {
+          "id": "wCQLxOlCcDzBLdrT76fF",
+          "text": "shrigma filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766816168
+        },
+        {
+          "id": "vrfwPHWAkWnCEdaXP9Gn",
+          "text": "shrigma filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766816168
+        },
+        {
+          "id": "XNoE7ZFS0kbmrhilxL5c",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766816167
+        },
+        {
+          "id": "Sm2clyHzl4nTRtA7mMbK",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766816166
+        },
+        {
+          "id": "LdTjf832rdzLhBIgMkGg",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766816166
+        },
+        {
+          "id": "6E5BWWKcowZCcyuxyitt",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766816166
+        },
+        {
+          "id": "8lsciKjMQrOUxScwmV5R",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766816166
+        },
+        {
+          "id": "yGud89BMQI2U5GM8SDby",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766816166
+        },
+        {
+          "id": "1oyHfUV9CoSoCUxS1o4f",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766816166
+        },
+        {
+          "id": "4xypoq8ENy4FXLqvKeAf",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766816166
+        },
+        {
+          "id": "pdCympBDiTEEP3667mGg",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766816166
+        },
+        {
+          "id": "Z1EicCbxW3FKyjgDiimQ",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766816165
+        },
+        {
+          "id": "j9lHajAOsUbGSj1388O3",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766816165
+        },
+        {
+          "id": "uSNsQhhmkSywsX9aWVgb",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766816165
+        },
+        {
+          "id": "xXIsqoF8NxRygD3dKcva",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766816165
+        },
+        {
+          "id": "Erqc7JhDOvB9sP04PMEZ",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766816165
+        },
+        {
+          "id": "5FBbHGGA9uonE4Z4HSxu",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766816164
+        },
+        {
+          "id": "m95aC7bQMPfH60mQhEJ6",
+          "text": "shrigma used one of the faction's Bottle of Beer items",
+          "timestamp": 1766816164
+        },
+        {
+          "id": "SUcDAdXtkZGrUxgsDlPc",
+          "text": "shrigma used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1766816094
+        },
+        {
+          "id": "kghngxGVMRKwvAYEtUMx",
+          "text": "shrigma used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1766816093
+        },
+        {
+          "id": "hM6k35JRX4TPBxpfJAtH",
+          "text": "RubyFalls filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766815445
+        },
+        {
+          "id": "pj1ZEUcr8oSvQAURBEwP",
+          "text": "RubyFalls filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766815445
+        },
+        {
+          "id": "QgS2Rkch6emLwJ0BV8Ll",
+          "text": "RubyFalls filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766815444
+        },
+        {
+          "id": "McodMfBeytH6WdpWXkz3",
+          "text": "Pro_eobard used one of the faction's Bottle of Beer items",
+          "timestamp": 1766809869
+        },
+        {
+          "id": "moMvAFJTStYXFxKHZQbO",
+          "text": "Pro_eobard used one of the faction's Bottle of Beer items",
+          "timestamp": 1766809869
+        },
+        {
+          "id": "mjTngwfufHwDwm9CDg3t",
+          "text": "Pro_eobard used one of the faction's Bottle of Beer items",
+          "timestamp": 1766809869
+        },
+        {
+          "id": "fcFUeAl9C2OaLPbGPs6J",
+          "text": "Pro_eobard used one of the faction's Bottle of Beer items",
+          "timestamp": 1766809868
+        },
+        {
+          "id": "d0IpfG5nb5OLEqAAcB4l",
+          "text": "Pro_eobard used one of the faction's Bottle of Beer items",
+          "timestamp": 1766809868
+        },
+        {
+          "id": "X0TbihFbdbvHZ17WxOMF",
+          "text": "Pro_eobard used one of the faction's Bottle of Beer items",
+          "timestamp": 1766809867
+        },
+        {
+          "id": "y2a4er4xCH0Q2yDxsHnW",
+          "text": "Pro_eobard used one of the faction's Bottle of Beer items",
+          "timestamp": 1766809867
+        },
+        {
+          "id": "HqsxaxQLK3teM5UYc4Az",
+          "text": "Pro_eobard used one of the faction's Bottle of Beer items",
+          "timestamp": 1766809866
+        },
+        {
+          "id": "cU04Gr3aS7okTe7W7MSc",
+          "text": "Pro_eobard used one of the faction's Bottle of Beer items",
+          "timestamp": 1766809866
+        },
+        {
+          "id": "iajA8osXEeNOqHpYavgh",
+          "text": "Pro_eobard used one of the faction's Bottle of Beer items",
+          "timestamp": 1766809866
+        },
+        {
+          "id": "d5Ey55qy4xvP55AgVroF",
+          "text": "Pro_eobard used one of the faction's Bottle of Beer items",
+          "timestamp": 1766809864
+        },
+        {
+          "id": "YErB7S6Kulevh3Eq9QUC",
+          "text": "Pro_eobard used one of the faction's Bottle of Beer items",
+          "timestamp": 1766809864
+        },
+        {
+          "id": "1kWDBv9Hw8OlBdalE1gg",
+          "text": "Pro_eobard used one of the faction's Bottle of Beer items",
+          "timestamp": 1766809863
+        },
+        {
+          "id": "9DG3LXZiG5W86NahMfnx",
+          "text": "Pro_eobard used one of the faction's Bottle of Beer items",
+          "timestamp": 1766809862
+        },
+        {
+          "id": "HGcZDrWMBpWi3xZaNLAu",
+          "text": "Pro_eobard used one of the faction's Bottle of Beer items",
+          "timestamp": 1766809862
+        },
+        {
+          "id": "JrIghRbaGd1fE9nhgOo8",
+          "text": "Pro_eobard used one of the faction's Bottle of Beer items",
+          "timestamp": 1766809861
+        },
+        {
+          "id": "UcO2tXqCbNm6N7qHpUAp",
+          "text": "TsanMan used one of the faction's Box of Sweet Hearts items",
+          "timestamp": 1766809855
+        },
+        {
+          "id": "CFiruLdL4SBGcTOcUVd8",
+          "text": "TsanMan used one of the faction's Box of Sweet Hearts items",
+          "timestamp": 1766809854
+        },
+        {
+          "id": "rarRWyVJByfrLmTPGkTD",
+          "text": "TsanMan used one of the faction's Box of Sweet Hearts items",
+          "timestamp": 1766809853
+        },
+        {
+          "id": "Uk4JG1ya3lHnu8pOM7AZ",
+          "text": "AIshen used one of the faction's Blood Bag : O- items",
+          "timestamp": 1766809031
+        },
+        {
+          "id": "JPlSIpj7WNzQVTEuePG3",
+          "text": "AIshen used one of the faction's Blood Bag : O- items",
+          "timestamp": 1766809027
+        },
+        {
+          "id": "X7HB2OhxRHqxJePlxWgT",
+          "text": "AIshen used one of the faction's Blood Bag : O- items",
+          "timestamp": 1766808915
+        },
+        {
+          "id": "gIaYKbOnpCvFaDQ9DsSk",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808315
+        },
+        {
+          "id": "MChyPbhpdBtvFZNtd3pU",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808313
+        },
+        {
+          "id": "DAVbiFUp48QoCVscEH7F",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808311
+        },
+        {
+          "id": "YZ1TtoM86KM1ji2tVawR",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808309
+        },
+        {
+          "id": "jVb5EyyNqzxa7h78OOkT",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808309
+        },
+        {
+          "id": "qzculbdoUEOD2fa5y8ry",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808308
+        },
+        {
+          "id": "uB9cY5z0sNqP09tMyNpC",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808306
+        },
+        {
+          "id": "9KjCeJXcHLo04HLdltfp",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808305
+        },
+        {
+          "id": "5k6MUHuew38ihNWDV2HP",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808303
+        },
+        {
+          "id": "JTJjgIbTeQEmIzN2iE8D",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808301
+        },
+        {
+          "id": "NPNDy59KW9aEQQe3wiW5",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808301
+        },
+        {
+          "id": "vgk1xyuAYjP7HQJ5UW5Y",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808299
+        },
+        {
+          "id": "xObNaqFU5u5KyWuVDw4f",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808298
+        },
+        {
+          "id": "brQVDqlIDrFkpElACMOS",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808297
+        },
+        {
+          "id": "f1QgSzl1YVQgVRC1WZDG",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808296
+        },
+        {
+          "id": "BKVQAMHCzKwvwBQwT9Gg",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808295
+        },
+        {
+          "id": "sgw5sBNQW3sQuqct5Ncx",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808294
+        },
+        {
+          "id": "VsOgPFBZnYR3mIf4v0vf",
+          "text": "Maddog1997 used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808293
+        },
+        {
+          "id": "mAzMoAEiMXWcgOkx0mrJ",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808149
+        },
+        {
+          "id": "f9VJn04NJTLmAVuDnGtt",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808148
+        },
+        {
+          "id": "OoAJtI4udilBg7yG9fhx",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766808147
+        },
+        {
+          "id": "gZ2KxMl9e2HCZXZGP2HC",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766808146
+        },
+        {
+          "id": "hTzidYlzlQDOSBiqJXkP",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766808145
+        },
+        {
+          "id": "ubGSmGwKitfYuFXhCZ3w",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766808144
+        },
+        {
+          "id": "d06SN1y8MoAqCXH7URaj",
+          "text": "Icks-B used one of the faction's Morphine items",
+          "timestamp": 1766803582
+        },
+        {
+          "id": "DFYlrdrnLr4Ro3RUqFFJ",
+          "text": "xyicah used one of the faction's Blood Bag : B+ items",
+          "timestamp": 1766800757
+        },
+        {
+          "id": "8D6cArbK6VP2Wd2g7fl5",
+          "text": "xyicah filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766800618
+        },
+        {
+          "id": "jD2LZNPElevB1m5Wkr6B",
+          "text": "xyicah filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766800444
+        },
+        {
+          "id": "H5EUeF8te2DSLtXOjOKs",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766800018
+        },
+        {
+          "id": "ld7JJul8WgUaLLoKipxe",
+          "text": "Friendly_Derek used one of the faction's Small First Aid Kit items",
+          "timestamp": 1766798971
+        },
+        {
+          "id": "kRn7fCVUbWc66ZHDYKep",
+          "text": "xyicah filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766798041
+        },
+        {
+          "id": "scvTDEiRJG5kUT6JcYWH",
+          "text": "xyicah filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766798040
+        },
+        {
+          "id": "2EF35IeNA2DhLuCvVMBE",
+          "text": "xyicah filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766798039
+        },
+        {
+          "id": "voGAB7WKxQlUAhjoTd4r",
+          "text": "RubyFalls filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766797911
+        }
+      ],
+      "_metadata": {
+        "links": {
+          "prev": "https://api.torn.com/v2/faction/news?&limit=100&cat=armoryAction&stripTags=true&sort=desc&from=1766793600&to=1766797911",
+          "next": null
+        }
+      }
+    },
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?&limit=100&cat=armoryAction&stripTags=true&sort=desc&from=1766793600&to=1766797911&key=TlLjcWRDbiY9wybA&striptags=false",
+      "has_html": false,
+      "news": [
+        {
+          "id": "GByPrfWWtRVmW2OhYhlW",
+          "text": "RubyFalls filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766797910
+        },
+        {
+          "id": "xrQCrIKVZy6usHpKTiGd",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766796530
+        },
+        {
+          "id": "6vN3WXNLagNc0Gt7mVwy",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766796530
+        },
+        {
+          "id": "IPj7bPyndlezLVw7y4AZ",
+          "text": "GOTOYOURHOME used one of the faction's Bottle of Beer items",
+          "timestamp": 1766796529
+        },
+        {
+          "id": "RMBifeTRoaJLySqoFgfm",
+          "text": "GOTOYOURHOME filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1766796527
+        },
+        {
+          "id": "z2APfY7bQfxGZbyR8MCr",
+          "text": "BBCliff used one of the faction's Blood Bag : A- items",
+          "timestamp": 1766793797
+        }
+      ],
+      "_metadata": {
+        "links": {
+          "prev": null,
+          "next": null
+        }
+      }
+    }
+  ]
+}
