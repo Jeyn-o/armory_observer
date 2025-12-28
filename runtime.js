@@ -56,16 +56,24 @@ async function fetchFactionNews(fromTimestamp, toTimestamp) {
 
     allNews = allNews.concat(data.news ?? []);
 
-    url = data._metadata?.links?.prev
-      ? `${data._metadata.links.prev}&key=${API_KEYS[keyIndex]}&striptags=false`
-      : null;
-
-
-    await sleep(RATE_LIMIT_DELAY);
+    if (data._metadata?.links?.prev) {
+      // Parse the prev URL
+      const prevUrl = new URL(data._metadata.links.prev);
+      // Remove any existing striptags param
+      prevUrl.searchParams.delete("striptags");
+      // Force striptags=false and re-add API key
+      prevUrl.searchParams.set("striptags", "false");
+      prevUrl.searchParams.set("key", API_KEYS[keyIndex]);
+      url = prevUrl.toString();
+      await sleep(RATE_LIMIT_DELAY);
+    } else {
+      url = null;
+    }
   }
 
   return { news: allNews, rawPages };
 }
+
 
 // === UPDATE LOANED ITEMS ===
 function updateLoanedItems(loanedData, dailyData) {
