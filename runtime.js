@@ -49,6 +49,7 @@ async function fetchFactionNews(fromTimestamp, toTimestamp) {
 
     rawPages.push({
       request_url: url,
+      has_html: data.news?.[0]?.text?.includes("XID=") ?? false,
       news: data.news ?? [],
       _metadata: data._metadata ?? null,
     });
@@ -56,8 +57,9 @@ async function fetchFactionNews(fromTimestamp, toTimestamp) {
     allNews = allNews.concat(data.news ?? []);
 
     url = data._metadata?.links?.prev
-      ? `${data._metadata.links.prev}&key=${API_KEYS[keyIndex]}`
+      ? `${data._metadata.links.prev}&key=${API_KEYS[keyIndex]}&striptags=false`
       : null;
+
 
     await sleep(RATE_LIMIT_DELAY);
   }
