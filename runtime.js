@@ -12,7 +12,7 @@ const logsDir = path.join(process.cwd(), "logs");
 // === CONFIG ===
 const API_KEYS = ["TlLjcWRDbiY9wybA"]; // Replace with your actual API keys
 let keyIndex = 0;
-const RATE_LIMIT_DELAY = 500; // ms
+const RATE_LIMIT_DELAY = 1000; // ms
 
 // === UTILS ===
 function getYesterdayUTC() {
@@ -59,16 +59,22 @@ async function fetchFactionNews(fromTimestamp, toTimestamp) {
     if (data._metadata?.links?.prev) {
       // Parse the prev URL
       const prevUrl = new URL(data._metadata.links.prev);
-      // Remove any existing striptags param
-      prevUrl.searchParams.delete("striptags");
+
+      // Remove any existing stripTags / striptags param (case-insensitive)
+      [...prevUrl.searchParams.keys()]
+        .filter(k => k.toLowerCase() === "striptags")
+        .forEach(k => prevUrl.searchParams.delete(k));
+
       // Force striptags=false and re-add API key
       prevUrl.searchParams.set("striptags", "false");
       prevUrl.searchParams.set("key", API_KEYS[keyIndex]);
+
       url = prevUrl.toString();
       await sleep(RATE_LIMIT_DELAY);
     } else {
       url = null;
     }
+
   }
 
   return { news: allNews, rawPages };
