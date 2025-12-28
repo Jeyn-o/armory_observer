@@ -26,16 +26,34 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-// === FETCH FACTION NEWS ===
+// === FETCH FACTION NEWS (WITH RAW PAGES) ===
 async function fetchFactionNews(fromTimestamp, toTimestamp) {
   let allNews = [];
-  let url = `https://api.torn.com/v2/faction/news?striptags=false&limit=100&sort=DESC&from=${fromTimestamp}&to=${toTimestamp}&cat=armoryAction&key=${API_KEYS[keyIndex]}`;
+  let rawPages = [];
+
+  let url =
+    `https://api.torn.com/v2/faction/news` +
+    `?striptags=false` +
+    `&limit=100` +
+    `&sort=DESC` +
+    `&from=${fromTimestamp}` +
+    `&to=${toTimestamp}` +
+    `&cat=armoryAction` +
+    `&key=${API_KEYS[keyIndex]}`;
 
   while (url) {
     const res = await fetch(url);
     if (!res.ok) throw new Error(`API request failed: ${res.status}`);
+
     const data = await res.json();
-    allNews = allNews.concat(data.news);
+
+    rawPages.push({
+      request_url: url,
+      news: data.news ?? [],
+      _metadata: data._metadata ?? null,
+    });
+
+    allNews = allNews.concat(data.news ?? []);
 
     url = data._metadata?.links?.prev
       ? `${data._metadata.links.prev}&key=${API_KEYS[keyIndex]}`
@@ -44,7 +62,7 @@ async function fetchFactionNews(fromTimestamp, toTimestamp) {
     await sleep(RATE_LIMIT_DELAY);
   }
 
-  return allNews;
+  return { news: allNews, rawPages };
 }
 
 // === UPDATE LOANED ITEMS ===
@@ -193,7 +211,7 @@ function commitLogsToRepo() {
     execSync(`git config --local user.name "GitHub Action"`);
     execSync(`git add logs/ loaned_items.json`);
     try {
-      execSync(`git commit -m "Add daily log for ${new Date().toISOString().split('T')[0]}"`);
+      execSync(`git commit -m "Add daily log for ${new Date().toISOString().split("T")[0]}"`);
     } catch {
       console.log("No changes to commit.");
     }
@@ -210,11 +228,15 @@ function commitLogsToRepo() {
     const argDate = process.argv[2];
     const targetDate = argDate ? new Date(argDate) : getYesterdayUTC();
 
-    const fromTimestamp = Date.UTC(targetDate.getUTCFullYear(), targetDate.getUTCMonth(), targetDate.getUTCDate()) / 1000;
+    const fromTimestamp =
+      Date.UTC(
+        targetDate.getUTCFullYear(),
+        targetDate.getUTCMonth(),
+        targetDate.getUTCDate()
+      ) / 1000;
     const toTimestamp = fromTimestamp + 86400;
 
-    const rawNews = await fetchFactionNews(fromTimestamp, toTimestamp);
-    const dailyData = parseDailyData(rawNews);
+    const { news, rawPages } = await fetchFactionNews(fromTimestamp, toTimestamp);
 
     // Folder path
     const year = targetDate.getUTCFullYear();
@@ -223,16 +245,30 @@ function commitLogsToRepo() {
     const dayFolder = path.join(logsDir, `${year}`, `${month}`);
     if (!fs.existsSync(dayFolder)) fs.mkdirSync(dayFolder, { recursive: true });
 
+    // Save RAW dump
+    const rawDump = {
+      from: fromTimestamp,
+      to: toTimestamp,
+      fetched_at: new Date().toISOString(),
+      pages: rawPages,
+    };
+
+    const rawFilename = path.join(dayFolder, `${day}.raw.json`);
+    fs.writeFileSync(rawFilename, JSON.stringify(rawDump, null, 2));
+    console.log(`Saved raw log: ${rawFilename}`);
+
+    // Parse & save processed data
+    const dailyData = parseDailyData(news);
     const filename = path.join(dayFolder, `${day}.json`);
     fs.writeFileSync(filename, JSON.stringify(dailyData, null, 2));
     console.log(`Saved daily log: ${filename}`);
 
     const loanedData = JSON.parse(fs.readFileSync(loanedFilePath, "utf-8"));
-    updateLoanedItems(loanedData, rawNews);
+    updateLoanedItems(loanedData, news);
     fs.writeFileSync(loanedFilePath, JSON.stringify(loanedData, null, 2));
     console.log("Updated loaned_items.json successfully.");
 
-    // Commit and push to repo
+    // Commit and push
     commitLogsToRepo();
   } catch (err) {
     console.error("Error fetching or saving data:", err);
