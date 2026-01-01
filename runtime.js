@@ -9,9 +9,10 @@ const loanedFilePath = path.join(process.cwd(), "loaned_items.json");
 const logsDir = path.join(process.cwd(), "logs");
 
 // === CONFIG ===
-const API_KEYS = ["TlLjcWRDbiY9wybA"]; // Replace with your actual API keys
+const API_KEYS = ["TlLjcWRDbiY9wybA"];
 let keyIndex = 0;
 const RATE_LIMIT_DELAY = 1000; // ms
+const SaveFileAsRaw = false;
 
 // === UTILS ===
 function getYesterdayUTC() {
@@ -324,8 +325,10 @@ function commitLogsToRepo() {
     };
 
     const rawFilename = path.join(dayFolder, `${day}.raw.json`);
-    fs.writeFileSync(rawFilename, JSON.stringify(rawDump, null, 2));
-    console.log(`Saved raw log: ${rawFilename}`);
+    if(SaveFileAsRaw) {
+      fs.writeFileSync(rawFilename, JSON.stringify(rawDump, null, 2));
+      console.log(`Saved raw log: ${rawFilename}`);
+    }
 
     // Parse & save processed data
     const dailyData = parseDailyData(news);
