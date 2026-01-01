@@ -3,12 +3,16 @@ name: Torn Armory Daily Fetch
 permissions:
   contents: write
 
-
-# Trigger daily at 01:00 UTC, also allow manual triggering
+# Trigger daily at 02:00 UTC, also allow manual triggering
 on:
   schedule:
     - cron: '0 2 * * *'
   workflow_dispatch:
+    inputs:
+      date:
+        description: 'Optional: fetch logs for a specific date (YYYY-MM-DD)'
+        required: false
+        default: ''
 
 jobs:
   fetch-armory:
@@ -28,4 +32,11 @@ jobs:
 
       # Step 4: Run the runtime script
       - name: Run Torn Armory Runtime
-        run: node runtime.js
+        run: |
+          if [ "${{ github.event.inputs.date }}" != "" ]; then
+            echo "Fetching logs for ${{ github.event.inputs.date }}"
+            node runtime.js ${{ github.event.inputs.date }}
+          else
+            echo "Fetching logs for yesterday"
+            node runtime.js
+          fi
