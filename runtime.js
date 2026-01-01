@@ -123,14 +123,20 @@ async function fetchFactionNews(fromTimestamp, toTimestamp) {
   return { news: allNews, rawPages };
 }
 
-// === UPDATE LOANED ITEMS ===
+// === UPDATE LOANED ITEMS (WITH OC_ITEMS FILTER) ===
 function updateLoanedItems(loanedData, dailyData) {
+  // Load items.json dynamically
+  const itemsFilePath = path.join(process.cwd(), "items.json");
+  const itemsData = JSON.parse(fs.readFileSync(itemsFilePath, "utf-8"));
+  const OC_ITEMS = new Set(itemsData.OC_items || []);
+
   dailyData.forEach((event) => {
     const ts = event.timestamp;
     const text = event.text;
     const userIds = [...text.matchAll(/XID=(\d+)/g)].map((m) => m[1]);
     if (userIds.length === 0) return;
 
+    // Deposits (donated items, always track)
     if (text.includes("deposited")) {
       const match = text.match(/deposited (\d+) x (.+)$/);
       if (match) {
@@ -141,29 +147,39 @@ function updateLoanedItems(loanedData, dailyData) {
         if (!loanedData.current[uid][item]) loanedData.current[uid][item] = [];
         loanedData.current[uid][item].push([amount, ts]);
       }
-    } else if (text.includes("loaned") && !text.includes("to themselves")) {
+    }
+    // Loaned to others
+    else if (text.includes("loaned") && !text.includes("to themselves")) {
       const amountMatch = text.match(/loaned (\d+)x (.+) to .+ from the faction armory/);
       if (amountMatch) {
         const amount = parseInt(amountMatch[1]);
         const item = amountMatch[2].trim();
         const initiator = userIds[0];
         const receiver = userIds[1];
-        if (!loanedData.current[receiver]) loanedData.current[receiver] = {};
-        if (!loanedData.current[receiver][item]) loanedData.current[receiver][item] = [];
-        loanedData.current[receiver][item].push([amount, ts, initiator]);
+
+        // Skip current loan tracking if OC item
+        if (!OC_ITEMS.has(item)) {
+          if (!loanedData.current[receiver]) loanedData.current[receiver] = {};
+          if (!loanedData.current[receiver][item]) loanedData.current[receiver][item] = [];
+          loanedData.current[receiver][item].push([amount, ts, initiator]);
+        }
       }
-    } else if (text.includes("returned") || text.includes("retrieved")) {
+    }
+    // Returned or retrieved (always track history)
+    else if (text.includes("returned") || text.includes("retrieved")) {
       const match = text.match(/(\d+)x (.+)/);
       if (match) {
         const amount = parseInt(match[1]);
         const item = match[2].trim();
         const uid = userIds[0];
 
-        if (loanedData.current[uid]?.[item]) {
+        // Only shift current if not OC
+        if (!OC_ITEMS.has(item) && loanedData.current[uid]?.[item]) {
           loanedData.current[uid][item].shift();
           if (loanedData.current[uid][item].length === 0) delete loanedData.current[uid][item];
         }
 
+        // Always add to history
         if (!loanedData.history[uid]) loanedData.history[uid] = {};
         if (!loanedData.history[uid][item]) loanedData.history[uid][item] = [];
         loanedData.history[uid][item].push([amount, ts, userIds[1] || null]);
@@ -171,6 +187,7 @@ function updateLoanedItems(loanedData, dailyData) {
     }
   });
 }
+
 
 // === PARSE DAILY DATA ===
 function parseDailyData(rawNews) {
