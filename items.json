@@ -1,6 +1,36 @@
 {
   "OC_items": [
+    "Jemmy", //Tools
+    "Net",
+    "Lockpicks",
+    "Police Badge",
+    "DSLR Camera",
+    "RF Detector",
+    "Construction Helmet",
+    "Binoculars",
+    "Wire Cutters",
+    "Bolt Cutters",
+    "Dental Mirror",
+    "Billfold",
+    "Hand Drill",
+    "Dog Treats", //Materials
+    "ID Badge",
+    "ATM Key",
+    "Gasoline",
+    "PCP",
+    "Zip Ties",
+    "Stealth Virus",
+    "Spray Paint : Black",
+    "Chloroform",
+    "Flash Grenade",
+    "C4 Explosive",
+    "Core Drill",
+    "Shaped Charge",
     "Firewalk Virus",
-    "C4 Explosive"
+    "Smoke Grenade",
+    "Irradiated Blood Bag",
+    "Syringe",
+    "Polymorphic Virus",
+    "Tunneling Virus"
   ]
 }
