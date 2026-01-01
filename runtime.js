@@ -171,7 +171,7 @@ function updateLoanedItems(loanedData, dailyData) {
       const match = text.match(/(\d+)x (.+)/);
       if (match) {
         const amount = parseInt(match[1]);
-        const item = match[2].trim();
+        const item = match[2].trim().replace(/ from <a .*<\/a>/, "");
         const uid = userIds[0];
 
         // Only shift current if not OC
