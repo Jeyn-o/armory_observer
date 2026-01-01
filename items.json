@@ -1,6 +1,7 @@
 {
   "OC_items": [
-    "Jemmy", //Tools
+    "__TOOLS__",
+    "Jemmy",
     "Net",
     "Lockpicks",
     "Police Badge",
@@ -13,7 +14,8 @@
     "Dental Mirror",
     "Billfold",
     "Hand Drill",
-    "Dog Treats", //Materials
+    "__MATERIALS__",
+    "Dog Treats",
     "ID Badge",
     "ATM Key",
     "Gasoline",
