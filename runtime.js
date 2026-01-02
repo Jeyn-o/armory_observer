@@ -189,6 +189,52 @@ function updateLoanedItems(loanedData, dailyData) {
   });
 }
 
+// === UPDATE INDEX.JSON ===
+function updateIndexJson(year, month) {
+  const indexPath = path.join(process.cwd(), "index.json");
+
+  // Load existing index.json or create new
+  let indexData = { years: {} };
+  if (fs.existsSync(indexPath)) {
+    try {
+      indexData = JSON.parse(fs.readFileSync(indexPath, "utf-8"));
+    } catch {
+      console.warn("Failed to parse index.json, creating a new one.");
+      indexData = { years: {} };
+    }
+  }
+
+  if (!indexData.years[year]) indexData.years[year] = {};
+
+  // Check if Month.json exists for this month
+  const monthFolder = path.join(logsDir, `${year}`, month);
+  const monthFile = path.join(monthFolder, "Month.json");
+  const hasMonthJson = fs.existsSync(monthFile);
+
+  // Ensure month entry exists
+  if (!indexData.years[year][month]) indexData.years[year][month] = { days: [], hasMonthJson: false };
+
+  // Update Month.json flag
+  indexData.years[year][month].hasMonthJson = hasMonthJson;
+
+  // Update available days if Month.json does NOT exist
+  if (!hasMonthJson) {
+    const dailyFiles = fs.readdirSync(monthFolder)
+      .filter(f => f.endsWith(".json") && !f.endsWith(".raw.json") && f !== "Month.json")
+      .map(f => parseInt(f.replace(".json", ""), 10))
+      .sort((a,b)=>a-b);
+
+    indexData.years[year][month].days = dailyFiles;
+  } else {
+    // If Month.json exists, clear individual days (all days are implied)
+    indexData.years[year][month].days = [];
+  }
+
+  // Save updated index.json
+  fs.writeFileSync(indexPath, JSON.stringify(indexData, null, 2));
+  console.log(`Updated index.json for ${year}-${month}`);
+}
+
 
 // === PARSE DAILY DATA ===
 function parseDailyData(rawNews) {
@@ -343,6 +389,9 @@ function commitLogsToRepo() {
 
     // Merge monthly summary if eligible
     mergeMonthLogs(year, month);
+
+    // Update index file
+    updateIndexJson(year, month);
 
     // Commit and push
     commitLogsToRepo();
