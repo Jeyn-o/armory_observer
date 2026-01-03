@@ -34,5 +34,14 @@
     "Syringe",
     "Polymorphic Virus",
     "Tunneling Virus"
-  ]
+  ],
+  "Weapons": [],
+  "Armor": [],
+  "Temporary": [],
+  "Medical": [],
+  "Consumables": [],
+  "Drugs": [],
+  "Boosters": [],
+  "Utilities": [],
+  "Loot": []
 }
