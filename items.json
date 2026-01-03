@@ -38,9 +38,26 @@
   "Weapons": [],
   "Armor": [],
   "Temporary": [],
-  "Medical": [],
-  "Consumables": [],
-  "Drugs": [],
+  "Medical": [
+    "Blood Bag : A+",
+    "Blood Bag : A-",
+    "Blood Bag : B+",
+    "Blood Bag : B-",
+    "Blood Bag : AB+",
+    "Blood Bag : AB-",
+    "Blood Bag : O+",
+    "Blood Bag : O-",
+    "First Aid Kit",
+    "Small First Aid Kit"
+  ],
+  "Consumables": [
+    "Bottle of Beer",
+    "Bottle of Champagne",
+    "Box of Chocolate Bars",
+  ],
+  "Drugs": [
+    "Xanax"
+  ],
   "Boosters": [],
   "Utilities": [],
   "Loot": []
