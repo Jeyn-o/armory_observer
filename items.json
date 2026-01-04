@@ -154,7 +154,8 @@
     "HEG",
     "Molotov Cocktail",
     "Pepper Spray",
-    "Tear Gas"
+    "Tear Gas",
+    "Trout",
   ],
   "Medical": [
     "Blood Bag : A+",
@@ -170,7 +171,8 @@
     "Empty Blood Bag",
     "Ipecac Syrup",
     "Morphine",
-    "Neumune Tablet"
+    "Neumune Tablet",
+    "Blood Bag : Irradiated",
   ],
   "Consumables": [
     "Bottle of Beer",
