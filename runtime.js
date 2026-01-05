@@ -261,40 +261,25 @@ function mergeMonthLogs(year, month) {
 }
 
 // === UPDATE INDEX.JSON (FROM PROJECT ROOT) ===
-function updateIndexJson(year, month) {
+function updateIndexJson(year, month, day) {
   const indexPath = path.join(process.cwd(), "index.json");
-  let indexData = {};
+  let index = {};
   if (fs.existsSync(indexPath)) {
-    indexData = JSON.parse(fs.readFileSync(indexPath, "utf-8"));
+    index = JSON.parse(fs.readFileSync(indexPath, "utf-8"));
   }
 
-  if (!indexData[year]) indexData[year] = {};
-  if (!indexData[year][month]) indexData[year][month] = { days: [], hasMonthJson: false };
+  index[year] ??= {};
+  index[year][month] ??= [];
 
-  const monthFolder = path.join(logsDir, `${year}`, month);
-  const monthFile = path.join(monthFolder, "Month.json");
-  const hasMonthJson = fs.existsSync(monthFile);
-
-  indexData[year][month].hasMonthJson = hasMonthJson;
-
-  if (!hasMonthJson) {
-    if (fs.existsSync(monthFolder)) {
-      const dailyFiles = fs.readdirSync(monthFolder)
-        .filter(f => f.endsWith(".json") && f !== "Month.json" && !f.endsWith(".raw.json"))
-        .map(f => parseInt(f.replace(".json", ""), 10))
-        .sort((a, b) => a - b)
-        .map(n => String(n).padStart(2, "0"));
-      indexData[year][month].days = dailyFiles;
-    } else {
-      indexData[year][month].days = [];
-    }
-  } else {
-    indexData[year][month].days = [];
+  if (!index[year][month].includes(day)) {
+    index[year][month].push(day);
+    index[year][month].sort((a, b) => a.localeCompare(b));
   }
 
-  fs.writeFileSync(indexPath, JSON.stringify(indexData, null, 2));
+  fs.writeFileSync(indexPath, JSON.stringify(index, null, 2));
   console.log(`Updated index.json for ${year}-${month}`);
 }
+
 
 // === COMMIT TO REPO ===
 function commitLogsToRepo() {
