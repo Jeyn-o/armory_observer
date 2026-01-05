@@ -329,18 +329,22 @@ function commitLogsToRepo() {
   try {
     execSync(`git config --local user.email "action@github.com"`);
     execSync(`git config --local user.name "GitHub Action"`);
-    execSync(`git add logs/ loaned_items.json`);
+    
+    // Add all relevant files
+    execSync(`git add logs/ loaned_items.json index.json`);
+    
     try {
-      execSync(`git commit -m "Add daily log for ${new Date().toISOString().split("T")[0]}"`);
+      execSync(`git commit -m "Add/update daily log and index for ${new Date().toISOString().split("T")[0]}"`);
     } catch {
       console.log("No changes to commit.");
     }
     execSync(`git push`);
-    console.log("Logs committed and pushed to repo.");
+    console.log("Logs and index.json committed and pushed to repo.");
   } catch (err) {
     console.error("Error committing logs:", err);
   }
 }
+
 
 // === MAIN RUNTIME ===
 (async () => {
