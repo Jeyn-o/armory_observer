@@ -7,5 +7,13 @@
       ],
       "hasMonthJson": false
     }
+  },
+  "2025": {
+    "01": {
+      "days": [
+        "01"
+      ],
+      "hasMonthJson": false
+    }
   }
 }
