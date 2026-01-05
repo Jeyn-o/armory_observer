@@ -26,7 +26,7 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// === FETCH FACTION NEWS BY CATEGORY ===
+// === FETCH FACTION NEWS BY CATEGORY (RESTORED RAW & STRIPTAGS HANDLING) ===
 async function fetchFactionNewsByCat(from, to, cat) {
   let allNews = [];
   let rawPages = [];
@@ -50,6 +50,7 @@ async function fetchFactionNewsByCat(from, to, cat) {
     rawPages.push({
       category: cat,
       request_url: url,
+      has_html: data.news?.[0]?.text?.includes("XID=") ?? false,
       news: data.news ?? [],
       _metadata: data._metadata ?? null,
     });
@@ -58,8 +59,14 @@ async function fetchFactionNewsByCat(from, to, cat) {
 
     if (data._metadata?.links?.prev) {
       const prevUrl = new URL(data._metadata.links.prev);
+
+      // Preserve striptags=false and API key
+      [...prevUrl.searchParams.keys()]
+        .filter(k => k.toLowerCase() === "striptags")
+        .forEach(k => prevUrl.searchParams.delete(k));
       prevUrl.searchParams.set("striptags", "false");
       prevUrl.searchParams.set("key", API_KEYS[keyIndex]);
+
       url = prevUrl.toString();
       await sleep(RATE_LIMIT_DELAY);
     } else {
@@ -178,6 +185,8 @@ function parseDailyData(rawNews) {
 }
 
 // === HELPER FUNCTIONS ===
+
+// UPDATE LOANED ITEMS (simplified from NEW version)
 function updateLoanedItems(dailyData) {
   let loaned = {};
   if (fs.existsSync(loanedFilePath)) {
@@ -201,58 +210,111 @@ function updateLoanedItems(dailyData) {
   fs.writeFileSync(loanedFilePath, JSON.stringify(loaned, null, 2));
 }
 
+// === CHECK IF ALL DAYS EXIST ===
+function allDaysExist(year, month) {
+  const monthFolder = path.join(logsDir, `${year}`, month);
+  if (!fs.existsSync(monthFolder)) return false;
+
+  const lastDay = new Date(Date.UTC(year, parseInt(month), 0)).getUTCDate();
+  for (let day = 1; day <= lastDay; day++) {
+    const dayStr = String(day).padStart(2, "0");
+    if (!fs.existsSync(path.join(monthFolder, `${dayStr}.json`))) return false;
+  }
+  return true;
+}
+
+// === MERGE MONTH LOGS (ONLY IF ALL DAYS EXIST) ===
 function mergeMonthLogs(year, month) {
+  if (!allDaysExist(year, month)) return;
+
   const monthFolder = path.join(logsDir, `${year}`, month);
   const monthFile = path.join(monthFolder, `Month.json`);
-  let merged = {};
+  const merged = {};
 
-  if (fs.existsSync(monthFile)) {
-    merged = JSON.parse(fs.readFileSync(monthFile));
-  }
+  const dailyFiles = fs.readdirSync(monthFolder)
+    .filter(f => f.endsWith(".json") && f !== "Month.json" && !f.endsWith(".raw.json"));
 
-  fs.readdirSync(monthFolder).forEach(file => {
-    if (file.endsWith(".json") && file !== "Month.json" && file !== "loaned_items.json") {
-      const data = JSON.parse(fs.readFileSync(path.join(monthFolder, file)));
-      for (const uid in data) {
-        merged[uid] ??= {
-          donated: {},
-          used: {},
-          filled: {},
-          loaned: {},
-          loaned_receive: {},
-          returned: {},
-          retrieved: {},
-        };
-        const userLog = merged[uid];
-        for (const category of Object.keys(data[uid])) {
-          userLog[category] ??= {};
-          for (const item in data[uid][category]) {
-            userLog[category][item] ??= [];
-            userLog[category][item].push(...data[uid][category][item]);
-          }
+  dailyFiles.forEach(file => {
+    const dailyData = JSON.parse(fs.readFileSync(path.join(monthFolder, file)));
+    for (const uid in dailyData) {
+      if (!merged[uid]) merged[uid] = {
+        donated: {},
+        used: {},
+        filled: {},
+        loaned: {},
+        loaned_receive: {},
+        returned: {},
+        retrieved: {},
+      };
+      const actions = ["donated", "used", "filled", "loaned", "loaned_receive", "returned", "retrieved"];
+      actions.forEach(action => {
+        for (const item in dailyData[uid][action]) {
+          if (!merged[uid][action][item]) merged[uid][action][item] = [];
+          merged[uid][action][item] = merged[uid][action][item].concat(dailyData[uid][action][item]);
         }
-      }
+      });
     }
   });
 
   fs.writeFileSync(monthFile, JSON.stringify(merged, null, 2));
+  console.log(`Created monthly summary: ${monthFile}`);
 }
 
-function updateIndexJson(year, month, day) {
-  const indexPath = path.join(logsDir, "index.json");
-  let index = {};
+// === UPDATE INDEX.JSON (FROM PROJECT ROOT) ===
+function updateIndexJson(year, month) {
+  const indexPath = path.join(process.cwd(), "index.json");
+  let indexData = {};
   if (fs.existsSync(indexPath)) {
-    index = JSON.parse(fs.readFileSync(indexPath));
+    indexData = JSON.parse(fs.readFileSync(indexPath, "utf-8"));
   }
 
-  index[year] ??= {};
-  index[year][month] ??= [];
-  if (!index[year][month].includes(day)) {
-    index[year][month].push(day);
-    index[year][month].sort((a, b) => a - b);
+  if (!indexData[year]) indexData[year] = {};
+  if (!indexData[year][month]) indexData[year][month] = { days: [], hasMonthJson: false };
+
+  const monthFolder = path.join(logsDir, `${year}`, month);
+  const monthFile = path.join(monthFolder, "Month.json");
+  const hasMonthJson = fs.existsSync(monthFile);
+
+  indexData[year][month].hasMonthJson = hasMonthJson;
+
+  if (!hasMonthJson) {
+    if (fs.existsSync(monthFolder)) {
+      const dailyFiles = fs.readdirSync(monthFolder)
+        .filter(f => f.endsWith(".json") && f !== "Month.json" && !f.endsWith(".raw.json"))
+        .map(f => parseInt(f.replace(".json", ""), 10))
+        .sort((a, b) => a - b)
+        .map(n => String(n).padStart(2, "0"));
+      indexData[year][month].days = dailyFiles;
+    } else {
+      indexData[year][month].days = [];
+    }
+  } else {
+    indexData[year][month].days = [];
   }
 
-  fs.writeFileSync(indexPath, JSON.stringify(index, null, 2));
+  fs.writeFileSync(indexPath, JSON.stringify(indexData, null, 2));
+  console.log(`Updated index.json for ${year}-${month}`);
+}
+
+// === COMMIT TO REPO ===
+function commitLogsToRepo() {
+  try {
+    execSync(`git config --local user.email "action@github.com"`);
+    execSync(`git config --local user.name "GitHub Action"`);
+
+    execSync(`git add logs/ loaned_items.json index.json`);
+
+    try {
+      execSync(`git commit -m "Add/update daily log and index for ${new Date().toISOString().split("T")[0]}"`);
+    } catch {
+      console.log("No changes to commit.");
+    }
+
+    execSync(`git push`);
+    console.log("Logs and index.json committed and pushed to repo.");
+  } catch (err) {
+    console.error("Error committing logs:", err);
+  }
 }
 
 // === MAIN RUNTIME ===
@@ -280,8 +342,9 @@ function updateIndexJson(year, month, day) {
     if (SaveFileAsRaw) {
       fs.writeFileSync(
         path.join(dayFolder, `${day}.raw.json`),
-        JSON.stringify({ from: fromTs, to: toTs, pages: rawPages }, null, 2)
+        JSON.stringify({ from: fromTs, to: toTs, fetched_at: new Date().toISOString(), pages: rawPages }, null, 2)
       );
+      console.log(`Saved raw log: ${dayFolder}/${day}.raw.json`);
     }
 
     const dailyData = parseDailyData(news);
@@ -294,13 +357,8 @@ function updateIndexJson(year, month, day) {
 
     updateLoanedItems(dailyData);
     mergeMonthLogs(year, month);
-    updateIndexJson(year, month, day);
-
-    execSync(`git add logs/ index.json loaned_items.json`);
-    try {
-      execSync(`git commit -m "Add daily log ${year}-${month}-${day}"`);
-    } catch {}
-    execSync(`git push`);
+    updateIndexJson(year, month);
+    commitLogsToRepo();
 
   } catch (err) {
     console.error("Runtime failed:", err);
