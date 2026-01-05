@@ -1,0 +1,51 @@
+name: Torn Armory Monthly Fetch
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: 'Year to fetch (YYYY)'
+        required: true
+        default: '2026'
+      month:
+        description: 'Month to fetch (01-12)'
+        required: true
+        default: '01'
+
+jobs:
+  fetch-month:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Configure git identity
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+      - name: Fetch month logs
+        run: |
+          YEAR=${{ github.event.inputs.year }}
+          MONTH=${{ github.event.inputs.month }}
+
+          echo "Fetching logs for $YEAR-$MONTH..."
+
+          # Compute number of days in month
+          DAYS=$(cal $MONTH $YEAR | awk 'NF {DAYS=$NF} END {print DAYS}')
+
+          for DAY in $(seq -w 1 $DAYS); do
+            echo "Fetching $YEAR-$MONTH-$DAY..."
+            node runtime.js "$YEAR-$MONTH-$DAY"
+            echo "Sleeping 60 seconds before next day..."
+            sleep 60
+          done
