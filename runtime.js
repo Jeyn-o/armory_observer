@@ -12,7 +12,7 @@ const logsDir = path.join(process.cwd(), "logs");
 const API_KEYS = ["TlLjcWRDbiY9wybA"];
 let keyIndex = 0;
 const RATE_LIMIT_DELAY = 1000; // ms
-const SaveFileAsRaw = true;
+const SaveFileAsRaw = false;
 
 // === UTILS ===
 function getYesterdayUTC() {
@@ -23,61 +23,11 @@ function getYesterdayUTC() {
 }
 
 function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// Check if all days exist for a given month
-function allDaysExist(year, month) {
-  const monthFolder = path.join(logsDir, `${year}`, month);
-  if (!fs.existsSync(monthFolder)) return false;
-
-  const lastDay = new Date(Date.UTC(year, parseInt(month), 0)).getUTCDate();
-  for (let day = 1; day <= lastDay; day++) {
-    const dayStr = String(day).padStart(2, "0");
-    if (!fs.existsSync(path.join(monthFolder, `${dayStr}.json`))) return false;
-  }
-  return true;
-}
-
-// Merge daily logs into a monthly summary
-function mergeMonthLogs(year, month) {
-  const monthFolder = path.join(logsDir, `${year}`, month);
-  const monthFile = path.join(monthFolder, "Month.json");
-  if (fs.existsSync(monthFile)) return; // Already exists
-
-  if (!allDaysExist(year, month)) return; // Not all daily logs exist
-
-  const dailyFiles = fs.readdirSync(monthFolder).filter(f => f.endsWith(".json") && f !== "Month.json" && f.endsWith(".raw.json") === false);
-  const merged = {};
-
-  dailyFiles.forEach(file => {
-    const dailyData = JSON.parse(fs.readFileSync(path.join(monthFolder, file), "utf-8"));
-    for (const uid in dailyData) {
-      if (!merged[uid]) merged[uid] = {
-        donated: {},
-        used: {},
-        filled: {},
-        loaned: {},
-        loaned_receive: {},
-        returned: {},
-        retrieved: {},
-      };
-      const actions = ["donated", "used", "filled", "loaned", "loaned_receive", "returned", "retrieved"];
-      actions.forEach(action => {
-        for (const item in dailyData[uid][action]) {
-          if (!merged[uid][action][item]) merged[uid][action][item] = [];
-          merged[uid][action][item] = merged[uid][action][item].concat(dailyData[uid][action][item]);
-        }
-      });
-    }
-  });
-
-  fs.writeFileSync(monthFile, JSON.stringify(merged, null, 2));
-  console.log(`Created monthly summary: ${monthFile}`);
-}
-
-// === FETCH FACTION NEWS (WITH RAW PAGES) ===
-async function fetchFactionNews(fromTimestamp, toTimestamp) {
+// === FETCH FACTION NEWS BY CATEGORY ===
+async function fetchFactionNewsByCat(from, to, cat) {
   let allNews = [];
   let rawPages = [];
 
@@ -86,9 +36,9 @@ async function fetchFactionNews(fromTimestamp, toTimestamp) {
     `?striptags=false` +
     `&limit=100` +
     `&sort=DESC` +
-    `&from=${fromTimestamp}` +
-    `&to=${toTimestamp}` +
-    `&cat=armoryAction` +
+    `&from=${from}` +
+    `&to=${to}` +
+    `&cat=${cat}` +
     `&key=${API_KEYS[keyIndex]}`;
 
   while (url) {
@@ -98,8 +48,8 @@ async function fetchFactionNews(fromTimestamp, toTimestamp) {
     const data = await res.json();
 
     rawPages.push({
+      category: cat,
       request_url: url,
-      has_html: data.news?.[0]?.text?.includes("XID=") ?? false,
       news: data.news ?? [],
       _metadata: data._metadata ?? null,
     });
@@ -108,9 +58,6 @@ async function fetchFactionNews(fromTimestamp, toTimestamp) {
 
     if (data._metadata?.links?.prev) {
       const prevUrl = new URL(data._metadata.links.prev);
-      [...prevUrl.searchParams.keys()]
-        .filter(k => k.toLowerCase() === "striptags")
-        .forEach(k => prevUrl.searchParams.delete(k));
       prevUrl.searchParams.set("striptags", "false");
       prevUrl.searchParams.set("key", API_KEYS[keyIndex]);
       url = prevUrl.toString();
@@ -118,136 +65,32 @@ async function fetchFactionNews(fromTimestamp, toTimestamp) {
     } else {
       url = null;
     }
-
   }
 
   return { news: allNews, rawPages };
 }
 
-// === UPDATE LOANED ITEMS (WITH OC_ITEMS FILTER) ===
-function updateLoanedItems(loanedData, dailyData) {
-  // Load items.json dynamically
-  const itemsFilePath = path.join(process.cwd(), "items.json");
-  const itemsData = JSON.parse(fs.readFileSync(itemsFilePath, "utf-8"));
-  const OC_ITEMS = new Set(itemsData.OC_items || []);
+// === FETCH ALL ARMORY DATA ===
+async function fetchAllFactionNews(from, to) {
+  const actions = await fetchFactionNewsByCat(from, to, "armoryAction");
+  const deposits = await fetchFactionNewsByCat(from, to, "armoryDeposit");
 
-  dailyData.forEach((event) => {
-    const ts = event.timestamp;
-    const text = event.text;
-    const userIds = [...text.matchAll(/XID=(\d+)/g)].map((m) => m[1]);
-    if (userIds.length === 0) return;
-
-    // Deposits (donated items, always track)
-    if (text.includes("deposited")) {
-      const match = text.match(/deposited (\d+) x (.+)$/);
-      if (match) {
-        const amount = parseInt(match[1]);
-        const item = match[2].trim();
-        const uid = userIds[0];
-        if (!loanedData.current[uid]) loanedData.current[uid] = {};
-        if (!loanedData.current[uid][item]) loanedData.current[uid][item] = [];
-        loanedData.current[uid][item].push([amount, ts]);
-      }
-    }
-    // Loaned to others
-    else if (text.includes("loaned") && !text.includes("to themselves")) {
-      const amountMatch = text.match(/loaned (\d+)x (.+) to .+ from the faction armory/);
-      if (amountMatch) {
-        const amount = parseInt(amountMatch[1]);
-        const item = amountMatch[2].trim();
-        const initiator = userIds[0];
-        const receiver = userIds[1];
-
-        // Skip current loan tracking if OC item
-        if (!OC_ITEMS.has(item)) {
-          if (!loanedData.current[receiver]) loanedData.current[receiver] = {};
-          if (!loanedData.current[receiver][item]) loanedData.current[receiver][item] = [];
-          loanedData.current[receiver][item].push([amount, ts, initiator]);
-        }
-      }
-    }
-    // Returned or retrieved (always track history)
-    else if (text.includes("returned") || text.includes("retrieved")) {
-      const match = text.match(/(\d+)x (.+)/);
-      if (match) {
-        const amount = parseInt(match[1]);
-        const item = match[2].trim().replace(/ from <a .*<\/a>/, "");
-        const uid = userIds[0];
-
-        // Only shift current if not OC
-        if (!OC_ITEMS.has(item) && loanedData.current[uid]?.[item]) {
-          loanedData.current[uid][item].shift();
-          if (loanedData.current[uid][item].length === 0) delete loanedData.current[uid][item];
-        }
-
-        // Always add to history
-        if (!loanedData.history[uid]) loanedData.history[uid] = {};
-        if (!loanedData.history[uid][item]) loanedData.history[uid][item] = [];
-        loanedData.history[uid][item].push([amount, ts, userIds[1] || null]);
-      }
-    }
-  });
+  return {
+    news: [...actions.news, ...deposits.news],
+    rawPages: [...actions.rawPages, ...deposits.rawPages],
+  };
 }
-
-// === UPDATE INDEX.JSON ===
-function updateIndexJson(year, month) {
-  const indexPath = path.join(process.cwd(), "index.json");
-
-  // Load existing index.json or create new
-  let indexData = {};
-  if (fs.existsSync(indexPath)) {
-    try {
-      indexData = JSON.parse(fs.readFileSync(indexPath, "utf-8"));
-    } catch {
-      console.warn("Failed to parse index.json, creating a new one.");
-      indexData = {};
-    }
-  }
-
-  // Ensure structure exists
-  if (!indexData[year]) indexData[year] = {};
-  if (!indexData[year][month]) indexData[year][month] = { days: [], hasMonthJson: false };
-
-  // Paths
-  const monthFolder = path.join(logsDir, `${year}`, month);
-  const monthFile = path.join(monthFolder, "Month.json");
-  const hasMonthJson = fs.existsSync(monthFile);
-
-  // Update month entry
-  indexData[year][month].hasMonthJson = hasMonthJson;
-
-  if (!hasMonthJson) {
-    // List available daily logs
-    if (fs.existsSync(monthFolder)) {
-      const dailyFiles = fs.readdirSync(monthFolder)
-        .filter(f => f.endsWith(".json") && f !== "Month.json" && !f.endsWith(".raw.json"))
-        .map(f => parseInt(f.replace(".json",""),10))
-        .sort((a,b)=>a-b)
-        .map(n => String(n).padStart(2,"0"));
-      indexData[year][month].days = dailyFiles;
-    } else {
-      indexData[year][month].days = [];
-    }
-  } else {
-    // If Month.json exists, clear individual days
-    indexData[year][month].days = [];
-  }
-
-  fs.writeFileSync(indexPath, JSON.stringify(indexData, null, 2));
-  console.log(`Updated index.json for ${year}-${month}`);
-}
-
-
 
 // === PARSE DAILY DATA ===
 function parseDailyData(rawNews) {
   const dailyLog = {};
 
-  rawNews.forEach((event) => {
+  rawNews.forEach(event => {
     const ts = event.timestamp;
     const text = event.text;
-    const userIds = [...text.matchAll(/XID=(\d+)/g)].map((m) => m[1]);
-    if (userIds.length === 0) return;
+    const userIds = [...text.matchAll(/XID=(\d+)/g)].map(m => m[1]);
+    if (!userIds.length) return;
+
     const uid = userIds[userIds.length - 1];
 
     if (!dailyLog[uid]) {
@@ -265,58 +108,68 @@ function parseDailyData(rawNews) {
     const log = dailyLog[uid];
 
     if (text.includes("deposited")) {
-      const match = text.match(/deposited (\d+) x (.+)$/);
-      if (match) {
-        const amount = parseInt(match[1]);
-        const item = match[2].trim();
-        if (!log.donated[item]) log.donated[item] = [];
-        log.donated[item].push([amount, ts]);
+      const m = text.match(/deposited (\d+) x (.+)$/);
+      if (m) {
+        const amt = parseInt(m[1]);
+        const item = m[2].trim();
+        log.donated[item] ??= [];
+        log.donated[item].push([amt, ts]);
       }
-    } else if (text.includes("used one of the faction")) {
-      const match = text.match(/used one of the faction's (.+) items/);
-      if (match) {
-        const item = match[1].trim();
-        if (!log.used[item]) log.used[item] = [];
+    }
+
+    else if (text.includes("used one of the faction")) {
+      const m = text.match(/used one of the faction's (.+) items/);
+      if (m) {
+        const item = m[1].trim();
+        log.used[item] ??= [];
         log.used[item].push([1, ts]);
       }
-    } else if (text.includes("filled one of the faction")) {
-      const match = text.match(/filled one of the faction's (.+) items/);
-      if (match) {
-        const item = match[1].trim();
-        if (!log.filled[item]) log.filled[item] = [];
+    }
+
+    else if (text.includes("filled one of the faction")) {
+      const m = text.match(/filled one of the faction's (.+) items/);
+      if (m) {
+        const item = m[1].trim();
+        log.filled[item] ??= [];
         log.filled[item].push([1, ts]);
       }
-    } else if (text.includes("loaned")) {
-      const amountMatch = text.match(/loaned (\d+)x (.+) to .+ from the faction armory/);
-      if (amountMatch) {
-        const amount = parseInt(amountMatch[1]);
-        const item = amountMatch[2].trim();
+    }
+
+    else if (text.includes("loaned")) {
+      const m = text.match(/loaned (\d+)x (.+) to .+ from the faction armory/);
+      if (m) {
+        const amt = parseInt(m[1]);
+        const item = m[2].trim();
         const initiator = userIds[0];
         const receiver = userIds[1];
+
         if (receiver === initiator) {
-          if (!log.loaned[item]) log.loaned[item] = [];
-          log.loaned[item].push([amount, ts]);
+          log.loaned[item] ??= [];
+          log.loaned[item].push([amt, ts]);
         } else {
-          if (!log.loaned_receive[item]) log.loaned_receive[item] = [];
-          log.loaned_receive[item].push([amount, ts, initiator]);
+          log.loaned_receive[item] ??= [];
+          log.loaned_receive[item].push([amt, ts, initiator]);
         }
       }
-    } else if (text.includes("returned")) {
-      const match = text.match(/returned (\d+)x (.+)/);
-      if (match) {
-        const amount = parseInt(match[1]);
-        const item = match[2].trim();
-        if (!log.returned[item]) log.returned[item] = [];
-        log.returned[item].push([amount, ts]);
+    }
+
+    else if (text.includes("returned")) {
+      const m = text.match(/returned (\d+)x (.+)/);
+      if (m) {
+        const amt = parseInt(m[1]);
+        const item = m[2].trim();
+        log.returned[item] ??= [];
+        log.returned[item].push([amt, ts]);
       }
-    } else if (text.includes("retrieved")) {
-      const match = text.match(/retrieved (\d+)x (.+) from .+/);
-      if (match) {
-        const amount = parseInt(match[1]);
-        const item = match[2].trim();
-        const initiator = userIds[0];
-        if (!log.retrieved[item]) log.retrieved[item] = [];
-        log.retrieved[item].push([amount, ts, initiator]);
+    }
+
+    else if (text.includes("retrieved")) {
+      const m = text.match(/retrieved (\d+)x (.+) from .+/);
+      if (m) {
+        const amt = parseInt(m[1]);
+        const item = m[2].trim();
+        log.retrieved[item] ??= [];
+        log.retrieved[item].push([amt, ts, userIds[0]]);
       }
     }
   });
@@ -324,86 +177,51 @@ function parseDailyData(rawNews) {
   return dailyLog;
 }
 
-// === COMMIT TO REPO ===
-function commitLogsToRepo() {
-  try {
-    execSync(`git config --local user.email "action@github.com"`);
-    execSync(`git config --local user.name "GitHub Action"`);
-    
-    // Add all relevant files
-    execSync(`git add logs/ loaned_items.json index.json`);
-    
-    try {
-      execSync(`git commit -m "Add/update daily log and index for ${new Date().toISOString().split("T")[0]}"`);
-    } catch {
-      console.log("No changes to commit.");
-    }
-    execSync(`git push`);
-    console.log("Logs and index.json committed and pushed to repo.");
-  } catch (err) {
-    console.error("Error committing logs:", err);
-  }
-}
-
-
 // === MAIN RUNTIME ===
 (async () => {
   try {
     const argDate = process.argv[2];
     const targetDate = argDate ? new Date(argDate) : getYesterdayUTC();
 
-    const fromTimestamp =
-      Date.UTC(
-        targetDate.getUTCFullYear(),
-        targetDate.getUTCMonth(),
-        targetDate.getUTCDate()
-      ) / 1000;
-    const toTimestamp = fromTimestamp + 86400;
+    const fromTs = Date.UTC(
+      targetDate.getUTCFullYear(),
+      targetDate.getUTCMonth(),
+      targetDate.getUTCDate()
+    ) / 1000;
 
-    const { news, rawPages } = await fetchFactionNews(fromTimestamp, toTimestamp);
+    const toTs = fromTs + 86400;
 
-    // Folder path
+    const { news, rawPages } = await fetchAllFactionNews(fromTs, toTs);
+
     const year = targetDate.getUTCFullYear();
     const month = String(targetDate.getUTCMonth() + 1).padStart(2, "0");
     const day = String(targetDate.getUTCDate()).padStart(2, "0");
-    const dayFolder = path.join(logsDir, `${year}`, `${month}`);
-    if (!fs.existsSync(dayFolder)) fs.mkdirSync(dayFolder, { recursive: true });
+    const dayFolder = path.join(logsDir, `${year}`, month);
+    fs.mkdirSync(dayFolder, { recursive: true });
 
-    // Save RAW dump
-    const rawDump = {
-      from: fromTimestamp,
-      to: toTimestamp,
-      fetched_at: new Date().toISOString(),
-      pages: rawPages,
-    };
-
-    const rawFilename = path.join(dayFolder, `${day}.raw.json`);
-    if(SaveFileAsRaw) {
-      fs.writeFileSync(rawFilename, JSON.stringify(rawDump, null, 2));
-      console.log(`Saved raw log: ${rawFilename}`);
+    if (SaveFileAsRaw) {
+      fs.writeFileSync(
+        path.join(dayFolder, `${day}.raw.json`),
+        JSON.stringify({ from: fromTs, to: toTs, pages: rawPages }, null, 2)
+      );
     }
 
-    // Parse & save processed data
     const dailyData = parseDailyData(news);
-    const filename = path.join(dayFolder, `${day}.json`);
-    fs.writeFileSync(filename, JSON.stringify(dailyData, null, 2));
-    console.log(`Saved daily log: ${filename}`);
+    fs.writeFileSync(
+      path.join(dayFolder, `${day}.json`),
+      JSON.stringify(dailyData, null, 2)
+    );
 
-    const loanedData = JSON.parse(fs.readFileSync(loanedFilePath, "utf-8"));
-    updateLoanedItems(loanedData, news);
-    fs.writeFileSync(loanedFilePath, JSON.stringify(loanedData, null, 2));
-    console.log("Updated loaned_items.json successfully.");
+    console.log(`Saved daily log: ${year}/${month}/${day}.json`);
 
-    // Merge monthly summary if eligible
-    mergeMonthLogs(year, month);
+    execSync(`git add logs/ index.json loaned_items.json`);
+    try {
+      execSync(`git commit -m "Add daily log ${year}-${month}-${day}"`);
+    } catch {}
+    execSync(`git push`);
 
-    // Update index file
-    updateIndexJson(year, month);
-
-    // Commit and push
-    commitLogsToRepo();
   } catch (err) {
-    console.error("Error fetching or saving data:", err);
+    console.error("Runtime failed:", err);
     process.exit(1);
   }
 })();
