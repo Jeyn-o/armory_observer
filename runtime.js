@@ -177,6 +177,84 @@ function parseDailyData(rawNews) {
   return dailyLog;
 }
 
+// === HELPER FUNCTIONS ===
+function updateLoanedItems(dailyData) {
+  let loaned = {};
+  if (fs.existsSync(loanedFilePath)) {
+    loaned = JSON.parse(fs.readFileSync(loanedFilePath));
+  }
+
+  for (const uid in dailyData) {
+    const log = dailyData[uid];
+    for (const [category] of [["loaned", log.loaned], ["loaned_receive", log.loaned_receive]]) {
+      for (const item in log[category]) {
+        log[category][item].forEach(entry => {
+          const [amt, ts, from] = entry;
+          loaned[item] ??= {};
+          loaned[item][uid] ??= 0;
+          loaned[item][uid] += amt;
+        });
+      }
+    }
+  }
+
+  fs.writeFileSync(loanedFilePath, JSON.stringify(loaned, null, 2));
+}
+
+function mergeMonthLogs(year, month) {
+  const monthFolder = path.join(logsDir, `${year}`, month);
+  const monthFile = path.join(monthFolder, `Month.json`);
+  let merged = {};
+
+  if (fs.existsSync(monthFile)) {
+    merged = JSON.parse(fs.readFileSync(monthFile));
+  }
+
+  fs.readdirSync(monthFolder).forEach(file => {
+    if (file.endsWith(".json") && file !== "Month.json" && file !== "loaned_items.json") {
+      const data = JSON.parse(fs.readFileSync(path.join(monthFolder, file)));
+      for (const uid in data) {
+        merged[uid] ??= {
+          donated: {},
+          used: {},
+          filled: {},
+          loaned: {},
+          loaned_receive: {},
+          returned: {},
+          retrieved: {},
+        };
+        const userLog = merged[uid];
+        for (const category of Object.keys(data[uid])) {
+          userLog[category] ??= {};
+          for (const item in data[uid][category]) {
+            userLog[category][item] ??= [];
+            userLog[category][item].push(...data[uid][category][item]);
+          }
+        }
+      }
+    }
+  });
+
+  fs.writeFileSync(monthFile, JSON.stringify(merged, null, 2));
+}
+
+function updateIndexJson(year, month, day) {
+  const indexPath = path.join(logsDir, "index.json");
+  let index = {};
+  if (fs.existsSync(indexPath)) {
+    index = JSON.parse(fs.readFileSync(indexPath));
+  }
+
+  index[year] ??= {};
+  index[year][month] ??= [];
+  if (!index[year][month].includes(day)) {
+    index[year][month].push(day);
+    index[year][month].sort((a, b) => a - b);
+  }
+
+  fs.writeFileSync(indexPath, JSON.stringify(index, null, 2));
+}
+
 // === MAIN RUNTIME ===
 (async () => {
   try {
@@ -213,6 +291,10 @@ function parseDailyData(rawNews) {
     );
 
     console.log(`Saved daily log: ${year}/${month}/${day}.json`);
+
+    updateLoanedItems(dailyData);
+    mergeMonthLogs(year, month);
+    updateIndexJson(year, month, day);
 
     execSync(`git add logs/ index.json loaned_items.json`);
     try {
