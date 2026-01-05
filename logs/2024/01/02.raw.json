@@ -1,0 +1,737 @@
+{
+  "from": 1704153600,
+  "to": 1704240000,
+  "fetched_at": "2026-01-05T04:04:22.166Z",
+  "pages": [
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?striptags=false&limit=100&sort=DESC&from=1704153600&to=1704240000&cat=armoryAction&key=TlLjcWRDbiY9wybA",
+      "has_html": true,
+      "news": [
+        {
+          "id": "LE3QwRegroDMSpEB1z8v",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2794487\">grzyyy</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704234840
+        },
+        {
+          "id": "LDOUcfKSxccf0aIj7LVQ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2794487\">grzyyy</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704234839
+        },
+        {
+          "id": "UZm7kSVgswjpdwINcV6K",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2794487\">grzyyy</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704234836
+        },
+        {
+          "id": "7f6n0yPDgCVg7tUhSjlA",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3018158\">Stevan01</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704234744
+        },
+        {
+          "id": "pZdOV6DOO0HBBYCnppWT",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3018158\">Stevan01</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704234742
+        },
+        {
+          "id": "igc0HJKjFm71EUnbE4u0",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3018158\">Stevan01</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704234741
+        },
+        {
+          "id": "yF1eZro0DIonIzJ6DZm5",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1946159\">smyles</a> used one of the faction's Bottle of Tequila items.",
+          "timestamp": 1704234398
+        },
+        {
+          "id": "5XBoI0nPDuQT3dNd4fGI",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2751331\">EMK</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704227703
+        },
+        {
+          "id": "ce42UHt6MzcFrMqoeNpf",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2751331\">EMK</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704227699
+        },
+        {
+          "id": "F3d1N8CWnXZOp7b4F59A",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2751331\">EMK</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704227698
+        },
+        {
+          "id": "g1gvaP4TChEMjebeVPXV",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2751331\">EMK</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704227698
+        },
+        {
+          "id": "ShNApMY2IHM97iWz0Dmh",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2751331\">EMK</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704227697
+        },
+        {
+          "id": "Fu0GJRhdsVqh13lwKC2a",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2751331\">EMK</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704227696
+        },
+        {
+          "id": "ytsXrP7VHQwwfd2ls5PG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2751331\">EMK</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704227696
+        },
+        {
+          "id": "Jptl8d8qYOOo5z6eDNQw",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2751331\">EMK</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704227695
+        },
+        {
+          "id": "sNKp14lBA5bUpbmpPhri",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2751331\">EMK</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704227694
+        },
+        {
+          "id": "JKVSHWRiXLcGEmJciN0A",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2751331\">EMK</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704227694
+        },
+        {
+          "id": "sB7KjKFZmyNbBAN2DO3n",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2751331\">EMK</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704227693
+        },
+        {
+          "id": "8v8Rpsq5bme8zi6WTisH",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2751331\">EMK</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704227692
+        },
+        {
+          "id": "J7lduNr3Htl6BStvgbga",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2162123\">Nogitsune</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704216123
+        },
+        {
+          "id": "5bNVhstoGsCu2koCm8kF",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2162123\">Nogitsune</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704216121
+        },
+        {
+          "id": "qSVUJLdht82NWgQzG9Wm",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2162123\">Nogitsune</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704216119
+        },
+        {
+          "id": "npE4cHFSQEiLPCqvkofl",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Blood Bag : O- items.",
+          "timestamp": 1704205453
+        },
+        {
+          "id": "W9WWCI16SRnIjcsFM1KE",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Blood Bag : O- items.",
+          "timestamp": 1704205450
+        },
+        {
+          "id": "zs5g1v8CiAjddKDwdT0b",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704204786
+        },
+        {
+          "id": "OpcQoc57FqPCKn4hSZ6g",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704204783
+        },
+        {
+          "id": "QY3762aSpVF7dPLjg8MW",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704204781
+        },
+        {
+          "id": "AgXsKwThLCDT0XawcDYK",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704204773
+        },
+        {
+          "id": "aUoLMGi13X7wsOyElPHJ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704204772
+        },
+        {
+          "id": "zWmoQD4hCXaqQ9rYYHK6",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704204771
+        },
+        {
+          "id": "x5f2AwZGtAKUFKbEQQyU",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704204769
+        },
+        {
+          "id": "Py1DTrYMKDJkz5VNqPzW",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704204766
+        },
+        {
+          "id": "VIyA1uexw84HkwQspuNG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items.",
+          "timestamp": 1704204764
+        },
+        {
+          "id": "BldoXfFCjCBM8R9qHnVN",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2794487\">grzyyy</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704195550
+        },
+        {
+          "id": "w0Jk1PRj8abH7wjHr6vn",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2794487\">grzyyy</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704195549
+        },
+        {
+          "id": "9BFOt6uXycNsce9XP6Fz",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2794487\">grzyyy</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704195547
+        },
+        {
+          "id": "uyZYkD5iz9sns1ArWLCY",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194168
+        },
+        {
+          "id": "IMYKrqCsKBMkQV2Kg3TF",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194168
+        },
+        {
+          "id": "iaIiYY1mWtsPbv4OFOCL",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194167
+        },
+        {
+          "id": "Z4e5gz9zzqCuHHcTo7Th",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194166
+        },
+        {
+          "id": "0MtLJootIO9HaSCQzMQo",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194165
+        },
+        {
+          "id": "lfB5u7S9WfiEHpQ1DJak",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194164
+        },
+        {
+          "id": "MrxHSaAJdIAXmFA7II9w",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194163
+        },
+        {
+          "id": "GAMkc0x2vzjUG7n3MBCy",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194162
+        },
+        {
+          "id": "BuZxSoy400P1JHGppZfG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194161
+        },
+        {
+          "id": "hFMH1PT6isTvvnHYmI9i",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194160
+        },
+        {
+          "id": "QmLV6OXDLD4003gmt9Lx",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194158
+        },
+        {
+          "id": "zLiH1DAaBn2epe770pcW",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194158
+        },
+        {
+          "id": "Sv1vzHWRMpn5yv1jYiqJ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194157
+        },
+        {
+          "id": "qmUJcqckNuN6prJP4sA6",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194156
+        },
+        {
+          "id": "qXzVUdkekmgjDt2UbO1L",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194155
+        },
+        {
+          "id": "EUhGWEmbGCymzBYK2vQY",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194154
+        },
+        {
+          "id": "RNoqsBXVagVTHMnQ1sHo",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194153
+        },
+        {
+          "id": "WIAqTCQaCdt9nY1cQKox",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194152
+        },
+        {
+          "id": "WoBkZJ3G9SjMs0Q4HvAH",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194151
+        },
+        {
+          "id": "D1zMVOxgrJPnfNW5MUhz",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194150
+        },
+        {
+          "id": "kTiM0D2dHu6LSyT4zxvk",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194149
+        },
+        {
+          "id": "cH0hwbTGFzyl39jPf8BV",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194148
+        },
+        {
+          "id": "TN5QPl45rHShCLlrCXVC",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194147
+        },
+        {
+          "id": "bfvo2FO0LAdZ9awIYt7k",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194146
+        },
+        {
+          "id": "vRw1YspABSJF7FHJ1O3Z",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194145
+        },
+        {
+          "id": "5fdtaghcn00akQwDABse",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194144
+        },
+        {
+          "id": "fMEHTAGveaPZVEC4ZMmc",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194143
+        },
+        {
+          "id": "d4YoNDhfODu33aGIWXUk",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194142
+        },
+        {
+          "id": "ayGnVioxFUffj2PzjUVp",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194142
+        },
+        {
+          "id": "jCntA2yNDtkRbKkp6BCQ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194141
+        },
+        {
+          "id": "D4pFWAYRX37y7O1vl2Gk",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194140
+        },
+        {
+          "id": "dQgaHP2GkV54aOtRFUOo",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194139
+        },
+        {
+          "id": "fSscsSBQE88pPCZp3SVo",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194138
+        },
+        {
+          "id": "AOKFQeJAo9v6bBRlZs9b",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194137
+        },
+        {
+          "id": "yFMvCof35phjBBRvKOpj",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194136
+        },
+        {
+          "id": "0cofUWjLwxAPXQDdtqnv",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194135
+        },
+        {
+          "id": "Vg6NW7JCFeFqRyIr6OP9",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194134
+        },
+        {
+          "id": "EKo4OcXutls2P4s3TnL2",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194133
+        },
+        {
+          "id": "wt1wr5TVkHDjABUGy9l1",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194132
+        },
+        {
+          "id": "xVmtmFICQwwBUrE3itZl",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194131
+        },
+        {
+          "id": "VIx5VUayz94lhBB1GpBW",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194130
+        },
+        {
+          "id": "RIKDOC56Yl8iiwWYZP44",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194130
+        },
+        {
+          "id": "k3VbOl0abqNXA1wYfagA",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194128
+        },
+        {
+          "id": "MvBu69jayslIwUdX7lWR",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194127
+        },
+        {
+          "id": "IN3gCZB7GjXv1MflfFla",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2684774\">ThunderBlitz</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704194125
+        },
+        {
+          "id": "PHrxARmLnYxXmHyLefLf",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191478
+        },
+        {
+          "id": "3PZkxjKqQWCEJl3KECM3",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191476
+        },
+        {
+          "id": "gDGlqXO1LWjQiPFBSDJG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191475
+        },
+        {
+          "id": "Tc7U4WCngk74FjgXvgAA",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191475
+        },
+        {
+          "id": "nR75m5zNjjIFHtFec9tq",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191474
+        },
+        {
+          "id": "qhB400A1tS6BqHQCGWoi",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191474
+        },
+        {
+          "id": "RpeqCBPRvxNuYzHtSuob",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191473
+        },
+        {
+          "id": "5bxMxsHZOz4ghjbw6d73",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191472
+        },
+        {
+          "id": "Dwzi3WiKxKcBHppr007e",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191472
+        },
+        {
+          "id": "RBYLZ0duTL0QMnpHXzEq",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191471
+        },
+        {
+          "id": "84O5AWF8F8pIErk78FJs",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191469
+        },
+        {
+          "id": "Z0GPi4TXCY9TZ3vqGxQP",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191469
+        },
+        {
+          "id": "lVS4nWvkzm2Msm3WgEmV",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191468
+        },
+        {
+          "id": "rMfsmdD65ybEIEhlk2UG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191467
+        },
+        {
+          "id": "u987Sgp6ATjGADSsQ9tR",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191467
+        },
+        {
+          "id": "QMzQ0ZWLO1PLiZlFH2R1",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191466
+        },
+        {
+          "id": "U5bFQoYrmpPsdG6S10GN",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191466
+        },
+        {
+          "id": "frSt7asIajDDPdTEwCo1",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191465
+        },
+        {
+          "id": "rKCC08nIF49NSXhafT5d",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191464
+        }
+      ],
+      "_metadata": {
+        "links": {
+          "prev": "https://api.torn.com/v2/faction/news?&limit=100&cat=armoryAction&stripTags=true&sort=desc&from=1704153600&to=1704191464",
+          "next": null
+        }
+      }
+    },
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?limit=100&cat=armoryAction&sort=desc&from=1704153600&to=1704191464&striptags=false&key=TlLjcWRDbiY9wybA",
+      "has_html": true,
+      "news": [
+        {
+          "id": "BbYbXfa0jrAzreWkDmgP",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191463
+        },
+        {
+          "id": "sRDLTbmZHZhN16rYHFZa",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191463
+        },
+        {
+          "id": "8Y4tGRAUQ9F9Cfu11WaL",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191462
+        },
+        {
+          "id": "PMxKzrP4aKwjTME8efCR",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191462
+        },
+        {
+          "id": "80MMEZAp2aP5Zh46Rm7Y",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191461
+        },
+        {
+          "id": "bhfQaBYwuIrg9SN0xjcI",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191460
+        },
+        {
+          "id": "yandWZrAbuTEoCHF63sD",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191460
+        },
+        {
+          "id": "2S7DCZEz9zGtteND8ynt",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191459
+        },
+        {
+          "id": "Tfsk1QXI3zbkITiVKywJ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191458
+        },
+        {
+          "id": "BVclwW22T3Rf2fRc3lTn",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191458
+        },
+        {
+          "id": "u4B0u6yfHlyFHgbYJCcI",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191457
+        },
+        {
+          "id": "9f3INxqHVRYirj0WMefh",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191456
+        },
+        {
+          "id": "s1aGulfjDo9pChyNRi8u",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191456
+        },
+        {
+          "id": "rthbkrBxTHtucwCSn7l7",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191455
+        },
+        {
+          "id": "H4UO45runmMDftmBPbEH",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191454
+        },
+        {
+          "id": "Td28XLgzAH3KgV5sCuma",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191454
+        },
+        {
+          "id": "1Cg7IdcRUqpTkOHG8nyX",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191453
+        },
+        {
+          "id": "EewSYPOo7t4RzMfEpNTS",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191452
+        },
+        {
+          "id": "zpRM9YWTdK5f6i1hBoGM",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191451
+        },
+        {
+          "id": "7kdXs6wvhVAneLlrlA9I",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191442
+        },
+        {
+          "id": "9Jaxl1RHsOaRIgoAc5FO",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2671993\">DrBendova-PhD</a> used one of the faction's Lollipop items.",
+          "timestamp": 1704191441
+        },
+        {
+          "id": "mvig3PusTE6L2rXkpcoK",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2162123\">Nogitsune</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704183922
+        },
+        {
+          "id": "C48oeQR8TptuN2Wlj4ee",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2162123\">Nogitsune</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704183921
+        },
+        {
+          "id": "TEJEYHW55CBHNIgV5E6K",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2162123\">Nogitsune</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704183919
+        },
+        {
+          "id": "9I9MBPPhOaOnGpbZ3zBa",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2794487\">grzyyy</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704176684
+        },
+        {
+          "id": "3ROVYeFXndQm6fIpnSsu",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2794487\">grzyyy</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704176683
+        },
+        {
+          "id": "BVixW6dw5r0iLIjmFUqF",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2794487\">grzyyy</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704176680
+        },
+        {
+          "id": "DqvSJeJiVZFLPrTGtKYG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2162123\">Nogitsune</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704173053
+        },
+        {
+          "id": "LVPptXyXH6ATSIdCdsON",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2162123\">Nogitsune</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704173052
+        },
+        {
+          "id": "cPiPoH7T0UK0cblqucoU",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2162123\">Nogitsune</a> filled one of the faction's Empty Blood Bag items.",
+          "timestamp": 1704173050
+        },
+        {
+          "id": "0Aif2ZAx4mL6PHxPVBV0",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Blood Bag : O+ items.",
+          "timestamp": 1704168099
+        },
+        {
+          "id": "IIpGVG36ihQcdAKgFjtt",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Blood Bag : O+ items.",
+          "timestamp": 1704168097
+        },
+        {
+          "id": "JvzWMHqnzcjinx5aa95v",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Blood Bag : O+ items.",
+          "timestamp": 1704168096
+        },
+        {
+          "id": "xzh55RYxc2K0nTcw8B31",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Blood Bag : O+ items.",
+          "timestamp": 1704168045
+        },
+        {
+          "id": "c5azRGHgiLDePnFUPPF8",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Blood Bag : O+ items.",
+          "timestamp": 1704168044
+        },
+        {
+          "id": "bJJcT4bFZUfnNIoBDxNi",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Blood Bag : O+ items.",
+          "timestamp": 1704168042
+        },
+        {
+          "id": "W4H2GgS1DR9CwXZTI0xn",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Blood Bag : O+ items.",
+          "timestamp": 1704168023
+        },
+        {
+          "id": "8rKQF9IBsi7G0g1bmAIm",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Blood Bag : O+ items.",
+          "timestamp": 1704168022
+        },
+        {
+          "id": "hlPRrlnnN3ElrzG8ypeT",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Blood Bag : O+ items.",
+          "timestamp": 1704168019
+        }
+      ],
+      "_metadata": {
+        "links": {
+          "prev": null,
+          "next": null
+        }
+      }
+    },
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?striptags=false&limit=100&sort=DESC&from=1704153600&to=1704240000&cat=armoryDeposit&key=TlLjcWRDbiY9wybA",
+      "has_html": false,
+      "news": [],
+      "_metadata": {
+        "links": {
+          "prev": null,
+          "next": "https://api.torn.com/v2/faction/news?&limit=100&cat=armoryDeposit&stripTags=true&sort=asc&from=1704240000"
+        }
+      }
+    }
+  ]
+}
