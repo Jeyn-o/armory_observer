@@ -3,7 +3,6 @@ name: Torn Armory Daily Fetch
 permissions:
   contents: write
 
-# Trigger daily at 02:00 UTC, also allow manual triggering
 on:
   schedule:
     - cron: '0 2 * * *'
@@ -19,18 +18,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout your repository
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      # Step 2: Setup Node.js environment
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20'
 
+      - name: Configure git identity
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
 
-      # Step 4: Run the runtime script
       - name: Run Torn Armory Runtime
         run: |
           if [ "${{ github.event.inputs.date }}" != "" ]; then
