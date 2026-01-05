@@ -230,20 +230,15 @@ function updateIndexJson(year, month) {
   // Update month entry
   indexData[year][month].hasMonthJson = hasMonthJson;
 
-  if (!hasMonthJson) {
-    // List available daily logs
-    if (fs.existsSync(monthFolder)) {
-      const dailyFiles = fs.readdirSync(monthFolder)
-        .filter(f => f.endsWith(".json") && f !== "Month.json" && !f.endsWith(".raw.json"))
-        .map(f => parseInt(f.replace(".json",""),10))
-        .sort((a,b)=>a-b)
-        .map(n => String(n).padStart(2,"0"));
-      indexData[year][month].days = dailyFiles;
-    } else {
-      indexData[year][month].days = [];
-    }
+  // Always list available daily logs, even if Month.json exists
+  if (fs.existsSync(monthFolder)) {
+    const dailyFiles = fs.readdirSync(monthFolder)
+      .filter(f => f.endsWith(".json") && f !== "Month.json" && !f.endsWith(".raw.json"))
+      .map(f => parseInt(f.replace(".json",""),10))
+      .sort((a,b)=>a-b)
+      .map(n => String(n).padStart(2,"0"));
+    indexData[year][month].days = dailyFiles;
   } else {
-    // If Month.json exists, clear individual days
     indexData[year][month].days = [];
   }
 
