@@ -9,11 +9,9 @@ on:
       year:
         description: 'Year to fetch (YYYY)'
         required: true
-        default: '2026'
       month:
-        description: 'Month to fetch (01-12)'
+        description: 'Month to fetch (MM)'
         required: true
-        default: '01'
 
 jobs:
   fetch-month:
@@ -33,19 +31,24 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
 
-      - name: Fetch month logs
+      - name: Fetch entire month
         run: |
           YEAR=${{ github.event.inputs.year }}
           MONTH=${{ github.event.inputs.month }}
 
-          echo "Fetching logs for $YEAR-$MONTH..."
+          # Get last day of month safely
+          LAST_DAY=$(date -d "$YEAR-$MONTH-01 +1 month -1 day" +%d)
+          echo "Fetching logs for $YEAR-$MONTH (1-$LAST_DAY)..."
 
-          # Compute number of days in month
-          DAYS=$(cal $MONTH $YEAR | awk 'NF {DAYS=$NF} END {print DAYS}')
-
-          for DAY in $(seq -w 1 $DAYS); do
+          for DAY in $(seq -w 1 $LAST_DAY); do
+            echo "------------------------------"
             echo "Fetching $YEAR-$MONTH-$DAY..."
-            node runtime.js "$YEAR-$MONTH-$DAY"
+            
+            # Run Node script, continue on error
+            if ! node runtime.js "$YEAR-$MONTH-$DAY"; then
+              echo "Warning: runtime.js failed for $YEAR-$MONTH-$DAY, continuing..."
+            fi
+
             echo "Sleeping 60 seconds before next day..."
             sleep 60
           done
