@@ -210,6 +210,12 @@
         "30"
       ],
       "hasMonthJson": true
+    },
+    "07": {
+      "days": [
+        "01"
+      ],
+      "hasMonthJson": false
     }
   }
 }
