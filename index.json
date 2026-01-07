@@ -242,9 +242,10 @@
         "27",
         "28",
         "29",
-        "30"
+        "30",
+        "31"
       ],
-      "hasMonthJson": false
+      "hasMonthJson": true
     }
   }
 }
