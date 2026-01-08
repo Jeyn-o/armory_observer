@@ -358,8 +358,23 @@ function commitLogsToRepo() {
 // === MAIN RUNTIME ===
 (async () => {
   try {
-    const argDate = process.argv[2];
-    const targetDate = argDate ? new Date(argDate) : getYesterdayUTC();
+    const argDateRaw = process.argv[2];
+    const argDate = argDateRaw ? argDateRaw.trim() : null;
+
+    let targetDate;
+
+    if (argDate) {
+      targetDate = new Date(argDate);
+
+      if (isNaN(targetDate.getTime())) {
+        throw new Error(`Invalid date argument: "${argDateRaw}"`);
+      }
+
+      // Normalize to UTC midnight
+      targetDate.setUTCHours(0, 0, 0, 0);
+    } else {
+      targetDate = getYesterdayUTC();
+    }
 
     const fromTimestamp =
       Date.UTC(
@@ -368,9 +383,12 @@ function commitLogsToRepo() {
         targetDate.getUTCDate()
       ) / 1000;
     const toTimestamp = fromTimestamp + 86400;
-    
-    const { news, rawPages } = await fetchAllFactionNews(fromTimestamp, toTimestamp);
 
+    console.log(
+      `Fetching logs for UTC date ${targetDate.toISOString().slice(0, 10)}`
+    );
+
+    const { news, rawPages } = await fetchAllFactionNews(fromTimestamp, toTimestamp);
 
     // Folder path
     const year = targetDate.getUTCFullYear();
