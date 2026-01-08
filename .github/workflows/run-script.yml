@@ -33,7 +33,7 @@ jobs:
         run: |
           if [ "${{ github.event.inputs.date }}" != "" ]; then
             echo "Fetching logs for ${{ github.event.inputs.date }}"
-            node runtime.js ${{ github.event.inputs.date }}
+            node runtime.js "${{ github.event.inputs.date }}"
           else
             echo "Fetching logs for yesterday"
             node runtime.js
