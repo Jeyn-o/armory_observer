@@ -1,0 +1,19 @@
+{
+  "from": 1766793600,
+  "to": 1766880000,
+  "fetched_at": "2026-01-08T08:18:14.207Z",
+  "pages": [
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?striptags=false&limit=100&sort=DESC&from=1766793600&to=1766880000&cat=armoryAction&key=TlLjcWRDbiY9wybA",
+      "has_html": false,
+      "news": [],
+      "_metadata": null
+    },
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?striptags=false&limit=100&sort=DESC&from=1766793600&to=1766880000&cat=armoryDeposit&key=TlLjcWRDbiY9wybA",
+      "has_html": false,
+      "news": [],
+      "_metadata": null
+    }
+  ]
+}
