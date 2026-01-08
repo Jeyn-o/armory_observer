@@ -12,7 +12,7 @@ const logsDir = path.join(process.cwd(), "logs");
 const API_KEYS = ["TlLjcWRDbiY9wybA","7YpGEAjOyBLHMJao"];
 let keyIndex = 0;
 const RATE_LIMIT_DELAY = 1000; // ms
-const SaveFileAsRaw = false;
+const SaveFileAsRaw = true;
 
 // === UTILS ===
 function getYesterdayUTC() {
