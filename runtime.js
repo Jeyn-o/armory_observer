@@ -9,7 +9,7 @@ const loanedFilePath = path.join(process.cwd(), "loaned_items.json");
 const logsDir = path.join(process.cwd(), "logs");
 
 // === CONFIG ===
-const API_KEYS = ["TlLjcWRDbiY9wybA","7YpGEAjOyBLHMJao"];
+const API_KEYS = ["7YpGEAjOyBLHMJao","TlLjcWRDbiY9wybA"];
 let keyIndex = 0;
 const RATE_LIMIT_DELAY = 1000; // ms
 const SaveFileAsRaw = true;
