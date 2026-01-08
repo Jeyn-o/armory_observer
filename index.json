@@ -36,6 +36,12 @@
       ],
       "hasMonthJson": true
     },
+    "11": {
+      "days": [
+        "01"
+      ],
+      "hasMonthJson": false
+    },
     "01": {
       "days": [
         "01",
