@@ -1,0 +1,2469 @@
+{
+  "from": 1767657600,
+  "to": 1767744000,
+  "fetched_at": "2026-01-09T21:43:47.880Z",
+  "pages": [
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?striptags=false&limit=100&sort=DESC&from=1767657600&to=1767744000&cat=armoryAction&key=7YpGEAjOyBLHMJao",
+      "has_html": true,
+      "news": [
+        {
+          "id": "IHjDg44lRf65El5wUOUH",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767743445
+        },
+        {
+          "id": "PO2C57FUVwQfWwMW1D9J",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767743444
+        },
+        {
+          "id": "bNgMmUJnDGpK7CxeOhFR",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767743443
+        },
+        {
+          "id": "6Pg3aRNBkDfvM9FX0mvX",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3301215\">Semykreen</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767740806
+        },
+        {
+          "id": "HOhtoaedAIfrGgKGGLw1",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3301215\">Semykreen</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767740805
+        },
+        {
+          "id": "NfWZJafaODSY0brHQLX4",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3301215\">Semykreen</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767740804
+        },
+        {
+          "id": "6Cq7q1W8fGcUjZiOHIVC",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767740472
+        },
+        {
+          "id": "6mhUrASHfOIpoCbu7WJW",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767740471
+        },
+        {
+          "id": "C3Ubn7SQtDxSnejLxhRP",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767740470
+        },
+        {
+          "id": "V88DZFSNZp6iflkRhggi",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767740469
+        },
+        {
+          "id": "nTyS5HglmHpBW0vGZtn1",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767740369
+        },
+        {
+          "id": "fPIXtUqiIXiViJ3gWHqY",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767740369
+        },
+        {
+          "id": "sX8iaycUDDBTcQoAlZMH",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767740368
+        },
+        {
+          "id": "AdAWyBOBVRB6Q4lGAd5y",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767740249
+        },
+        {
+          "id": "jCVgqLGjXkDIxJYbKEmR",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767740249
+        },
+        {
+          "id": "IaAYRCd6WrDUmDZdYTmZ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767740248
+        },
+        {
+          "id": "ZGF8bJt6PjSYyAUKMElb",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767740248
+        },
+        {
+          "id": "u7IUIkTTfLdlbjae4mP7",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767740248
+        },
+        {
+          "id": "xSdXeGdjBmwFijmGle8Z",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767740248
+        },
+        {
+          "id": "yOkxkbmJAmgvHdVFf9hE",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767740248
+        },
+        {
+          "id": "rF7kA4nPzeiOd8K3ynBu",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767740248
+        },
+        {
+          "id": "kqYdRnDfefHMPzHmTFuc",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767740247
+        },
+        {
+          "id": "Mp4Kbsl8BufBiebV74Cr",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767740247
+        },
+        {
+          "id": "8u2tQRbUDynqSO8FtAjN",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767740247
+        },
+        {
+          "id": "LHhF5TWB6WDCWWHaikpX",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767740247
+        },
+        {
+          "id": "rPRXI8a4xuDWAROYjnw7",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767740247
+        },
+        {
+          "id": "x6mIyUFHBmHti0PuYW7F",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767740245
+        },
+        {
+          "id": "SxwFCG3Vx1zJov7yIQE9",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767739023
+        },
+        {
+          "id": "LUab0ipxviy91iLWlFwJ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767739023
+        },
+        {
+          "id": "dyDmQ0ownYINlZPeVVrb",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767739023
+        },
+        {
+          "id": "ID8WADY4HGH664vt8M4G",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767739023
+        },
+        {
+          "id": "LVG3AEAxJ3Lt0FHhiYFw",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767739023
+        },
+        {
+          "id": "NDCApt55lhrOhz8BQosf",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767739022
+        },
+        {
+          "id": "BZD0jCBvJOLCjoAwXjdt",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767739022
+        },
+        {
+          "id": "C5BuA1BH4HqpyOudzvuK",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767739022
+        },
+        {
+          "id": "IVUCaV9J3Xdvzntecqy2",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767739022
+        },
+        {
+          "id": "bT0LX08xQUmuuMLeGm3B",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767739021
+        },
+        {
+          "id": "cxAT1ZzqTtnF8iCT5K4I",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767739018
+        },
+        {
+          "id": "WXcuSC2ucGMMnZPCblUm",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767739018
+        },
+        {
+          "id": "FYD0yxwiIbmBg8t3rP99",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767739017
+        },
+        {
+          "id": "mfyE23AXseapc77iKj6I",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767739017
+        },
+        {
+          "id": "wgP1055mWAw26DEp9VCB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767739015
+        },
+        {
+          "id": "gKNOZMWQSJyFlYSBpNjR",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767739015
+        },
+        {
+          "id": "DO9GOqtngPeMvSf23xOW",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767739015
+        },
+        {
+          "id": "KTDQLfblIgRDK4iWcj5T",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> loaned 1x Zip Ties to <a href = \"http://www.torn.com/profiles.php?XID=2679269\">TsanMan</a> from the faction armory",
+          "timestamp": 1767738959
+        },
+        {
+          "id": "EtHKrUL9nlB4VtEkjj19",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> loaned 1x Tunneling Virus to <a href = \"http://www.torn.com/profiles.php?XID=3540076\">Mr_jeff14574</a> from the faction armory",
+          "timestamp": 1767738906
+        },
+        {
+          "id": "YpsjhrCQY2162ov47R2P",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> retrieved 1x Tunneling Virus from <a href = \"http://www.torn.com/profiles.php?XID=2289809\">Murder_Hobo</a>",
+          "timestamp": 1767738896
+        },
+        {
+          "id": "U7cF6NBqBVwmoLN18lau",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767738642
+        },
+        {
+          "id": "uMUz3JHX0K0D1MBfvEKB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767738640
+        },
+        {
+          "id": "WzmSi2Q9lUezq6Lrvuon",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767738638
+        },
+        {
+          "id": "5KtrYApuXOtJp0Ku0klX",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767738637
+        },
+        {
+          "id": "LlqCcN2Rx6xcx6VW4F7a",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767738636
+        },
+        {
+          "id": "bk0f6PjaRMllS93CDz9h",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767738636
+        },
+        {
+          "id": "L0Sch32zGo5KDdizk3LM",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767738635
+        },
+        {
+          "id": "iFJlwTX5AJ8AwH46pXxV",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767738634
+        },
+        {
+          "id": "OzuMv6wU8mmOUHFMzNnJ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767738633
+        },
+        {
+          "id": "MhmuNbCjnW7XDtXuAlAG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767738632
+        },
+        {
+          "id": "kBGvH7QyzCehuflSUFDz",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> used one of the faction's Blood Bag : O+ items",
+          "timestamp": 1767736067
+        },
+        {
+          "id": "ntZ0jOxEIIsBonDLpKdZ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767735976
+        },
+        {
+          "id": "tPbo3LqRaaTsADrtTHIU",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767735974
+        },
+        {
+          "id": "mYb2i3dRLZgVmBz1rYkN",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767735974
+        },
+        {
+          "id": "U5A93fo5k6fqlso7xIQm",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767735972
+        },
+        {
+          "id": "tP8oWAe4l1GQiHrJQh1b",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3967366\">Icks-B</a> loaned 1x ArmaLite M-15A4 to themselves from the faction armory",
+          "timestamp": 1767734630
+        },
+        {
+          "id": "YYf3LGc88OM0JbVUYhba",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3977638\">Vasavi_shakti</a> used one of the faction's Blood Bag : O+ items",
+          "timestamp": 1767734552
+        },
+        {
+          "id": "KV7fhi4y5akBhtyuZNji",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3977638\">Vasavi_shakti</a> used one of the faction's Blood Bag : O+ items",
+          "timestamp": 1767734551
+        },
+        {
+          "id": "NzOQ5hp4Bz5CoRbwOHVs",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3977638\">Vasavi_shakti</a> used one of the faction's Blood Bag : O+ items",
+          "timestamp": 1767734550
+        },
+        {
+          "id": "19Icrm0afKmpp5pFOvt7",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767731903
+        },
+        {
+          "id": "QTmxpvGUN2fnWBEKCyUs",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767731903
+        },
+        {
+          "id": "bA3CmeIj8MnBn69FFQIx",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767731902
+        },
+        {
+          "id": "Hk2vISFatm0k3dTrIs1F",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767731638
+        },
+        {
+          "id": "CLbsgnFKEfXOFBQCeC9m",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767731637
+        },
+        {
+          "id": "suS05Lx21nwtCYZER0Tg",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767731636
+        },
+        {
+          "id": "IHK2BHUu9vr9jtnJGpfX",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767731635
+        },
+        {
+          "id": "mHay1d1tmgCCJWwe2wJo",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767731635
+        },
+        {
+          "id": "9Pda25GxdAC9CbhUrYFQ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767731634
+        },
+        {
+          "id": "MjAXLolodGEiFGqhlXco",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767731633
+        },
+        {
+          "id": "c42bNdxcIz2gCVXSG7Mr",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767731622
+        },
+        {
+          "id": "E0mdPpT0bovbTqIpvGEr",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767731622
+        },
+        {
+          "id": "H75KLvDUVXPsBnyfF9jG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767731622
+        },
+        {
+          "id": "PmbUScErnqxuZFm580Nu",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767731620
+        },
+        {
+          "id": "ds8TS0SOG6mTZHrkICVD",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767731619
+        },
+        {
+          "id": "wjAGmx1s64eqbHSBkmBJ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767731619
+        },
+        {
+          "id": "dGRpFAVZh29ygRKtR4Gx",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=446596\">Bucki</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767730973
+        },
+        {
+          "id": "U2aLL2FzJBsrnaBAcY9i",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=446596\">Bucki</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767730925
+        },
+        {
+          "id": "1j82Ac078xTKJP97ygKH",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729638
+        },
+        {
+          "id": "QbuqQOmL83JvYKeFlUGI",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729637
+        },
+        {
+          "id": "P3R7XAeQR6T1BCLVTVdO",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729637
+        },
+        {
+          "id": "kHshkz8DW2dKMOiKlKeM",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729637
+        },
+        {
+          "id": "HZWgFVSHGcDAyI9nkCmP",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729637
+        },
+        {
+          "id": "GaClcDPMhTXOI8ctiPNp",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729637
+        },
+        {
+          "id": "Uly6XroSQMsC6BbKbJHB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729636
+        },
+        {
+          "id": "5ROW4mGsrE1gzE8Y1RRl",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729636
+        },
+        {
+          "id": "4aI2DWxmR5Ayp6RZ5ztp",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729636
+        },
+        {
+          "id": "rCex9QrMHuVNQzrk7nyG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729636
+        },
+        {
+          "id": "uoqiLtcHC7IGlZ19GbfS",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729636
+        },
+        {
+          "id": "UsdVzPR2VeCadQREH5u6",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729636
+        },
+        {
+          "id": "aPtP7u7C0SCUs1c5kkE6",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729635
+        },
+        {
+          "id": "bpbIxbxDqXh1Cn66NEVN",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729635
+        },
+        {
+          "id": "yNBSNP5if4SfVwDI55nu",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729635
+        },
+        {
+          "id": "WCEpCA2WNpcvuzFJehjx",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729635
+        }
+      ],
+      "_metadata": {
+        "links": {
+          "prev": "https://api.torn.com/v2/faction/news?&limit=100&cat=armoryAction&stripTags=true&sort=desc&from=1767657600&to=1767729635",
+          "next": null
+        }
+      }
+    },
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?limit=100&cat=armoryAction&sort=desc&from=1767657600&to=1767729635&striptags=false&key=7YpGEAjOyBLHMJao",
+      "has_html": true,
+      "news": [
+        {
+          "id": "3fW7AQQLnLisBDR7r5Kv",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729634
+        },
+        {
+          "id": "v9ET4j4Q5TnRDBlUDgHs",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729634
+        },
+        {
+          "id": "eJomENCFPT3iKp3CRAG0",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729634
+        },
+        {
+          "id": "0OCMZZpbhidCOp771i98",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729634
+        },
+        {
+          "id": "LDCGKynHGcBBjyuM0Tqk",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729634
+        },
+        {
+          "id": "PtVBteKgf0dwGroCFFtg",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729634
+        },
+        {
+          "id": "lY8OxkbCsn5HPVBf5HDV",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729633
+        },
+        {
+          "id": "vHCwCT9gDGKbKQoYu1sw",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767729633
+        },
+        {
+          "id": "OvkGMv6K5BptRkCEVVuG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767729632
+        },
+        {
+          "id": "4pO6bNoCozZrcIVv9TCL",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767729632
+        },
+        {
+          "id": "pv2UyWFhwRqIkgsgCfE6",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767729632
+        },
+        {
+          "id": "7zAILS4k9VCek9zbiOHk",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767729190
+        },
+        {
+          "id": "NqyE7r7Q59nOEQPXgYGU",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767729189
+        },
+        {
+          "id": "6Bi93oASBFxD9JBY0GBy",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767729189
+        },
+        {
+          "id": "qJCndlqZFYip1z4Mbwix",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767726274
+        },
+        {
+          "id": "CgyFeiWhNrGnfYwN2eEg",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3851236\">Psyden</a> returned 5x Flash Grenade",
+          "timestamp": 1767725678
+        },
+        {
+          "id": "MZiD2en3Vj1RnK0bEjSj",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767725588
+        },
+        {
+          "id": "4oOMlluvDqUQtVvLr7Hf",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767725586
+        },
+        {
+          "id": "GNcRFThvX3q76be6PEWP",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767725561
+        },
+        {
+          "id": "Bwxyapej03VBjNxfmGia",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767724329
+        },
+        {
+          "id": "Uep5AvvYKdGhhCF7xqPC",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767722771
+        },
+        {
+          "id": "ZlKBY4HYRxnvWYYakXDF",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767722770
+        },
+        {
+          "id": "r7JeEmhiYPBp2bdfQqf4",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767722769
+        },
+        {
+          "id": "FvDwCvA6s6IsxPo08qrB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767722653
+        },
+        {
+          "id": "3D8vFo9MmFCATWBMwCv5",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767722652
+        },
+        {
+          "id": "vkhfIwskscE1NFXRrwwB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767722651
+        },
+        {
+          "id": "DCWrdExyn1ledNZegWpx",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767722650
+        },
+        {
+          "id": "Oj0ZYhodCxNpHASeQPwR",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767722650
+        },
+        {
+          "id": "YuU73VAOf1I0rm3R2MhB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767722649
+        },
+        {
+          "id": "nHQVnoppFcCwsGoCtRHf",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767722648
+        },
+        {
+          "id": "pR8onCwf3Fop5HqteIBL",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767722647
+        },
+        {
+          "id": "D0jXddzZz5xVxkEmVL9W",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2679269\">TsanMan</a> used one of the faction's Box of Chocolate Bars items",
+          "timestamp": 1767717414
+        },
+        {
+          "id": "eFvuCCKTkEPRykSMuGxV",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2679269\">TsanMan</a> used one of the faction's Box of Chocolate Bars items",
+          "timestamp": 1767717413
+        },
+        {
+          "id": "y7SMhPSXJCG64q5qJTyI",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767715816
+        },
+        {
+          "id": "e6VVtU9L6SJEYIZh8k1T",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767715177
+        },
+        {
+          "id": "yFHpslilUEI2n251dqgc",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767714762
+        },
+        {
+          "id": "mGlyNYztuTrn9XFpSRo1",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3026725\">Neodork</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767714362
+        },
+        {
+          "id": "Giov2CoApk0154UXSYap",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3026725\">Neodork</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767714362
+        },
+        {
+          "id": "XIPh5Kx4HuKtqGZHnK6J",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3026725\">Neodork</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767714360
+        },
+        {
+          "id": "dbESesRJvGqAi0qZvVtE",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767714302
+        },
+        {
+          "id": "JToeqX1E96a5Wo3Dlz3N",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3877112\">McJoey</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767714145
+        },
+        {
+          "id": "Qgj0rMK2ABwg0is6U6xq",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3877112\">McJoey</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767714144
+        },
+        {
+          "id": "C2xGEBPXtgWJ1kLdoZ3k",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3877112\">McJoey</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767714142
+        },
+        {
+          "id": "qrZGe5yMPuxp59ujznTz",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> loaned 1x Chloroform to <a href = \"http://www.torn.com/profiles.php?XID=1387584\">---GHOST---</a> from the faction armory",
+          "timestamp": 1767713235
+        },
+        {
+          "id": "STytgcq1phY1jY56Oonq",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3967366\">Icks-B</a> used one of the faction's Bag of Bon Bons items",
+          "timestamp": 1767712548
+        },
+        {
+          "id": "IrToLlCQR82o3HKpKhK4",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3967366\">Icks-B</a> used one of the faction's Bag of Bon Bons items",
+          "timestamp": 1767712546
+        },
+        {
+          "id": "kDjBKQNrNG6EFmoZ3yaS",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3967366\">Icks-B</a> used one of the faction's Bag of Bon Bons items",
+          "timestamp": 1767712545
+        },
+        {
+          "id": "3FpCaPiHi0qAMae3hDm6",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767712542
+        },
+        {
+          "id": "RZ4A5pqEJC3GVrVeteiF",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767712540
+        },
+        {
+          "id": "NXLR1mwyTWijdwYqd98u",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767712160
+        },
+        {
+          "id": "XZOeM9sdxpbpGpkhsoN7",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838831\">Lev_Bron</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767710081
+        },
+        {
+          "id": "gWcP4akfppgOjHgcLtQr",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838831\">Lev_Bron</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767710080
+        },
+        {
+          "id": "gx8lek4ZjdcQU7KJCR4j",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838831\">Lev_Bron</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767710078
+        },
+        {
+          "id": "oT7Q4TjDCFalwptKi2KV",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767709461
+        },
+        {
+          "id": "X9cXE0ANp2yjhRoisFZu",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767709460
+        },
+        {
+          "id": "pDYtUGkcBCJM5wMlHYPv",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767709459
+        },
+        {
+          "id": "jLXGMwyNjAEWDxdDKYCv",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=446596\">Bucki</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767709297
+        },
+        {
+          "id": "v0d6ACvn8JYyBhUDy1y4",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : AB+ items",
+          "timestamp": 1767708888
+        },
+        {
+          "id": "hygSyLn4nOhdkEgN1wrH",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767708845
+        },
+        {
+          "id": "3TSReFtPCxarx7dqbpq8",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : AB- items",
+          "timestamp": 1767708824
+        },
+        {
+          "id": "BnpvBxtt1ObEQFbPjkCi",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3160215\">Anri_of_Astora</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767708155
+        },
+        {
+          "id": "fooIak6ksug4K2j3BCnc",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3160215\">Anri_of_Astora</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767708154
+        },
+        {
+          "id": "RZGa4GKxHSZQUUD55ZxA",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3160215\">Anri_of_Astora</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767708152
+        },
+        {
+          "id": "jUtWy92CdnTizYR4xwVU",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3160215\">Anri_of_Astora</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767708151
+        },
+        {
+          "id": "IdOnEQBcbuhnlSsdBCLf",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3160215\">Anri_of_Astora</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767708150
+        },
+        {
+          "id": "nVtgLi0fIcbFmtoyFRyy",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3160215\">Anri_of_Astora</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767708135
+        },
+        {
+          "id": "CVXDcHXIG7y08XHhpAWz",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3160215\">Anri_of_Astora</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767708129
+        },
+        {
+          "id": "S23Fty9458BmYwQHWNpX",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3160215\">Anri_of_Astora</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767708128
+        },
+        {
+          "id": "Y3SVTDv8rvR2GEmsF3r9",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3160215\">Anri_of_Astora</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767708123
+        },
+        {
+          "id": "ariFuWFqoJYqdUSZjanm",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3160215\">Anri_of_Astora</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767708122
+        },
+        {
+          "id": "Fh5TI0PLvLptFE13Jis6",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3160215\">Anri_of_Astora</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767708120
+        },
+        {
+          "id": "wAiXIAssaHb45fKxfoNm",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3160215\">Anri_of_Astora</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767708118
+        },
+        {
+          "id": "aBAcZvYYYjF5r2ia6Rdm",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3160215\">Anri_of_Astora</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767708117
+        },
+        {
+          "id": "AupycApe5sfKN9SdOHU7",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3160215\">Anri_of_Astora</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767708115
+        },
+        {
+          "id": "5iM2kHyeRhKkYj8xPF1C",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767707795
+        },
+        {
+          "id": "xDpdbc7etMHttpvH3IOc",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767707794
+        },
+        {
+          "id": "iWgYTeRbiraGPlQB5WBj",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767707792
+        },
+        {
+          "id": "35TJfppe8fbX0C4UVN9l",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3625719\">Raie</a> returned 1x Kodachi",
+          "timestamp": 1767704892
+        },
+        {
+          "id": "3slkFSgxcBfXLLENZir6",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767704543
+        },
+        {
+          "id": "hyc8pSAdQQJFH2gv7ZUU",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767704542
+        },
+        {
+          "id": "VhNu7Kg2PNQm8PfFV6R2",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> loaned 1x ID Badge to themselves from the faction armory",
+          "timestamp": 1767704099
+        },
+        {
+          "id": "zR7CWMU5T3Udtv81mAOY",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767704072
+        },
+        {
+          "id": "FfLUwBEZJMugYyFk411A",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767702818
+        },
+        {
+          "id": "ETv1dDNMX075ikqyo6F8",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767702817
+        },
+        {
+          "id": "ssx7HYI7EkASCI2oyqbz",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3838394\">Retr0Rat</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767702816
+        },
+        {
+          "id": "krZT2ZsAvJbG6WLzI3TS",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767702211
+        },
+        {
+          "id": "v2ZoSXENvWYaTcPMRwdI",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767702210
+        },
+        {
+          "id": "OHF5BsGDHRmMpbE54Q2v",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767702209
+        },
+        {
+          "id": "tbAf2bl0w4XK6Sv2VnAj",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767702208
+        },
+        {
+          "id": "qCm5skA39OuPPHaZsBqv",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767702208
+        },
+        {
+          "id": "IHM7uv6HbaM8EBAkrAs5",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767702206
+        },
+        {
+          "id": "rFYv7Z8I2BJQ4npJ3ziY",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767702206
+        },
+        {
+          "id": "JHVNlbYwl8xIJDisDhpi",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767702205
+        },
+        {
+          "id": "7cLGiY8v2Z5Y2RCIU20p",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767701483
+        },
+        {
+          "id": "iWJXoWs3O7Yg3l7yFGnL",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767701480
+        },
+        {
+          "id": "8VREi6oQUejUXINtIcsj",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3476243\">BadalaKingkong</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767700908
+        },
+        {
+          "id": "4t9ki4iDDAlPAWuVDuxd",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3476243\">BadalaKingkong</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767700907
+        },
+        {
+          "id": "c0sfiJZqtucR03Fa1XXZ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3476243\">BadalaKingkong</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767700906
+        },
+        {
+          "id": "GD81hEupzi8sG33dV0Q6",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : AB+ items",
+          "timestamp": 1767700399
+        },
+        {
+          "id": "NRzItVW4H3RcqmEV0QrU",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767697091
+        }
+      ],
+      "_metadata": {
+        "links": {
+          "prev": "https://api.torn.com/v2/faction/news?&limit=100&cat=armoryAction&stripTags=true&sort=desc&from=1767657600&to=1767697091",
+          "next": null
+        }
+      }
+    },
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?limit=100&cat=armoryAction&sort=desc&from=1767657600&to=1767697091&striptags=false&key=7YpGEAjOyBLHMJao",
+      "has_html": true,
+      "news": [
+        {
+          "id": "NElmcw0mza2ddQY0pBo9",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767697090
+        },
+        {
+          "id": "6w8INGLU9RixXEwUnLyl",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767697089
+        },
+        {
+          "id": "0KnYS3Xzg6DQLD1qmjZo",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767697087
+        },
+        {
+          "id": "WOKhoHHx5FCrt3FgYUbv",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767697087
+        },
+        {
+          "id": "3xu0lRgMEp9ttuaHPXqu",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767697087
+        },
+        {
+          "id": "5I9q6ZA9Mn3TQIJNCnch",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767697085
+        },
+        {
+          "id": "msicHh7eBBGc7UqzSf5L",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767697085
+        },
+        {
+          "id": "ob5V4HvWNkOU3n3ouqkN",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767697085
+        },
+        {
+          "id": "jfP1VbW5juDx7IWF47dH",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767697085
+        },
+        {
+          "id": "X2d12lZhMGUtnYZrxIW2",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767697085
+        },
+        {
+          "id": "e1Bsln602EswlBTBOrED",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767696666
+        },
+        {
+          "id": "atRbul2HIWzwkvF6H5lP",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767696665
+        },
+        {
+          "id": "aaGoNtxIsHiElsaDAxQ9",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767696665
+        },
+        {
+          "id": "KzyaPeliu059wzywovCH",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767696665
+        },
+        {
+          "id": "0NoHo6BPgwl3ZbEVZIJu",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767696664
+        },
+        {
+          "id": "xzizqET2oBzlwcMMntJm",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767696664
+        },
+        {
+          "id": "wnR7Nc9VAa3V212rJBXM",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767696663
+        },
+        {
+          "id": "ITBunBqZb7DdPfGRJg3m",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767696662
+        },
+        {
+          "id": "ILWmRBwYMK9g9QoWr4dM",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767696662
+        },
+        {
+          "id": "sREEX2EEUAO47xNatXI6",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767696662
+        },
+        {
+          "id": "PzrPhJINJMkXVVsIfHoU",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767695585
+        },
+        {
+          "id": "qLgTuR863V1qlNHE4CvJ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767695529
+        },
+        {
+          "id": "yv4zArEWYlepI4DE59iS",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=446596\">Bucki</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767694706
+        },
+        {
+          "id": "BOcd0VZWj2p2iAyzmUPE",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=446596\">Bucki</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767694705
+        },
+        {
+          "id": "1XUtoCjMSCGfrZPfuUPw",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3937363\">jGafito</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767694529
+        },
+        {
+          "id": "sUgqMw4Gfc2KqmHb4rws",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3937363\">jGafito</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767694528
+        },
+        {
+          "id": "6VbilzC6M7qlOr70BzlD",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : AB- items",
+          "timestamp": 1767693904
+        },
+        {
+          "id": "CLEPsJyPtdofleh84HFG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767693838
+        },
+        {
+          "id": "NDOF3rf58twDqqyY86Sw",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Bottle of Tequila items",
+          "timestamp": 1767693799
+        },
+        {
+          "id": "AUGTfDyy6EjjYHAyadsY",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Bottle of Tequila items",
+          "timestamp": 1767693798
+        },
+        {
+          "id": "L92yTa8OtVBdD7GsRq1t",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Bottle of Tequila items",
+          "timestamp": 1767693798
+        },
+        {
+          "id": "1DsV5G4LghBzNyadlucZ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Bottle of Tequila items",
+          "timestamp": 1767693797
+        },
+        {
+          "id": "xiA6Mv9bCbtdGJqO7yTJ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Bottle of Tequila items",
+          "timestamp": 1767693797
+        },
+        {
+          "id": "aOgZBwQWF6szJFEbgkr3",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Bottle of Tequila items",
+          "timestamp": 1767693796
+        },
+        {
+          "id": "G8zkNzK5EVzYFYK4nqCq",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Bottle of Tequila items",
+          "timestamp": 1767693795
+        },
+        {
+          "id": "6irqH2Nu9X3HSQtwYJDr",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767693420
+        },
+        {
+          "id": "xrSYhYqMruKeZ0vj7tLO",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767693419
+        },
+        {
+          "id": "RJi6YLnJRWArG7kFELF2",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767693418
+        },
+        {
+          "id": "q2hoYN3iSVD3yRzyhZjf",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767693418
+        },
+        {
+          "id": "HLF005ZI3hj5pIrbnKuG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767693417
+        },
+        {
+          "id": "EilKlg35I3lBFwuUGLJu",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767693416
+        },
+        {
+          "id": "ajFgsvz7mxBsHWvtbOwD",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691630
+        },
+        {
+          "id": "i08aONMeypnVUbH2f2Hs",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691629
+        },
+        {
+          "id": "rVlQOF3hwooWrDVqaZGu",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691629
+        },
+        {
+          "id": "keDjAHIzVhkQRCLDLOoE",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691628
+        },
+        {
+          "id": "nm2xc2hlkngsU2GZDi2Y",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691628
+        },
+        {
+          "id": "KDEo9Tsml1rC7aX3j41p",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691628
+        },
+        {
+          "id": "EmP0qqzAvtC8DJqLvNyG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691627
+        },
+        {
+          "id": "Nhj8AwnqU5aPRXQGDsFm",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691627
+        },
+        {
+          "id": "7t3aqWIThLJtFGeiAB3H",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691626
+        },
+        {
+          "id": "Z9lXFxFSmCqfJSZxsqhG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691626
+        },
+        {
+          "id": "YXoEi6Ih4C7fK5HAMHfN",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691626
+        },
+        {
+          "id": "ECXYPmCbhCEpjNVVLGUK",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691625
+        },
+        {
+          "id": "qeEcWwJq3l53zdtPJMZG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691625
+        },
+        {
+          "id": "w40yol6AI1Y6pdeR2SHw",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691624
+        },
+        {
+          "id": "kLWHbmEqabzeeWIpbwjW",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691624
+        },
+        {
+          "id": "eUPcmH68ZzXYf7mlinwo",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691624
+        },
+        {
+          "id": "kRhTRm5X416wpczkayD9",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691623
+        },
+        {
+          "id": "oHHz5eP3qTrPux2m8n5B",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691622
+        },
+        {
+          "id": "AId2sZbAek2SCLhekPk8",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691622
+        },
+        {
+          "id": "QKqjBj30I9ysk0afjVmL",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691622
+        },
+        {
+          "id": "bao99bTihhg6seD4GCcB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691621
+        },
+        {
+          "id": "Q2c0Ie3o2nLfD5HnTycL",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691621
+        },
+        {
+          "id": "XsIRRwks9sAV1DhIoQhI",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691621
+        },
+        {
+          "id": "0m3LgpAcZrfwqWN5FcCZ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691620
+        },
+        {
+          "id": "dCS8Pql3qDqJDv3QkCTQ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691620
+        },
+        {
+          "id": "i9zUxtMAj5CCpG6mNWYq",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691619
+        },
+        {
+          "id": "KQKaoys2fSWcAFLlmHkx",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691619
+        },
+        {
+          "id": "Cxg8Rh3YbFxYUt8xF3S5",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691619
+        },
+        {
+          "id": "phNiuRSCeZxYw7yV61LE",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691618
+        },
+        {
+          "id": "enZZHSr3N7Q4Xw3zuvEl",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691618
+        },
+        {
+          "id": "fKopA955TgCxczktPrVb",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691618
+        },
+        {
+          "id": "ESgzYVy5foEtZS3eJqnt",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691618
+        },
+        {
+          "id": "JnG7Cxim5GW7SjRSMWFo",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691617
+        },
+        {
+          "id": "T67hr05900JE42mjxtKi",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691617
+        },
+        {
+          "id": "3RFqSzirHhBkiZL2QhQC",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691617
+        },
+        {
+          "id": "O1YAPEdtGgsqICwMfzYS",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691616
+        },
+        {
+          "id": "c4zxlgVX8zLz3LE4nu2B",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691616
+        },
+        {
+          "id": "hDW0yL3t3KGH207ezF2d",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691615
+        },
+        {
+          "id": "t3fE70KharwDQ4UyR7bh",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3231991\">Osein</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767691615
+        },
+        {
+          "id": "eQDKw8Kwr0iMhrDMpFWe",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : AB+ items",
+          "timestamp": 1767691273
+        },
+        {
+          "id": "VrpVouTg7p8wkaXmxGFf",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3476243\">BadalaKingkong</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767690557
+        },
+        {
+          "id": "N4ITDQLoUFiugQ7OTW9w",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3476243\">BadalaKingkong</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767690556
+        },
+        {
+          "id": "X1r6ZhF6RijOXpWQrZV1",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3476243\">BadalaKingkong</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767690555
+        },
+        {
+          "id": "nQnYSnYAxBWZiYDEA0hg",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767686694
+        },
+        {
+          "id": "dUkRwfWWnkBheXfgQ4wd",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767686693
+        },
+        {
+          "id": "wiqMgz7wBQBZpejh4bnH",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767686329
+        },
+        {
+          "id": "BIxk2Uc8mC3ko3F7fnpB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3759168\">AIshen</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767685985
+        },
+        {
+          "id": "xquynYfd7YBIP5xLw1lP",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3877112\">McJoey</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767684735
+        },
+        {
+          "id": "GVIztvJ2F7gqSCLBiMFu",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767684735
+        },
+        {
+          "id": "nVh9Vlt61ZnYLGObNDdT",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3877112\">McJoey</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767684734
+        },
+        {
+          "id": "3MSRk6DSo8uagddjnUvh",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767684734
+        },
+        {
+          "id": "X5vHuqOIsr0lTX3DLH8w",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3877112\">McJoey</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767684733
+        },
+        {
+          "id": "DjWp8goCcHILSTOycSFv",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767684732
+        },
+        {
+          "id": "ceHaRQmpT3koWqHSsrZL",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767684698
+        },
+        {
+          "id": "KqrkHVn5yqX77JnSfQ4T",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767684678
+        },
+        {
+          "id": "zFvlui9nkB9Z5dcmxrl8",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767684677
+        },
+        {
+          "id": "Eb80qXNCyZakGDkyxIJk",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767684676
+        },
+        {
+          "id": "y7DHoPJfDnUmtLvnsV1B",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683853
+        },
+        {
+          "id": "3kDF70FehUATkAqbBL81",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683852
+        }
+      ],
+      "_metadata": {
+        "links": {
+          "prev": "https://api.torn.com/v2/faction/news?&limit=100&cat=armoryAction&stripTags=true&sort=desc&from=1767657600&to=1767683852",
+          "next": null
+        }
+      }
+    },
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?limit=100&cat=armoryAction&sort=desc&from=1767657600&to=1767683852&striptags=false&key=7YpGEAjOyBLHMJao",
+      "has_html": true,
+      "news": [
+        {
+          "id": "NfCK2yFgNRQKaNrjjWCE",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683851
+        },
+        {
+          "id": "4ICL4zHbT5ZzbzDGot1k",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683851
+        },
+        {
+          "id": "EVOmC3Fv5eMgzM9XIdxb",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683850
+        },
+        {
+          "id": "A78sMkGrq1furDzKouF6",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683849
+        },
+        {
+          "id": "8TFG9tp0WqRZ5hBAbu3D",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683849
+        },
+        {
+          "id": "Qt9BNXtR4TpqXjQzvNQm",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683848
+        },
+        {
+          "id": "0LPKt0iBVm5FETBbP7VC",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683848
+        },
+        {
+          "id": "PRVFySv2VmQItenFxQKt",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683847
+        },
+        {
+          "id": "odyGMj7auRmrOsfTL0DZ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683846
+        },
+        {
+          "id": "TdCW2LZISx3n6nLH88o8",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683846
+        },
+        {
+          "id": "NpoNrCIfQ0oADf8mjji3",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683845
+        },
+        {
+          "id": "9dPnPBZaiTohGiWlFpVk",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683844
+        },
+        {
+          "id": "0nngL3rGMLxXQzkYhclK",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683843
+        },
+        {
+          "id": "cxSAZPPFsahEFFqh1Uzn",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683841
+        },
+        {
+          "id": "veZkvNEitRtLcVbYbhdo",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683841
+        },
+        {
+          "id": "D16Ge24TfZHqCXDqNQEY",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683840
+        },
+        {
+          "id": "Cq8W9SZQj5OrO5QFrwlZ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683839
+        },
+        {
+          "id": "a635a92RXibgZx22i36m",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683838
+        },
+        {
+          "id": "F1WJyyx8vCD1j9OKc6w1",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683837
+        },
+        {
+          "id": "AWglByCjtdaWKVw09sWW",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683837
+        },
+        {
+          "id": "Cvqlb8ow5R261SYF9aIw",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683822
+        },
+        {
+          "id": "3jd28WH0Opel8BnhDj0n",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683820
+        },
+        {
+          "id": "UeiepnqQSF67JiaphWfd",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683819
+        },
+        {
+          "id": "nnO4AibFeeH9m7JQXzwZ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683818
+        },
+        {
+          "id": "QLsqI2FN7UZpEMrnTpAu",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683817
+        },
+        {
+          "id": "9t1cEpwztUpVKOIynwxc",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683816
+        },
+        {
+          "id": "9eYXPRp29WoCEhR1T9n4",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683815
+        },
+        {
+          "id": "MzJFnahHyc0FmyMDaxuw",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683814
+        },
+        {
+          "id": "5OvlJwECfTqSgH3npKck",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683813
+        },
+        {
+          "id": "h7GIWy1hWSV1cqimRY1u",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683812
+        },
+        {
+          "id": "oVJPnEFuV02Wmn8LwUH8",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683811
+        },
+        {
+          "id": "zNpAcNYEHJsw2RcVR9rO",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683811
+        },
+        {
+          "id": "0BruEL24etJlvWERnlvq",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683810
+        },
+        {
+          "id": "FruTB5BwW2Mdg9Gh35Mf",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683809
+        },
+        {
+          "id": "DzretFmCARrT1zpSvAtj",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683809
+        },
+        {
+          "id": "jzYmJOH1bNBXcwE0R20F",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683808
+        },
+        {
+          "id": "64saxFKoFWJFrCsU0FAN",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683807
+        },
+        {
+          "id": "D2Cs4FEsTxzGV3AiHzEB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3656242\">jonasgrind</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767683806
+        },
+        {
+          "id": "b8smfADjuw6gwuQddcek",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767683618
+        },
+        {
+          "id": "f4poKhIep1oQdvh3UX1S",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767683617
+        },
+        {
+          "id": "GxEjcU6yB04DabvpBLqM",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767683616
+        },
+        {
+          "id": "Fhb0iKxBoNSoapESyOp1",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767683615
+        },
+        {
+          "id": "WMppgZedazKjZucj3W57",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767679490
+        },
+        {
+          "id": "BhlAbMolOIaiWxczJtdc",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767679489
+        },
+        {
+          "id": "WsyUDwqDMAmxyBLgCwdY",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767679488
+        },
+        {
+          "id": "Iuou8FuS4Ka3Sq00r8wx",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3680760\">Friendly_Derek</a> used one of the faction's Lollipop items",
+          "timestamp": 1767679385
+        },
+        {
+          "id": "fGwFCZxb1k1c3U8TSDS4",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767678341
+        },
+        {
+          "id": "TGWiTF5tgIZHj1arqtf6",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767678341
+        },
+        {
+          "id": "lvrbCHdB6RPWM3088KPl",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767678341
+        },
+        {
+          "id": "nUT7QyF8oa02XBKpu8Oa",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767678340
+        },
+        {
+          "id": "qjA6zTbZyzD4CvA8Oh9H",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767678340
+        },
+        {
+          "id": "UxdkwYEe3B8zTXL0qH9A",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767678340
+        },
+        {
+          "id": "2BglDgAnYYCpaoI5wCVH",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767678340
+        },
+        {
+          "id": "qc3mzS77wU6DKN3MhH9D",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767678340
+        },
+        {
+          "id": "dKrZLLOSzeXArugbZXJ3",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767678340
+        },
+        {
+          "id": "6LnlzxD7NvgRfu96UTAM",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767678337
+        },
+        {
+          "id": "5nbE3LF7SeLdNyXT4BEy",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767678337
+        },
+        {
+          "id": "Py1OoGq1VeRczvxBHCfO",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767678337
+        },
+        {
+          "id": "yE4d6DSEXH7vkVBXIaHB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767678336
+        },
+        {
+          "id": "YgIAp3oSxQKSwDXZyZIK",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767678335
+        },
+        {
+          "id": "TvPK62mmZ5noYVHg8fjE",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767678335
+        },
+        {
+          "id": "S3Q0T4AHmwW4eCXstxGM",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3348136\">shrigma</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767678335
+        },
+        {
+          "id": "tzsEA1ADjRF10ExuXWen",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767675307
+        },
+        {
+          "id": "lJtGk1TPM4wbqobeOIvp",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767675307
+        },
+        {
+          "id": "0DHxyvFVClK3be7Jy0fN",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767675306
+        },
+        {
+          "id": "td8XMAuT6IWUqA7Q6gXE",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767675305
+        },
+        {
+          "id": "X3FTNTDI6008TlRKJDDX",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767675304
+        },
+        {
+          "id": "M6LQJfZbB75GG3U89nm9",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767675239
+        },
+        {
+          "id": "XhNNlqnh8ZVYLPNQ52hy",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767675238
+        },
+        {
+          "id": "F8DfHle51BKSByVWKH7a",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767675237
+        },
+        {
+          "id": "biaUwfxzBb24e9pDPT1E",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767674638
+        },
+        {
+          "id": "5hYg9w8I2jrHfEwQxzRB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767674638
+        },
+        {
+          "id": "bNmeAWcFIOtjGQwchSd5",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767674637
+        },
+        {
+          "id": "GJKq52Bws3dajrxZTXQn",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767674636
+        },
+        {
+          "id": "TWOwbsM0faoxEHuoZZp1",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674245
+        },
+        {
+          "id": "876gorwIHLAtfh5FaC5G",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674244
+        },
+        {
+          "id": "xDbrFJ97Fi7N1Gj5lQDA",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674243
+        },
+        {
+          "id": "IbrjI7bNYZJpnLiFZwrT",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674243
+        },
+        {
+          "id": "vfhHGwQcwwLECLRqPIip",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674242
+        },
+        {
+          "id": "ZoUlzTqEzsyFvG5dBKw7",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674241
+        },
+        {
+          "id": "tCYtAdd1lPxh14zlXxQG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674240
+        },
+        {
+          "id": "WnmAgnBTnbqhdvBP5p5f",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674240
+        },
+        {
+          "id": "WHXkZUr3PzLUhax1oEoL",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674239
+        },
+        {
+          "id": "FOS27WgvC89nT9kMwzGi",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674238
+        },
+        {
+          "id": "8Yu58H3WAJvEB65oWauo",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674237
+        },
+        {
+          "id": "rGMZFvF705V5ExlNS6h8",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674236
+        },
+        {
+          "id": "Y3TjAqxHiyivnBW6icTb",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674234
+        },
+        {
+          "id": "kGLo60WpP0SSoa00ZVre",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674232
+        },
+        {
+          "id": "OVpvDXeNJfMzFg5ytRpR",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674231
+        },
+        {
+          "id": "AOkQpG1b8cALHv8CRxZR",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674230
+        },
+        {
+          "id": "wVpDu2h3BPWPkGw9HJWc",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3943448\">Maddog1997</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767674229
+        },
+        {
+          "id": "HQ0kvkDzX10bLEH5uBR2",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> used one of the faction's Small First Aid Kit items",
+          "timestamp": 1767673766
+        },
+        {
+          "id": "VkWzerieV3qGGlLWKH54",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> used one of the faction's Small First Aid Kit items",
+          "timestamp": 1767673765
+        },
+        {
+          "id": "DX39WI9CXSxh1EwNQjcw",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671608
+        },
+        {
+          "id": "sJWALgNlTnunqSTCu1YB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671608
+        },
+        {
+          "id": "czio4AdTgfQdgOChJvN6",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671607
+        },
+        {
+          "id": "nRz9a4WAzgRV4Gf9inUx",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671607
+        },
+        {
+          "id": "pqg3fNV8nltDqQuoKFYb",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671606
+        },
+        {
+          "id": "KtwNsTCJFaN5hpUKz5VM",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671606
+        },
+        {
+          "id": "BMpBpUZWVbLunajVxcwB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671605
+        }
+      ],
+      "_metadata": {
+        "links": {
+          "prev": "https://api.torn.com/v2/faction/news?&limit=100&cat=armoryAction&stripTags=true&sort=desc&from=1767657600&to=1767671605",
+          "next": null
+        }
+      }
+    },
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?limit=100&cat=armoryAction&sort=desc&from=1767657600&to=1767671605&striptags=false&key=7YpGEAjOyBLHMJao",
+      "has_html": true,
+      "news": [
+        {
+          "id": "jI82asareO187nSsMgRs",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671604
+        },
+        {
+          "id": "DooeTqbCVrQE1HXf3Bww",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671604
+        },
+        {
+          "id": "1ktt4XnE5NLqub6r78MG",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671604
+        },
+        {
+          "id": "K1eeL1FGDNAX3duglgRT",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671603
+        },
+        {
+          "id": "7ZTG943lQJ8gJJWZDQXp",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671603
+        },
+        {
+          "id": "DLmCB02dTvC83foh8f1o",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671602
+        },
+        {
+          "id": "RLoUdqjHj1mmXuHjfayR",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671602
+        },
+        {
+          "id": "DQrE7wmbsVezCBxkwHKr",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671602
+        },
+        {
+          "id": "5YE2YkRtHKDame7vXzvH",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671601
+        },
+        {
+          "id": "LEPLFixoM2h4y80b6gHd",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671601
+        },
+        {
+          "id": "FMfWTeZjThmrVMPS7gqm",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671601
+        },
+        {
+          "id": "faXzAFswvWFEwtihmANx",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671600
+        },
+        {
+          "id": "3zjDQ1DALWe8B8n58qEj",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671600
+        },
+        {
+          "id": "RAgTBbEBKIU3yw5Pnb2y",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671600
+        },
+        {
+          "id": "fC1uuk5TR95BYtFVIts2",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671599
+        },
+        {
+          "id": "UYGPQBXuy0NhOmJLaRjz",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671599
+        },
+        {
+          "id": "e6JwGQzd73WRWM4w1rgh",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671598
+        },
+        {
+          "id": "tXrcoCkumsdmmfIsHvNC",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671597
+        },
+        {
+          "id": "nglmSYE1L8Mm4lvFf84H",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671338
+        },
+        {
+          "id": "QcvDMSIZsjXXN4jiktUJ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671337
+        },
+        {
+          "id": "R09TJYfsVgRs3pR2kfe1",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671336
+        },
+        {
+          "id": "HYfclsztvAfnuV0KSJRF",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671335
+        },
+        {
+          "id": "vAu3FgFfhUaJclCoTyvP",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671335
+        },
+        {
+          "id": "0MeuvGRAux7UfzCngiUT",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671334
+        },
+        {
+          "id": "DjuG3SogBBsh9u5mkpya",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671334
+        },
+        {
+          "id": "LGxVF1gFFynqnNsA3YNd",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767671310
+        },
+        {
+          "id": "xN3iVILDQLEex8Mlcm0k",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767671310
+        },
+        {
+          "id": "zAieGu1fOCdPpZBHASyQ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767671309
+        },
+        {
+          "id": "EdRzglMrRYj9GGYSCXcI",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671185
+        },
+        {
+          "id": "dvlUDWpGpb65hp92A1Q1",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671184
+        },
+        {
+          "id": "8E8YMuIc9hWyDlJ3Rj2K",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671184
+        },
+        {
+          "id": "tGswVyuJX2iNG9PtQuNH",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2621654\">Hstains</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767671183
+        },
+        {
+          "id": "vBiUzz99FY1Y7OF6dCSB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3877112\">McJoey</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767671062
+        },
+        {
+          "id": "DNyXkXzghc7HpbzQD3i3",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3877112\">McJoey</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767671061
+        },
+        {
+          "id": "3u4KbC2AR2PJqqI8r2YF",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3877112\">McJoey</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767671059
+        },
+        {
+          "id": "Gqsx07ChgoUotD4H1zF1",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3877112\">McJoey</a> used one of the faction's First Aid Kit items",
+          "timestamp": 1767670811
+        },
+        {
+          "id": "7pKUn1iEmSbyj7tfRwi1",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3852779\">DMG-</a> used one of the faction's Morphine items",
+          "timestamp": 1767670315
+        },
+        {
+          "id": "9BCPKL8DUDwEc8j8rS9R",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3852779\">DMG-</a> used one of the faction's Morphine items",
+          "timestamp": 1767670314
+        },
+        {
+          "id": "PWSAjw4yY60E0kuX9GLR",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3852779\">DMG-</a> used one of the faction's Morphine items",
+          "timestamp": 1767670312
+        },
+        {
+          "id": "16Bo25m0IGef2gBzw0eN",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3877112\">McJoey</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767670269
+        },
+        {
+          "id": "cHz0Pwz0qeKO9hO6fLof",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3877112\">McJoey</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767670267
+        },
+        {
+          "id": "5rVorlo9fYZwUJuce5QC",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3877112\">McJoey</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767670265
+        },
+        {
+          "id": "zeqIysbO6fJ2erCr5kjS",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3852779\">DMG-</a> used one of the faction's Morphine items",
+          "timestamp": 1767669065
+        },
+        {
+          "id": "GZC2MyYQB7xEEdf9F0WN",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3852779\">DMG-</a> used one of the faction's Morphine items",
+          "timestamp": 1767669062
+        },
+        {
+          "id": "PJTsMOkvrVEj4SVq88tq",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3476243\">BadalaKingkong</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767667250
+        },
+        {
+          "id": "QKhdlX83AsZeunyzJEs8",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3476243\">BadalaKingkong</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767667249
+        },
+        {
+          "id": "PWjXNjg15CZqBNFWPea3",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3476243\">BadalaKingkong</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767667248
+        },
+        {
+          "id": "lYS4mdF2tdJIfWNhHkTi",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767664330
+        },
+        {
+          "id": "TvGLxTLbE4bGAQs2iT9h",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767664329
+        },
+        {
+          "id": "zfagDic8InIiRzyA4sqH",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3679190\">RubyFalls</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767664327
+        },
+        {
+          "id": "v092EwQ8fYAHeGffCCk7",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767663882
+        },
+        {
+          "id": "z0HiRfg4MZ2zrLr04PF9",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767663880
+        },
+        {
+          "id": "Q5dppjP6sJYdg9brBN5m",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767663780
+        },
+        {
+          "id": "bWIqSFTFkXf4f7fyt8WO",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> used one of the faction's Blood Bag : O- items",
+          "timestamp": 1767663779
+        },
+        {
+          "id": "AnbsaGJod7SEfxccTN9p",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2069227\">GOTOYOURHOME</a> filled one of the faction's Empty Blood Bag items",
+          "timestamp": 1767663777
+        },
+        {
+          "id": "e0ImWOByJAJW0XA2MyFo",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=1184733\">Pro_eobard</a> used one of the faction's Morphine items",
+          "timestamp": 1767659969
+        },
+        {
+          "id": "kzCHz3oTz3ZEYHQtQVDn",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767658789
+        },
+        {
+          "id": "hGRYEG8dHTSXkStTrcvs",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767658788
+        },
+        {
+          "id": "cjc88GgtutVILyHZxmVc",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767658787
+        },
+        {
+          "id": "JgjoothGHRlVMlGDuhfd",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767658786
+        },
+        {
+          "id": "vr8lurhtc6gt7f1rEAuJ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767658785
+        },
+        {
+          "id": "DDHQTGZS2XMmQLM5arYI",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2677851\">Morot</a> used one of the faction's Bottle of Beer items",
+          "timestamp": 1767658783
+        },
+        {
+          "id": "wZZZPxSD1F1ko8uMGN03",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> used one of the faction's Blood Bag : A+ items",
+          "timestamp": 1767658584
+        },
+        {
+          "id": "k5wKchHAtdwux3UgHCum",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3193353\">xyicah</a> used one of the faction's Blood Bag : B+ items",
+          "timestamp": 1767658569
+        },
+        {
+          "id": "3g2jC6vxHP2cM5UCUcEB",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3977638\">Vasavi_shakti</a> loaned 1x ID Badge to themselves from the faction armory",
+          "timestamp": 1767657781
+        }
+      ],
+      "_metadata": {
+        "links": {
+          "prev": null,
+          "next": null
+        }
+      }
+    },
+    {
+      "request_url": "https://api.torn.com/v2/faction/news?striptags=false&limit=100&sort=DESC&from=1767657600&to=1767744000&cat=armoryDeposit&key=7YpGEAjOyBLHMJao",
+      "has_html": true,
+      "news": [
+        {
+          "id": "gZrSUCBzgil7cdmqgiGw",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3967366\">Icks-B</a> deposited 20 x Empty Blood Bag",
+          "timestamp": 1767734794
+        },
+        {
+          "id": "c7fRpoX18bxbdrTDmwDT",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2802632\">Hoboblue</a> deposited 6 x Blood Bag : B+",
+          "timestamp": 1767730908
+        },
+        {
+          "id": "98r7c54Vx7w7DzlYyWSM",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2802632\">Hoboblue</a> deposited 10 x Empty Blood Bag",
+          "timestamp": 1767730900
+        },
+        {
+          "id": "boJF3hQeOGDVGA8EBwcS",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2801440\">joschlumpf</a> deposited 60 x Small First Aid Kit",
+          "timestamp": 1767718121
+        },
+        {
+          "id": "Zr0lAysAZGGQz0rPqJn4",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2801440\">joschlumpf</a> deposited 40 x Morphine",
+          "timestamp": 1767718121
+        },
+        {
+          "id": "yZHuoQ0mEOsFCD640m8S",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2801440\">joschlumpf</a> deposited 30 x First Aid Kit",
+          "timestamp": 1767718121
+        },
+        {
+          "id": "F7LpttZ1hmFcxsLWq4QX",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2675301\">ExiledAstronaut</a> deposited 1 x Chloroform",
+          "timestamp": 1767713214
+        },
+        {
+          "id": "Cwl6n3y1r3p0n5UJsQwZ",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=4044077\">DaddyMon11</a> deposited 2 x Small First Aid Kit",
+          "timestamp": 1767711263
+        },
+        {
+          "id": "IBbQQrk2H3uBO57AYWjp",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=4044077\">DaddyMon11</a> deposited 1 x AK-47",
+          "timestamp": 1767706086
+        },
+        {
+          "id": "1es6b7d8RYkgT4JHMCoS",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2679269\">TsanMan</a> deposited 7 x Morphine",
+          "timestamp": 1767675281
+        },
+        {
+          "id": "JqPdASX7zzjXQIg0jy8T",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2679269\">TsanMan</a> deposited 30 x Ipecac Syrup",
+          "timestamp": 1767675254
+        },
+        {
+          "id": "H6DmDK0OBmQMGNeO1H73",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=2679269\">TsanMan</a> deposited 20 x Empty Blood Bag",
+          "timestamp": 1767675171
+        },
+        {
+          "id": "cJyKlK1lxVk8SgmBbM3n",
+          "text": "<a href = \"http://www.torn.com/profiles.php?XID=3877112\">McJoey</a> deposited 3 x Empty Blood Bag",
+          "timestamp": 1767670363
+        }
+      ],
+      "_metadata": {
+        "links": {
+          "prev": null,
+          "next": null
+        }
+      }
+    }
+  ]
+}
