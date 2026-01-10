@@ -441,13 +441,5 @@
       ],
       "hasMonthJson": false
     }
-  },
-  "NaN": {
-    "NaN": {
-      "days": [
-        "NaN"
-      ],
-      "hasMonthJson": true
-    }
   }
 }
