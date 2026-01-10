@@ -14,6 +14,7 @@
     "Dental Mirror",
     "Billfold",
     "Hand Drill",
+    "Cigar Cutter",
     "__MATERIALS__",
     "Dog Treats",
     "ID Badge",
@@ -135,7 +136,9 @@
 "USP",
 "Vektor CR-21",
 "Wushu Double Axes",
-"XM8 Rifle"
+"XM8 Rifle",
+    "Milkor MGL",
+    "Swiss Army Knife"
   ],
   "Armor": [
     "Bulletproof Vest",
@@ -222,7 +225,9 @@
 "Melatonin",
 "Serotonin",
 "Tyrosine",
-"Epinephrine"
+"Epinephrine",
+    "Wrench",
+    "Throwing Knife"
   ],
   "Medical": [
     "Blood Bag : A+",
