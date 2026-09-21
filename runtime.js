@@ -289,7 +289,7 @@ function parseDailyData(rawNews) {
         log.used[item].push([1, ts]);
       }
     } else if (text.includes("filled one of the faction")) {
-      const match = text.match(/filled one of the faction's (.+) items/);
+      const match = text.match(/filled one of the faction's (.+?) to create/);
       if (match) {
         const item = match[1].trim();
         if (!log.filled[item]) log.filled[item] = [];
